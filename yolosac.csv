@@ -35,6 +35,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac5ed80765f9d:0xcbcfe7dbc6dcb6b8,"['Warehouse', 'Car wash']",4.3,6
 0x80852bc75dbc659d:0x9fba809d832c62c0,['Apartment complex'],4.3,17
 0x809ad914be6c5e8f:0xfad2f7d8e2757a7f,"['Social services organization', 'Mental health service', 'Non-profit organization']",3.9,25
+0x809abb6d6d1209ff:0xb66f1d6dde35da2,['Tourist attraction'],4.5,2
 0x8084d8fc52f44937:0x451d3fd9a5636a91,['Ranch'],5.0,1
 0x809ad1c06c05f1d1:0xe896dbdf73769ab9,['Church'],4.9,14
 0x809adb448f2c73a7:0x5289a6e6cba08aca,['Festival'],1.4,56
@@ -57,6 +58,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809acf9537d441ff:0x6fe701e4fdd3999,['Auto glass shop'],4.2,13
 0x808528726b39b98d:0xc3d549de5935e131,['Baptist church'],4.7,16
 0x8084d0e67096b74b:0xcab6dc4af1a60b75,['Church'],4.5,8
+0x8084df6e18699dd7:0x156c5d58dfdf1f0,['Sign shop'],4.5,4
 0x809add627a83fdb1:0x46343a9e227139d5,['Hot tub repair service'],4.0,8
 0x8084d08d18c4cbc7:0x51ab0249b0326161,"['Post office', 'Logistics service', 'Money order service', 'Shipping and mailing service']",2.4,9
 0x80852bf165465689:0x62dc5e8d148d1307,['Ranch'],4.5,6
@@ -151,6 +153,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac5ed80765f9d:0xcbcfe7dbc6dcb6b8,"['Warehouse', 'Car wash']",4.3,6
 0x80852bc75dbc659d:0x9fba809d832c62c0,['Apartment complex'],4.3,17
 0x809ad914be6c5e8f:0xfad2f7d8e2757a7f,"['Social services organization', 'Mental health service', 'Non-profit organization']",3.9,25
+0x809abb6d6d1209ff:0xb66f1d6dde35da2,['Tourist attraction'],4.5,2
 0x8084d8fc52f44937:0x451d3fd9a5636a91,['Ranch'],5.0,1
 0x809ad1c06c05f1d1:0xe896dbdf73769ab9,['Church'],4.9,14
 0x809adb448f2c73a7:0x5289a6e6cba08aca,['Festival'],1.4,56
@@ -173,6 +176,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809acf9537d441ff:0x6fe701e4fdd3999,['Auto glass shop'],4.2,13
 0x808528726b39b98d:0xc3d549de5935e131,['Baptist church'],4.7,16
 0x8084d0e67096b74b:0xcab6dc4af1a60b75,['Church'],4.5,8
+0x8084df6e18699dd7:0x156c5d58dfdf1f0,['Sign shop'],4.5,4
 0x809add627a83fdb1:0x46343a9e227139d5,['Hot tub repair service'],4.0,8
 0x8084d08d18c4cbc7:0x51ab0249b0326161,"['Post office', 'Logistics service', 'Money order service', 'Shipping and mailing service']",2.4,9
 0x80852bf165465689:0x62dc5e8d148d1307,['Ranch'],4.5,6
@@ -275,10 +279,15 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac752521dd4b7:0xed6203e6786bc36d,"['Pressure washing service', 'Gutter cleaning service']",4.9,68
 0x809ac59eac9485d5:0x340dac8739afd81f,['Auto auction'],4.0,2
 0x809ad079e2d9a981:0xb83c5702c2d9a9b5,"['Transportation service', 'Car rental agency']",3.5,6
+0x8084df8b7bbe0ec3:0x433b317cd9789a7c,['Art gallery'],4.5,4
 0x8085299088910297:0x5ad99f0df0aeb88a,['Beauty salon'],4.2,8
+0x8084dff29c86d88f:0xc18a4611be7453c9,"['Public swimming pool', 'Swimming']",4.4,18
 0x809ae40686b4b011:0xf83c65103c1f515d,"['Baseball field', 'Baseball']",4.3,4
 0x809ad46e6b5ef5e1:0x651f24fdd679d337,"['Engineer', 'Engineering consultant']",4.4,7
+0x8084de52bfa0e547:0x197b84be4ee16226,['Excavating contractor'],5.0,1
 0x809ada248205b417:0xbc6911a8923d553e,['Apartment complex'],3.5,8
+0x8084dff4ae15c2e3:0x26eca98c2a8f9daf,['Dry cleaner'],5.0,2
+0x8084df990c34b80d:0xb1b8bfe57e8a3cb6,['Landscape designer'],5.0,1
 0x809adaff6d92f6f5:0x2f6b5061ce7fdf70,['Apartment building'],3.0,26
 0x809ad0f1bff0fcab:0x577ac879f403d861,['Dentist'],5.0,34
 0x809adaffe396ef19:0x45b4975905de53fc,['Dry cleaner'],3.6,8
@@ -375,6 +384,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad95e1cf1458d:0x7310177657db5a51,"['Used car dealer', 'Auto broker', 'Auto market', 'Car dealer', 'Car finance and loan company', 'Used truck dealer']",4.5,38
 0x809ad97f1beed39f:0xe7cbfbae51f5b443,"['Paint store', 'Interior designer', 'Wallpaper store']",4.8,8
 0x809ad7381afd6843:0xceaecec727b67574,"['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",4.4,98
+0x809a9753740d49fb:0x8448f29f3b81e953,['Ranch'],5.0,1
 0x8084da80a0e7b2a7:0xedecb0d87d04e2ff,['Trucking company'],4.0,2
 0x809ad6bba5b80553:0xce87881c9e592a0c,"['Apartment complex', 'Apartment building', 'Apartment rental agency']",4.2,98
 0x809ace0dc11a6987:0x8d41b908e45f5796,"['Assisted living facility', 'Adult day care center']",4.5,2
@@ -415,6 +425,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad542a2cc7b1f:0xf1885032c94bb0f8,['Auto parts store'],4.9,108
 0x809ad7caaa0cd6ab:0x2dceee3eb0b55e4f,"['Internet marketing service', 'Marketing agency', 'Marketing consultant', 'Website designer']",4.8,8
 0x809ad989bcf55231:0x34c00fbe8b61e28d,"['Bridal shop', 'Dress store', 'Invitation printing service', 'Tuxedo shop', 'Wedding store']",4.3,58
+0x8084df8b35fb6547:0x6278b9261888e14a,['Public library'],4.4,6
+0x8084df8d5a1e9ed1:0xce544e0f947585ea,['Trucking company'],3.9,18
+0x8084dfefae8e01f7:0xadd90340e06c43ad,['Cemetery'],5.0,3
 0x809ac554e96bd747:0xaf4ac084a05bb2fa,['Pawn shop'],4.1,38
 0x809adb5bc0b6ab01:0x604f6f7b8609fb35,['Apartment building'],2.3,3
 0x809ac56e0a89a93b:0x10fed6606b04b2db,['Bridal shop'],1.0,1
@@ -458,6 +471,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0d5a9947c6f:0x2c81772ccd7d8c67,"['Bakery', 'Dessert shop', 'Wedding bakery']",4.0,1
 0x809ae68c247fe93b:0xbdb6ece2f2327f50,"[""Women's clothing store""]",4.0,3
 0x809ad0d85ff495e1:0x9dd857db2abd6fe,['Picture frame shop'],5.0,1
+0x8084dff4a346638d:0x12ce17d4b693ba22,['Caterer'],3.7,7
 0x809ad1a3ef77120d:0xe889623862a73907,['Recycling center'],3.5,14
 0x809ad404adb71c6f:0x801f75b53b8fa1c9,['Antique furniture restoration service'],4.6,8
 0x809add2791dfe3b5:0xc8e20da92ab6cbca,['Environmental consultant'],5.0,4
@@ -481,8 +495,10 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae45e6b820193:0x461fda5541881fcb,['Park'],4.7,6
 0x8084d0f305d4c56d:0x2569725291f727b7,['Cell phone store'],3.9,24
 0x8084d08cb06a5fb1:0x631c81d190db7b4c,['Water purification company'],2.7,6
+0x809aa315d6726b5f:0xa3cd5c555bc31e7b,"['Insurance agency', 'Auto insurance agency', 'Home insurance agency', 'Life insurance agency', 'Motorcycle insurance agency', ""Renter's insurance agency""]",5.0,18
 0x809ad0beb1acfa29:0x67c443ce4b38fd07,['Beauty salon'],5.0,8
 0x809ac456ced6d2ed:0xce84d7d904cbe260,"['Logistics', 'Freight forwarding service', 'Shipping company', 'Shipping service', 'Transportation service', 'Warehouse']",5.0,5
+0x809aa2d328923d55:0xded847f9fc4af33c,['Well drilling contractor'],4.2,8
 0x8084d146c8486aa7:0x363e350a0deb64ca,"['Credit union', 'ATM', 'Bank', 'Financial consultant', 'Financial institution', 'Investment service', 'Loan agency', 'Mortgage lender']",3.2,8
 0x809adb06cbe7904d:0x109b68a13b796625,['Car detailing service'],5.0,7
 0x809ada351a5b7f87:0x835e322fe1aea743,['Website designer'],5.0,4
@@ -567,6 +583,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d08c328ebb19:0xeeb2cb3d22167044,['Gas station'],3.7,3
 0x8084d0565463236d:0x8c039192ed77ff17,"['Event planner', 'DJ service', 'Party equipment rental service']",4.6,18
 0x8084d085e6f81c93:0xbf1b4ed81a6106c,['Cigar shop'],4.7,8
+0x809aa2d70b69dc5f:0xe759d62bb1626c6,['Wedding bakery'],4.6,26
 0x809ad030ee6c0303:0x3eaea89769385427,"['Uniform store', 'Clothing alteration service', 'Tailor']",4.2,28
 0x809ac7234ff09521:0xaccfbfbbd6980041,['Bank'],2.4,8
 0x809ad0fa4358304b:0xf56c3268ca301e62,['Child care agency'],2.4,5
@@ -628,6 +645,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adb0cfef12601:0xc47fcb1ccdbe5dcb,['Business center'],4.0,1
 0x809ac6be58f7b837:0x4c37ed1d393253c4,['Butcher shop'],4.7,24
 0x809ae6aa26e9eb1b:0x1d648fa673b9fb35,"['Presbyterian church', 'Church']",5.0,3
+0x8084df8b445747e1:0x1a26902cf9709b40,['Yarn store'],4.9,8
 0x809adbc788bbdc1f:0x2e9e5210a908e9d,['Auto repair shop'],4.6,27
 0x809ad0293cbc1bff:0x93c238a0dd2f51e6,['Gas station'],4.3,3
 0x809ac57a31d0d6a7:0x79f111c362b88d3c,['Dentist'],4.8,4
@@ -725,7 +743,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad12635a45fbd:0x1f518a33c2ba352,['Vietnamese restaurant'],4.2,33
 0x809adda15be68e9d:0xab85c904b08a2b4c,['Tax department'],1.9,18
 0x809b29feed5e01ef:0x17fdf2cb3bdc587e,['Fingerprinting service'],2.4,15
+0x809abcfd9ea74267:0xcb077736381c9de9,"['Insurance agency', 'Auto insurance agency', 'Home insurance agency', 'Life insurance agency', ""Renter's insurance agency""]",5.0,15
 0x809ab789415161d3:0x78d7b231b460e4bc,['Property management company'],5.0,3
+0x809abd7d070b1627:0xe25884c1ad7316af,"['Horse trainer', 'Horse riding']",5.0,3
 0x809ac57a79d45515:0x50774609038275bb,"['Auto insurance agency', 'Insurance agency', 'Tax preparation']",4.6,108
 0x8084d0bea27246cb:0xb1bd9749d9bab6c3,"['Church of Jesus Christ of Latter-day Saints', 'Church', 'Non-profit organization', 'Religious organization']",4.9,7
 0x809adb374f27fb3b:0x477d6513076aaaa5,['Church'],4.6,8
@@ -791,6 +811,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad994ec5b8a45:0x19e1cc45f5a64b98,"['Towing service', 'Automobile storage facility', 'Towing equipment provider']",3.5,25
 0x809adac6f48d5b1b:0x6a55199172608bb0,['Construction company'],5.0,18
 0x809ad0711de776ad:0xdf3358ca21a4d7af,['Public health department'],2.9,15
+0x809aacf58516c2e1:0x38a43dfab8727030,"['Harbor', 'Marina']",3.8,8
 0x809ad7ca90362eeb:0x224e25cc9e7bca28,"['Diner', 'Bar & grill', 'Cajun restaurant', 'Creole restaurant', 'Seafood restaurant']",4.5,24
 0x809ac5514ee8e7ad:0x26a23f245a70aa31,['Auto repair shop'],4.6,16
 0x809adaebab38dc6f:0xb89fecfb7f88a8d1,['Radio broadcaster'],4.7,28
@@ -863,6 +884,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada51cf963843:0xde218f12a7ef8e19,"['Community center', 'After school program', 'Event venue', 'Physical fitness program', 'Recreation center', 'Summer camp', 'Youth care', 'Youth center']",4.5,14
 0x809ad0948773999d:0x6c6994b1c29f9ce2,['Urgent care center'],3.4,58
 0x809ad6ecefd72e9b:0xbbaa9bd692680479,['Corporate office'],4.8,6
+0x809aacc61fdd7d33:0x894b82d01df3827e,['Marina'],4.2,8
 0x809ad70782d7adbb:0x60f231fa35bbb099,['Amusement park ride'],5.0,4
 0x809adf8fea481c8b:0xf9bdfade7f7b6a12,['Mailing service'],5.0,1
 0x809ac4d998180595:0x1d90310d0c70c445,['Roofing contractor'],3.9,15
@@ -871,6 +893,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad79be324fe7b:0x432a629f2346afb,['Tax preparation service'],5.0,25
 0x809ae7866cc837f9:0x3e63c340a96ac407,['Race car dealer'],4.6,8
 0x809ad160363668ad:0x8cbe34fb5acd74fa,"['Beauty salon', 'Beauty supply store', 'Hair salon', 'Massage therapist', 'Nail salon']",4.1,26
+0x809aa3ae387ce12b:0x3156e265772892ab,['Auto body shop'],2.2,8
+0x809aa2cf8bb5cf27:0xac07275f23754e24,['Thrift store'],5.0,1
 0x809ae131d13aadf5:0x1cb800234535906c,"['Refrigerator repair service', 'Appliance repair service', 'Microwave oven repair service', 'Small appliance repair service', 'Washer & dryer repair service']",4.7,38
 0x809adf96fea2eb49:0x8c6a77507ca04681,"['Mobile home park', 'Real estate']",4.2,18
 0x809ad030c12d43c9:0xe8ff9481cfbc9bd3,['Methodist church'],4.0,4
@@ -888,6 +912,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x808529cb4def521f:0xab02f73275319080,['Tourist attraction'],4.5,2
 0x809ae569a8b7ef17:0x80024549b018ec0f,"['Bakery', 'Cookie shop', 'Dessert shop']",4.8,375
 0x809ad9fa55dbbb7d:0x32f7a965150f0112,"['Tire shop', 'Auto repair shop', 'Tire repair shop']",5.0,16
+0x8085207f5c1a5b21:0xa41298db7918feb5,['Farm shop'],4.6,17
 0x809ad7bf7888c7e3:0x21f61f59d6a4b87b,['Labor union'],4.4,8
 0x809adf40c3ecc88f:0x5d8a0b6ea9aa1b1f,['Pet groomer'],5.0,17
 0x809adb59667a5697:0xd3b8a9c38f9fdcda,"['Beauty salon', 'Hair salon']",4.1,8
@@ -933,6 +958,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae50942e91473:0x6495675b3787d203,"['Office supply store', 'Computer store', 'Electronics store', 'Office equipment supplier', 'Office furniture store', 'Paper distributor', 'Print shop', 'School supply store']",4.0,38
 0x809ae7bdc6ee2527:0xcc90fea1c5bdaf3,['Sports complex'],4.9,36
 0x809ad5d7dd68cb6b:0xf355b8f14bbb8f59,['Coffee roasters'],4.2,5
+0x8084df667c2d2233:0x3015ad217886fc7b,['Spa'],4.5,4
 0x809ac48fb2917c19:0x9053ed6ec32cdb91,['Roofing contractor'],3.3,6
 0x809ad024ec1aee45:0x2ba4a840e190c7a5,['Florist'],3.7,3
 0x809ad0d0807c9d39:0x4483517d7971b369,['Digital printer'],4.7,3
@@ -1147,8 +1173,10 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adf2b665799c9:0x68f8197db2f30e68,"['Sign shop', 'Banner store', 'Graphic designer']",4.1,7
 0x809ac6beb589bdb7:0x8835bafc34810763,"['Bank', 'ATM']",4.4,18
 0x80852bb67607b8c7:0xb62cc83bd255157d,['Church'],4.7,28
+0x8084df8b62f36d97:0xbd2ea94f3d4d181a,"['Wine bar', 'Beer store', 'Wine store']",5.0,17
 0x809acfc1f0a2f9ed:0x24bd95b5804997a7,"['Bus company', 'Auto parts store', 'Repair service', 'School bus service']",4.5,18
 0x8084d08ed7218707:0xb0f6a768c9b60005,"['Credit union', 'ATM', 'Federal credit union']",3.9,8
+0x8084dff02eae9f01:0xf6acd318d1b585cf,['Warehouse'],4.1,7
 0x8084d1005805e25f:0xac594a40c2edef7b,"['Hardware store', 'Lumber store']",4.4,18
 0x80852bd656abd229:0xd1cd73f0b92dcb1b,['Gym'],4.2,66
 0x809ad173957ed5f5:0xd7ee723f46f9ed81,['Deli'],5.0,4
@@ -1257,6 +1285,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae783d4339fd3:0x1f6130bb7973c799,"['Water damage restoration service', 'Fire damage restoration service']",5.0,78
 0x809ad9fe54a1f5e5:0x5122d4700ea0873c,['Trucking company'],1.0,3
 0x809aded13ba751ef:0xd4b4dbe9b76360ed,['Convenience store'],4.5,28
+0x809aa2da768cc59f:0xd8f13b0fb9df7f73,['Beauty salon'],4.4,15
 0x809ae428cc30feeb:0xa5dc02f605753e28,['Nail salon'],4.7,88
 0x809ae6abd80f93e3:0xaeac2239ceee80bd,['Beauty salon'],5.0,25
 0x809ad11e9665dfb1:0x2bf65c9764607b47,['Restaurant'],4.2,8
@@ -1279,6 +1308,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad1c021f2eaaf:0xda46810f43b5f96f,['Consultant'],5.0,1
 0x809ac72dfe28ebcf:0x5cb3732cb283781a,['Fabric store'],4.1,16
 0x809b291b35ba04f1:0x620bbd949624f1b9,['Walk-in clinic'],3.7,6
+0x809abdeda79fa171:0xc9c115bd70b11def,"['Electronics repair shop', 'Cell phone store', 'Computer repair service', 'Electronics store', 'Mobile phone repair shop', 'Screen repair service']",4.5,68
 0x809ad6e5a1ed6911:0x7195c0fe0c7d5fee,"['Insurance agency', 'Life insurance agency']",4.8,275
 0x8084d3fd6774dc03:0xfdcef8fa325c14f5,"['Tractor dealer', 'Lawn mower repair service', 'Lawn mower store']",4.6,34
 0x809ad8110949e58f:0xe756f539a4ff7b95,['Steel distributor'],3.4,8
@@ -1460,6 +1490,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad12df47b57ad:0x9a65836ac30a3c90,['History museum'],4.3,18
 0x8085290c98240e67:0xc4c115464acfdd3b,"['Holiday apartment', 'Business center']",4.6,7
 0x80852982c4922009:0xf5577dbdf77f5cc4,['Apartment complex'],4.0,1
+0x809aad5aba8684e9:0x131d9cfe9cdd1657,['Baseball field'],4.1,13
 0x8084c560afafe293:0x3b4659b0c5100587,['Hydroponics equipment supplier'],4.0,6
 0x809ada52de54bea9:0x10fa3917b63d7073,['Chiropractor'],5.0,36
 0x809ad8a8c6f80389:0xaa0d451c97e175a9,['Nail salon'],4.2,57
@@ -1602,6 +1633,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad9f423bbce01:0xa83af3e21b5d0a75,['Car dealer'],5.0,2
 0x809adf032e7b6ea5:0xfbbf364e67924792,"['Safety equipment supplier', 'Car inspection station', 'Manufacturer']",5.0,2
 0x809ad8aec0aaab0d:0x4d8f8cdf22e3f94d,['Liquor store'],3.6,34
+0x809aad5c909f5267:0x8bd91d66d2626e5b,['Plumber'],1.0,1
+0x809aad5c99474027:0x506f5ae5c25ed931,['Plumber'],1.0,1
 0x809ac575d2fee1f9:0x1ee44028a5c1786e,['Auto repair shop'],4.4,26
 0x809add030a46bed1:0x672d23074108758,"['Massage therapist', 'Doctor']",5.0,1
 0x809ad41bfe5a4205:0xa9b6e3f6faa96118,"['Truck dealer', 'Trailer repair shop', 'Transmission shop', 'Truck repair shop', 'Used car dealer', 'Used truck dealer']",3.4,16
@@ -1613,6 +1646,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x80852bd656abd229:0x3536f9677eddcfaa,"['Gymnastics center', 'Camp', 'Physical fitness program', 'Recreation center', 'Sportswear store']",4.0,17
 0x809ae78ab64577bf:0x1a700a5c69b5600d,['Electrician'],4.4,14
 0x809ada38bd5f7897:0xe72fd847a352d377,"['Home health care service', 'Home help', 'Home help service agency', 'Aged care']",4.9,27
+0x808521096f15153f:0x475b3f47d4d3454b,"['Trucking company', 'Dirt supplier', 'Farm equipment supplier', 'Sand & gravel supplier', 'Transportation service']",2.5,2
 0x809ada57e1c374a7:0x5579774d1d665d34,['Nutritionist'],3.4,5
 0x809ad74daaf768cb:0x67e9dbc2abbead58,"['Medical supply store', 'Medical clinic', 'Oxygen equipment supplier', 'Store', 'Wheelchair rental service']",3.7,28
 0x809ac5db58f9e709:0x217a07374fdc4fed,"['Lasik surgeon', 'Eye care center', 'Ophthalmologist', 'Ophthalmology clinic']",4.5,77
@@ -1710,12 +1744,15 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adcdfdfef001f:0xb996e2c1fdaad34f,"['Building materials supplier', 'Building materials store']",4.6,26
 0x809ad9f0d181977d:0xac6f6c6cf42d48a1,['Store'],4.6,7
 0x809ad1b466ec5ae1:0xd358b24cca3cc7f5,"['Clothing store', 'Fashion accessories store', 'Hair salon', ""Men's clothing store"", ""Women's clothing store""]",4.2,14
+0x809abddaee88a1b9:0x4eacf77409475ea7,['Stable'],4.8,17
+0x809a988978974727:0x159850f1febeb6b7,['Professional services'],5.0,7
 0x809ac349ce4d2e11:0xe74569e1e2fd9430,['Environmental health service'],5.0,1
 0x809adb5d914c4e67:0x3873d8e7458056d7,"['ATM', 'Credit union']",2.6,34
 0x809ada1c8899a2ef:0x71b17e690ead2063,"['Personal injury attorney', 'Attorney', 'Social security attorney']",3.3,8
 0x8085290b362dc5ed:0xe1cc27e8c2d1d656,['Nail salon'],4.7,13
 0x8085290a97af965d:0x7a8379cd391205f8,"['Visitor center', 'Non-profit organization']",4.6,8
 0x809ad472b0c73bf7:0x74fe977053f7ffa6,"['Hot tub repair service', 'Hot tub store']",4.7,238
+0x809abd32aa1f8ce5:0x808b02d9b861d025,['Self-storage facility'],4.5,18
 0x809adb467a099abd:0x4b86fff8704be7cd,"['Credit union', 'ATM']",4.4,8
 0x809ad9171e962c01:0x5c0222592c6a0408,"['Government office', 'Federal government office', 'Tax department']",2.3,78
 0x809ac52fddb8fbd7:0x6ca50308433b3df2,['Sports complex'],4.7,16
@@ -1777,6 +1814,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0948f5779e9:0xa1fd9385af6a55f5,['Occupational health service'],3.0,6
 0x809ad75b00bbbbe1:0xc4039e49ddf793b3,['Real estate developer'],3.0,8
 0x809b2a033259153f:0x57d2d43504248b4d,"['Beauty salon', 'Hair salon']",4.8,16
+0x809aa36435204141:0xd888811e90ede9c5,['HVAC contractor'],5.0,7
 0x809b29c5cf29d02f:0xc7f2927d141bad2a,['Tobacco shop'],3.7,8
 0x809ad0936dde1a05:0xb139b93d5f214676,['Dentist'],5.0,1
 0x809ada2ce269cb15:0xb39a060adfc5837e,['Car dealer'],4.2,48
@@ -1788,6 +1826,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae781be7835e7:0x8cf5119e94354380,"['Boat storage facility', 'RV storage facility']",4.2,35
 0x809addad8ac0e95b:0xf0796b7af9a0cdd3,['Boot camp'],5.0,8
 0x809ad0d42250daa5:0x44596bc9361e569e,['Resume service'],5.0,3
+0x809aac586e3b9283:0xf3d398f919550b2,['Boat storage facility'],4.4,18
 0x809ade2f5f06936b:0x3ec4e5eef316620d,['Bar'],3.4,36
 0x809ad6d32424cc15:0x3d6b37c22a42141f,"['Criminal justice attorney', 'General practice attorney', 'Attorney', 'Legal services', 'Real estate attorney', 'Trial attorney']",5.0,4
 0x80852bb98c2e37ab:0x2350c991a3339424,['Auto repair shop'],5.0,1
@@ -1841,6 +1880,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x4076497471c4dc67:0x1bd7cab6a5cc2f7d,['HVAC contractor'],5.0,4
 0x809ac4f76e2fc3a1:0x65410d4995accfd9,['Paint store'],3.7,8
 0x8084d15aed58ce39:0x42f30bbd01d06093,"['Truck accessories store', 'Store']",3.2,18
+0x8084dfedef36fbb3:0xa612b9dc830150c,"['Baseball field', 'Entertainment and recreation']",4.6,5
 0x809ac793f3fb35c9:0xace2e1dcc9d46145,"['Furniture store', 'Bed shop', 'Bedding store', 'Bedroom furniture store']",4.8,73
 0x809ac89ebd4d2e9d:0x8c74c4f294db58d0,"['Hair salon', 'Beauty salon']",4.0,108
 0x809ad1ce2acb972b:0x32ff590ddd0d10e8,"['Auto repair shop', 'Auto electrical service', 'Auto tune up service', 'Brake shop', 'Mechanic', 'Oil change service']",4.5,44
@@ -1856,6 +1896,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8085291daf7a64b3:0x16620f5d5578a152,['Garden'],4.8,4
 0x809acfdd49a23bcb:0x8f85d6c8f29b36a1,['Auto repair shop'],4.8,18
 0x809ac70d73efe28f:0x3232395df779c751,"['Dentist', 'Dental clinic']",4.3,14
+0x809aa2d075e862b3:0x9ac267d4e538f5a2,['Beauty salon'],4.4,8
 0x809adf8c1f1d6775:0x5a5d64b209be6041,['Performing arts theater'],4.5,48
 0x809adf07eee12555:0x4c86fee946cd3912,"['Drug store', 'Beauty supply store', 'Convenience store', 'General store', 'Greeting card shop']",3.6,38
 0x809adfa7fc6b9599:0x6ea53cf321520a94,['Auto repair shop'],4.8,13
@@ -1867,6 +1908,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad408af08d3d9:0x5645adfea6fcf589,['Restaurant'],4.2,6
 0x8085296d92263877:0xfaca53f1e0df0358,"['Auto repair shop', 'Car repair and maintenance']",4.1,14
 0x8084d08d10b37cc5:0xd6a501c4b95b2b9d,['County government office'],4.5,6
+0x809aa3eb8897e4b1:0xcc29d35dcd6419e7,['Clothing wholesaler'],4.3,6
 0x809ad12de7b815a3:0x95fd17ead621cf4c,['Bank'],3.9,13
 0x809ac63037d743b7:0x1c53f12525dd9b21,"['Car stereo store', 'Car alarm supplier', 'Car security system installer', 'Home cinema installation', 'Repair service']",4.5,88
 0x809ab8b5e312e69b:0x16223436a20c3640,['Truck accessories store'],4.6,17
@@ -1917,6 +1959,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ade22fc176fc7:0x9336000c1a242320,"['Cell phone store', 'Electronic parts supplier', 'Electronics store', 'Telecommunications service provider', 'Telephone company']",3.1,18
 0x809ae7c21e213a57:0xc8d61ee55bdbf136,['Swimming school'],5.0,7
 0x809aded89ab67fab:0xbea27b02028c85fe,"['Florist', 'Christian book store', 'Gift shop']",4.9,68
+0x80854d502c7e6ee9:0xeea7b5213330e698,['Boat repair shop'],4.4,16
 0x809acf88f1bf468d:0x8ae7533d0d34d7d6,"['Brewpub', 'Beer garden']",3.5,8
 0x8084d06093d0dca3:0x5a0a356bd62d094c,['Church'],4.3,8
 0x8084d6d568c29207:0x525093f2c98e5b86,['Recreation center'],5.0,2
@@ -2030,12 +2073,17 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0493b2f006f:0x805aa83f73e812d1,['Auto repair shop'],4.4,8
 0x8084a85628a7c0c9:0x3d8b1bb8e6d206b3,['Truck accessories store'],4.3,24
 0x809aded773a913f3:0xea36bbc4db504df6,"['Post office', 'Logistics service', 'Money order service', 'Shipping and mailing service']",3.6,58
+0x809aa2da5f8e996f:0x4142f7a32f9b90df,"['Auto repair shop', 'Auto restoration service', 'Auto spring shop', 'Brake shop', 'Engine rebuilding service', 'Muffler shop']",4.6,28
+0x809aa2d70df78b8f:0xafa99dde6120aaf3,['Doctor'],3.8,5
 0x809adf4a3d16fbbd:0xfdb7e5c293a42417,"['HVAC contractor', 'Air conditioning contractor', 'Air conditioning repair service', 'Air duct cleaning service', 'Furnace repair service', 'Heating contractor']",5.0,318
 0x809adf8a2ee92711:0xc30b6581b16e4a93,"['Metaphysical supply store', 'Art handcraft', 'Book store', 'Candle store', 'Jewelry store', 'Magic store', 'Psychic', 'Reiki therapist', 'Religious goods store', 'Spiritist center']",4.8,28
 0x809adda1580f6c0d:0xb596391e27a5ae,['Restaurant'],4.0,13
 0x809ae8002d53c443:0xef7e5cf7fc91395c,"['Small engine repair service', 'Auto parts store']",4.0,25
 0x809adcf8b3259537:0x16c2043871e447ef,"['Farm', 'Education center', 'Non-profit organization', 'Plant nursery']",4.8,48
 0x809ae46a8b0a8f2b:0xe325d33a495aedc3,['Doctor'],1.2,8
+0x8084df8da1db0311:0xad15be49869fad7e,"['Movie rental kiosk', 'DVD store', 'Movie rental store']",5.0,1
+0x8084df8d98eae837:0x45c265e141456af7,['Optometrist'],5.0,2
+0x8084dfab5d5f3871:0x6559b3bd83b276bb,['Event venue'],4.2,8
 0x809ac6060e1e1361:0x2d5879c73d7f4d3,['Tree service'],4.9,15
 0x809ae416bcb2587b:0xad3a139679a57980,"['Flooring store', 'Wood and laminate flooring supplier', 'Wood floor installation service']",3.3,4
 0x809adcb641a1d74d:0xb5a81f7a97741c0c,"['Legal services', 'Process server']",2.6,5
@@ -2082,6 +2130,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809add9b15bdc6bd:0x2c06798d97ded720,['Park'],5.0,4
 0x809ac3567964cf13:0x4c487310659358de,['Catholic church'],4.7,8
 0x809adcb880101a03:0x9ce1491afd303291,"['Hot tub store', 'Landscape designer', 'Outdoor furniture store']",4.2,18
+0x809aa2dc8b27cbcb:0xdaf135a85380ded8,['Church'],4.4,8
 0x809ac4a139dea5d7:0x80cec315a3757883,['Solar energy equipment supplier'],4.5,104
 0x809adf5cb81baa19:0xf702057e21e1fa59,['Bicycle Shop'],4.9,8
 0x809add8661346f05:0xe0d33137ad4b4562,"['Indian restaurant', 'Vegetarian restaurant']",3.0,1
@@ -2098,6 +2147,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac094114a8ce5:0x79ea7fccbda382f8,['Asian grocery store'],4.6,8
 0x809add1bb4742a69:0x2acf7d1233eb912d,['Condominium complex'],2.7,27
 0x809ad41adda06b03:0x56b52aad93b6e485,"['Used auto parts store', 'Auto parts store']",3.4,15
+0x809aa2d07ce14303:0xb2b7ceafe015a0e5,['Laundromat'],3.2,28
 0x809ac795df7ec413:0xe41c14f75cef55b3,['Travel agency'],5.0,1
 0x809ac7d1cbd8962f:0x796b2ed105138563,['Video production service'],4.0,5
 0x809ad0ec5356729b:0xb5f122efec7ca1a9,['Paint store'],3.8,8
@@ -2134,6 +2184,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad7a08c34b9c1:0x5a1811fd289c9c22,['Mobile home park'],3.8,67
 0x8084d1f591f9cf03:0xd9d55a4ab038528d,"['Laundromat', 'Laundry service']",4.3,28
 0x809ad7263e46ef75:0xa827d66e386fcf,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",4.1,28
+0x809aa2daa1000115:0x35f4bbd7ed09c41f,"['Beauty salon', 'Hair salon']",4.5,45
 0x809ad126ef54d21d:0x3ee3381fd7bdc18b,['Government office'],4.6,8
 0x809ad0acb50abb0b:0x87575cbf284e0989,['Hearing aid store'],3.7,3
 0x808fcbaad6acd035:0x7d77caff96dfd0e3,['Pet groomer'],4.8,37
@@ -2212,10 +2263,12 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084c680526965c3:0x6260551079a6d38d,['Hunting club'],4.8,18
 0x809ad411bdf12e2d:0xdcb545cdd1167660,['Construction company'],4.5,4
 0x809ada59e71d456d:0xc0ab2c5239b9d0f2,['Real estate agents'],5.0,86
+0x8084df8557a9272f:0x7706c4e048d6f610,['Frozen yogurt shop'],2.8,4
 0x809adcafd9836027:0xfa825f5e6d3f310c,"['Sporting goods store', 'Sportswear store']",4.9,47
 0x809ae7827df98665:0xf059841da8bc7136,"['Boat repair shop', 'Boat dealer']",5.0,6
 0x809ad7462d7fe821:0x3077a07d476f79ae,"['Building materials store', 'Professional services']",5.0,3
 0x809adf3a594be6a1:0xa2b8f0fb052c18f5,['Home builder'],5.0,3
+0x8084dfdc9b39788b:0x97dfb7e66929ff3b,['Home builder'],3.9,8
 0x809ac168d56d69e5:0xbb83d215a396f40,['Home builder'],4.7,3
 0x40765508e34a7fe7:0x57ccb8b782fe08b4,['Beauty salon'],4.8,4
 0x809ad0492e268567:0x3446337ef8b94f81,"['Gym', 'Fitness center', 'Personal trainer', 'Womens personal trainer']",4.8,48
@@ -2332,6 +2385,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x80852975b38ab3a1:0x57b84946b6681a8,['Gym'],5.0,18
 0x80852979bec33f17:0x6766838730d9d0b5,['Garden'],4.8,8
 0x809ac7449ed8754f:0x7e629cdfcfd659d9,['Medical Center'],5.0,1
+0x809abd04d1155e7f:0xa5892e02bc72664f,['Gym'],3.5,17
 0x809ac52aa4af3327:0x97598290c3ba03fc,"['Home improvement store', 'Aluminum supplier', 'Patio enclosure supplier']",4.5,36
 0x809ad022f3fe3e19:0x890f9bd7fefce587,['Auto repair shop'],4.7,7
 0x809ad660e82ce9e1:0x5ab89bb48b9b980a,['State Department Agricultural Development'],3.9,8
@@ -2432,6 +2486,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae5be31c1a149:0x5b30614151dbdf6,"[""Women's clothing store"", 'Fashion accessories store', 'Lingerie store', 'Shoe store']",3.5,4
 0x809ad9282e99a27f:0xee130097bbe7e068,['Beauty salon'],4.2,36
 0x809ad7602bbeeaab:0x659efd5116e03d49,['Auto repair shop'],4.0,24
+0x809aad5b6d97a8cf:0xd41f9981a14c5507,"[""Jehovah's Witness Kingdom Hall""]",5.0,4
+0x809aaccd12ad009f:0x25bd4e23733ff5c0,['Marina'],4.8,28
 0x809ad1d86b920109:0x246da8e75549a885,['Restaurant'],4.0,18
 0x809ad0948772cfcf:0xc25b8fefe42971f6,['Surgical center'],4.3,8
 0x809ac7a5b8a279fb:0x677d42adaf08ae80,['Barber shop'],4.4,37
@@ -2447,6 +2503,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad96cf6bf0271:0x23541f0afcc749da,['Insulation contractor'],5.0,8
 0x809ae806f4355b0b:0x427be6fd0cb8158a,['General contractor'],4.3,6
 0x809ad21ec8df1603:0xedbd8e7a1969f851,['Massage therapist'],2.9,8
+0x809aad9894aa6d4d:0x1362dc8006086699,['Lodging'],3.3,8
 0x809ae076ff6f7fff:0x7c3e16ce311db087,"['Property management company', 'Real estate agents']",4.5,17
 0x809ad0c3fe359acf:0x791e491b16900509,['Grocery store'],4.4,26
 0x809ad0e9d3e845b5:0x5f09b74fe60c9950,"['Grocery store', 'Beer store', 'Convenience store', 'General store', 'Wine store']",4.5,13
@@ -2591,6 +2648,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad6e9ed49ae5d:0x152d592a74b45209,['Hiking area'],4.4,26
 0x809ac4ec16fdc953:0x2e725350deb5733f,['Bottled water supplier'],3.1,138
 0x809adedeb4de161b:0xe11baeba74651c2f,"['Truck rental agency', 'Trailer rental service', 'Van rental agency']",3.7,8
+0x8084df1c40dbe411:0x4632370ea70ca7d1,['Food processing company'],3.8,37
 0x809ada5099d65f79:0x143a9a1f10e51cc0,"['School', 'Non-profit organization']",5.0,6
 0x809ac743f3cccdb1:0x3b8a7cf473180328,"['Antique store', 'Store']",4.3,8
 0x809ac8faa9e6388d:0x7edd2c092db3966b,['Chinese restaurant'],3.6,5
@@ -2603,6 +2661,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac5711eb67a67:0x57df53f9a4b2a193,"['Cell phone store', 'Telecommunications service provider']",4.5,75
 0x809ac459b5a051c1:0x988384d533fcbe27,['Auto repair shop'],4.9,8
 0x809add7cc48fda15:0x22076f83c49192f5,['Manufacturer'],3.4,8
+0x809aad5c909f5267:0xb69ed1fad2095de3,['Cafe'],3.9,8
 0x8084d14ac0a9c627:0x41b424b7aa1a85a7,"['Beauty salon', 'Nail salon']",4.6,28
 0x8084d0eef05c592f:0x776628f4c13a38ab,"['Hair salon', 'Photographer', 'Photography service', 'Photography studio']",5.0,7
 0x808529a3dfc7c7bd:0x26286a2f9670c560,"['Hair salon', 'Hairdresser']",4.9,18
@@ -2640,12 +2699,17 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad1164337aee5:0x9a72098e8d9e303a,['Boat repair shop'],5.0,24
 0x809ad118941683ad:0xa7495ba847789111,"['Sandwich shop', 'Caterer', 'Deli', 'Fast food restaurant', 'Restaurant']",2.4,5
 0x809ad1189451f5df:0xeb02d8b99189560f,['Restaurant'],4.0,4
+0x809aa2d709f918c3:0xde707fa144d86889,['Deli'],4.1,14
 0x809ad0c54d7e24d9:0xa178cc026aac0b41,['Music instructor'],5.0,3
+0x809aa2c3e3a23577:0x946c571bb69d64fa,"['Heating contractor', 'Fireplace store']",4.3,15
 0x809ada5451baa2dd:0x5dc80307caa28eb9,"['Law firm', 'Elder law attorney', 'Employment attorney', 'Trial attorney']",4.8,4
+0x809aa2da9fcb65fb:0xe01b1b505a522ca0,"['Attorney', 'Law firm']",4.7,7
 0x809ad9839cc04ef3:0x46fd0f349f45ba57,"['Barber shop', 'Beauty salon', 'Hair salon']",4.6,86
 0x809ace16461065ab:0xa725e1287f865db3,['Corporate office'],2.3,3
+0x809aa36e27e3b0d3:0xfad602448104ea6e,['Home builder'],4.7,7
 0x809ac70bd656ac4d:0xf2cba8a6500c4cf8,"['Dental clinic', 'Cosmetic dentist', 'Dentist']",4.7,98
 0x809ace1a014a6647:0xcf708964a4e76ac7,['Martial arts school'],4.9,14
+0x809aa2d83da93f5b:0xcc93bf2bbfc4ba62,['Church'],4.9,8
 0x809adfdb738c67f5:0x5f2a050b79022940,['Chiropractor'],4.9,74
 0x809ad2112b78660f:0x3b24e47e81e1c7dc,"['Cultural association', 'Religious organization']",4.6,38
 0x809acf6296597267:0x1094d1d27a7db9bc,"['Auto repair shop', 'Used tire shop']",3.8,104
@@ -2683,7 +2747,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad651233e9c1d:0x7b8aed09edb32f65,['Supermarket'],3.0,1
 0x809ae5099de04875:0x551580f5a15b2a4d,"['Locksmith', 'Emergency locksmith service', 'Key duplication service', 'Security system installer']",3.1,16
 0x809ad96ce2b88ce1:0xa83e0519c1cffd69,['Handyman'],3.0,3
+0x809ab239d2f4c5b1:0xd3737e6ce0a532c2,['Sod supplier'],4.0,1
 0x809ad045b8b212cb:0x24b9e92913427b58,['School'],3.4,8
+0x809aad557c5eea01:0x78d3a59c528d9052,"['Gas station', 'Fuel supplier']",4.1,18
 0x809ad74f31b2f569:0x861d634808ed14b2,['Engineering consultant'],4.3,3
 0x809ad1fff4b57237:0x75b337310fcac4a2,['Lunch restaurant'],4.9,18
 0x809ad982b47d24f7:0x44e624e07d6a53ca,['Laundromat'],4.0,48
@@ -2707,6 +2773,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d13d6cefaf49:0x7476d328bc009605,"['Convenience store', 'Grocery store']",2.9,8
 0x8084d0e4f8b1bc81:0xa0f7629c60b39df0,['Vaporizer store'],1.0,1
 0x809ad961de5a35c9:0x72c95438754f97d4,"['Apartment complex', 'Apartment building']",3.2,8
+0x809aa33d34d92b77:0x3822e1787cec93c,['Thrift store'],4.6,28
 0x809ace1b85c514af:0x994383a73ff49bdb,"['Beauty salon', 'Nail salon']",4.3,18
 0x8084d09271962201:0x8114dbc5a37959c2,['Apartment building'],3.0,4
 0x809ad785ccc478f7:0x8deb10e237167,"['Apartment complex', 'Apartments']",3.6,68
@@ -2716,6 +2783,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0db184265c9:0x828476f91269fcd4,['Counselor'],2.7,8
 0x809ad92b15156a5d:0xa4f72a9b2d0040e4,"['Restaurant', 'American restaurant', 'Catering', 'Chicken restaurant', 'Takeout Restaurant', 'Sandwich shop']",2.3,3
 0x809ad93d35ffddf7:0xfcb2599b6e9b3751,['Apartment building'],3.7,3
+0x8084df227c6497ed:0x5eb0d4602f409981,['Distillery'],5.0,5
 0x809ac4aba60ac10b:0x38b9d78da2e6a195,['Transportation service'],3.2,18
 0x809ad9ff5e37765b:0xeeffdb884ad9c795,"['Used car dealer', 'Ferrari dealer', 'Porsche dealer']",4.8,68
 0x809ada62ac7454cd:0xc283f538e179b9d3,"['Amusement center', 'After school program', 'Live music venue', 'Recreation center', 'Study at home school']",5.0,8
@@ -2739,6 +2807,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad443ead7c6dd:0x6ee3766080418bae,['Social security office'],3.2,48
 0x809ae599c1171a9b:0x242a292b80c36c27,"['Laser hair removal service', 'Health and beauty shop', 'Medical spa', 'Skin care clinic', 'Tattoo removal service']",3.9,45
 0x809ad6fb3cd2f2ff:0x67d3fdb746b55eb1,"['Apartment complex', 'Apartment building', 'Apartment rental agency']",2.8,28
+0x809abd8a249da3af:0xa468fbc3c9522494,['Dog breeder'],4.1,8
 0x809ad0dc81f620d3:0x4312ac9ee759b3ac,['Party equipment rental service'],5.0,4
 0x809ad12dcf9cdddf:0xdc8375d61239b767,"['Bank', 'Financial consultant', 'Financial planner']",3.4,14
 0x809ad4203693eb0b:0xe03665ed8c72d073,['Thrift store'],4.5,13
@@ -2761,6 +2830,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad12639fce02f:0x1c0966a41ca7a96d,['State government office'],4.8,4
 0x809ad124e18a1077:0xc7cfd5e252340cc9,['Catholic church'],4.6,8
 0x809ae48f8da0d6eb:0x906edf6aaf810c47,['Park'],4.3,8
+0x809aa2c5a7440001:0xdeb71c13b0d8ebb7,['Pet groomer'],4.6,18
 0x809ad75ab62d16d3:0x927d6a3664f3f2f,['Used car dealer'],4.4,17
 0x809acfdf13bd8d3b:0x62a30c7d188fa356,['Kitchen supply store'],4.6,14
 0x809ad6d629cbd77d:0x3fa593813dd7a6d9,['Car dealer'],4.2,18
@@ -2770,6 +2840,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adbee69c231d5:0x13d31ced2483f3ac,['Gym'],4.7,8
 0x8085297565926a71:0x8d2e553412c13467,['Juice shop'],3.8,8
 0x809adf4875fdd89d:0x8323a1ff0d2877f5,"['Used furniture store', 'Furniture store', 'Office furniture store']",4.7,18
+0x809aa3df84671c61:0x5efd968e173ed621,"['Mexican restaurant', 'Burrito restaurant', 'Fast food restaurant', 'Salad shop', 'Spanish restaurant', 'Tex-Mex restaurant']",3.4,28
 0x809ac8d1a9f7ede7:0x634ccf9ccd8b0440,"['Self-storage facility', 'Boat storage facility', 'Moving supply store', 'Packaging supply store', 'RV storage facility']",4.7,18
 0x809ad13a949d088b:0xf42e26a901c8ef01,['Auto repair shop'],4.8,28
 0x808529bd4f899bf1:0x6429821c07a03001,"['Apartment building', 'Apartments']",2.6,26
@@ -3054,7 +3125,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809abf4cbea054bf:0x323e4715dc2b7238,['Paper distributor'],4.3,4
 0x809ae8049757bb8f:0xf958688996213473,"['Breakfast restaurant', 'Beer store', 'Sandwich shop']",5.0,36
 0x809adbbd6ecc4975:0x7713cc269e559dd9,['Furniture store'],3.1,8
+0x809abc4f9fdccb7b:0x21b95f420df48af0,['Excavating contractor'],4.2,5
 0x809ae449ed5e5e6d:0x5e305ba4ae072115,['Softball field'],4.2,8
+0x809abda30d5ba575:0x746a0fa1f9f0fbd8,"['Winery', 'Event venue']",5.0,37
 0x809ad0ce8a5a698f:0x571e72f84758d54f,['Auction house'],4.1,24
 0x809ad0936c158fab:0x47b401758db981f0,"['Eye care center', 'Optometrist']",4.9,26
 0x8084d10ef5979765:0x44277f7278fa9f76,['Trucking company'],3.8,6
@@ -3205,6 +3278,10 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac430413e5b11:0xb078b06251720486,['Distribution service'],3.9,8
 0x809ada923ee79085:0x915234a4a67d738e,"['Fence contractor', 'Blacksmith', 'Metal fabricator', 'Metal workshop', 'Railing contractor']",3.7,8
 0x809ada923ee79085:0xaa51ac8f6fcd3383,"['Art gallery', 'Iron works']",5.0,2
+0x809abd029e892ed7:0x4d900f2f4a27ecbf,"['Restaurant', 'Bar']",3.9,8
+0x809aa2cf8bb5cf27:0xa580385e791c9ff1,['Nail salon'],4.3,18
+0x809abd2ead83dcaf:0xc2a0779b35ace374,['Newspaper publisher'],4.8,8
+0x809aa3c9ab063607:0x3636185881a41656,['Beer garden'],4.8,8
 0x809add8835891461:0xcbb4a50c38612092,"['Drug store', 'Beauty supply store', 'Convenience store', 'General store', 'Greeting card shop']",3.5,24
 0x809ad93f877c71a9:0xe7b19842f56d47a9,['Barber shop'],4.5,53
 0x809add835cbcfbff:0xcef1267615a142cb,['Beauty salon'],5.0,6
@@ -3313,6 +3390,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0d7c918ea35:0x88689cc9e9a3db92,['Law firm'],5.0,1
 0x809ada467651ad93:0xe3874e7cff818a39,"['Apartment complex', 'Apartment building']",2.8,148
 0x809ac5c0f0487431:0xd16cb092dce9e9a8,"['Auto dent removal service', 'Auto body shop', 'Car detailing service', 'Car repair and maintenance']",5.0,117
+0x809abd2ead83dcaf:0x497bc824f8a7b62c,['Newspaper publisher'],5.0,3
+0x809abd284a248e6d:0xe94100c555bc38a,['Real estate agency'],4.7,17
+0x809abd2bf842b88f:0x8172b1b1f413d380,"['Commercial printer', 'Copy shop', 'Graphic designer', 'Mailing service', 'Print shop']",5.0,4
 0x80852909a76deced:0xbdeb9ff130b7a9d0,['Bus station'],3.9,8
 0x8085299f1e996dd7:0x4c1f9ab43361a442,"['Apartment building', 'Apartment complex', 'Apartment rental agency', 'Furnished apartment building', 'Student dormitory']",3.1,98
 0x80852966c077b8cf:0x328e7f39e1f09147,"['Apartment complex', 'Apartment rental agency']",3.1,57
@@ -3387,6 +3467,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae5589105c739:0xd89aef97c774bdfd,['Picture frame shop'],4.3,14
 0x809ac594bd288023:0x91511e6ba35096e1,['Vaporizer store'],4.4,68
 0x809ad7ad236145d5:0x26da0d4c65efe610,"['Laundromat', 'Laundry']",4.1,76
+0x809abd26eec5b9ad:0xd9a39be1317b5e78,"['Auto repair shop', 'Smog inspection station']",4.8,28
 0x809aded0ee8ae185:0xdd5c4ce2a0ce3590,"['Karaoke', 'Karaoke bar']",4.1,17
 0x8084d0fd4d38609f:0xfd3da9caab06486,['Mover'],4.3,3
 0x809ad0dafac65519:0x5067864af417452a,"['Beauty salon', 'Hair salon', 'Nail salon', 'Waxing hair removal service']",4.9,14
@@ -3410,6 +3491,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adbdcd78a11b9:0x41fec5c72216aaf1,['Auto tune up service'],2.5,2
 0x809ad66dd9f5d339:0x3858725eb2e61ed6,['Apartment rental agency'],4.0,88
 0x809adf79aeb24ad7:0xfdc6488158be98b5,['Association or organization'],3.4,18
+0x809aa2cf34a11f7d:0xf2a53f7e2bd6b582,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.3,26
 0x809ad1b5d2395659:0x8abaea360d475f33,"['Drug store', 'Beauty supply store', 'Convenience store', 'General store', 'Greeting card shop']",3.4,25
 0x809ad731d0b2b409:0xb7d1550f49845701,"['Truck repair shop', 'Tire shop']",4.2,38
 0x809adbfb6c8c66af:0xfe0944b512eb7958,"['Shopping mall', 'Car wash']",4.1,36
@@ -3449,6 +3531,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0d9373b64bd:0x45026fbfc954848f,['Dry cleaner'],3.8,8
 0x809ad060a210641d:0x1e507135e22e25ff,"['Health spa', 'Alternative medicine practitioner']",4.8,68
 0x809ad6493edb1e77:0xfe00aecb6d374552,['Church'],5.0,1
+0x809aa3390697f63d:0xfc74e0b98c4f5e65,['Shopping mall'],3.3,6
 0x809ab8b5ddc03613:0xaff58a9b284718c4,"['Electrical supply store', 'Electrical equipment supplier', 'Electrical wholesaler', 'Electrician', 'Light bulb supplier', 'Lighting consultant', 'Lighting store', 'Lighting wholesaler', 'Tool store', 'Tool wholesaler']",4.6,14
 0x809ad05e2a223fdb:0xce1653998231f2c9,['Gift shop'],4.2,18
 0x809adfd000000001:0x6c7d371b4a82f431,['Medical clinic'],3.6,7
@@ -3635,6 +3718,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac76b66da3481:0x7868458a0ac5567d,['Doctor'],4.9,48
 0x809ac55b6899f28b:0x6486e4321510fb99,"['Clothing store', 'Bridal shop', 'Dress and tuxedo rental service', 'Dress store', 'Wedding store']",4.5,55
 0x809b29c5cf29d02f:0x20ac04fab096ec44,['Barber shop'],3.9,28
+0x8084dfaeb1d668df:0x18359407aa50af5a,['Hay supplier'],4.2,25
 0x809adad471a7f6bf:0xf390b97f7a49e866,['Beauty supply store'],4.8,8
 0x809ad980e91055eb:0x701376b9c5cdf22d,['Corporate office'],5.0,1
 0x809ad84b2d149b85:0xd05c8c635c96f4b2,['Cabinet maker'],5.0,2
@@ -3643,6 +3727,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8085297f792b77ed:0x9b4e55ab8692513c,['Coffee shop'],4.5,18
 0x809add72685d8723:0xf9c60f2e9c82a602,['Antique store'],4.8,13
 0x809ad12c1e9763ef:0xa7f0c072c0501586,['Immigration attorney'],5.0,1
+0x809abcd8e5b86f37:0x7a6adadd474f028f,['Glass manufacturer'],4.9,8
 0x809ad09d2707af8b:0xed2004507a0c1d90,['Chiropractor'],4.9,33
 0x809ad5d645f394b7:0x4dfd9fda2f81ae9f,"['Gas station', 'Auto repair shop', 'Convenience store', 'Diesel fuel supplier', 'Fuel pump', 'Gas company']",2.4,17
 0x809ae51084e07107:0x44d6e2c26210144e,"['Massage spa', 'Massage therapist', 'Reflexologist', 'Spa']",3.4,16
@@ -3651,6 +3736,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae4404ccc9ffb:0x38504586a9e7fd7a,['Dentist'],5.0,65
 0x809ad174eee7462b:0x5aab273e0062a6f1,['Catering food and drink supplier'],4.8,18
 0x809ad9885adbaa2d:0x374e0e3f86ed8fb7,['Wine store'],4.1,18
+0x8084dff49f625c45:0x6ef531200226815d,['Gym'],4.6,14
+0x8084dfef5054efdf:0xd3b1f7c71c1d9ea8,"['Church of Jesus Christ of Latter-day Saints', 'Church', 'Non-profit organization', 'Religious organization']",4.3,7
+0x8084dff4152fee63:0x9c660c726beb5a42,['Dental clinic'],2.6,5
 0x809ad3c569070eed:0xad5cd9bfa973e5b3,['Tanning salon'],4.0,8
 0x809ac53058bdaa33:0x9edca732d86fcb22,['Tire shop'],2.9,18
 0x809ada32593b76ef:0xb3d43186777a76f3,"['Pizza restaurant', 'Takeout Restaurant']",3.3,6
@@ -3803,6 +3891,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d11e03941f31:0x6fae233a8fcd4020,"['Equipment rental agency', 'Tool rental service', 'Trailer rental service']",4.7,48
 0x809ada24ceb764cd:0xe2b98a887c7539ec,"['Hair salon', 'Beauty salon']",4.7,24
 0x809ad0aabcf2ae47:0x9f228cedac16c064,"['Personal injury attorney', 'Bankruptcy attorney', 'Consultant']",3.3,13
+0x809aad5b734e6029:0xea0acb519b63b96,['City Hall'],5.0,1
 0x809ac64e78249f7b:0xd2216e865c624480,"['Cell phone store', 'Telecommunications service provider']",3.9,85
 0x809ace74660034e1:0xd921b3c437703c86,"['Apartment building', 'Apartment complex', 'Apartment rental agency']",3.2,47
 0x809ac723a3ebd8d5:0x4105de574ae365fe,"['Beauty salon', 'Barber shop']",4.3,15
@@ -3957,6 +4046,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad09ae6f1d287:0x3f1e192236442aa6,['Dentist'],5.0,188
 0x809ae78ab0d1eb0f:0x58a5529d5848610c,"['Window treatment store', 'Awning supplier', 'Blinds shop', 'Curtain store', 'Curtain supplier and maker', 'Home automation company', 'Home improvement store', 'Interior construction contractor', 'Interior designer', 'Window tinting service']",4.9,14
 0x809ac8fa8240ef47:0x976feb012b457a62,"['Software company', 'Database management company']",4.6,28
+0x809a98b3eb4c3d89:0x107fc35e23a289da,['Horse breeder'],4.3,3
 0x809ada54337d8ac9:0x49ca0eee59a56a3e,['Legal services'],5.0,5
 0x809ad09a7c8a456d:0x8ea32bf7ab75370e,"[""Men's clothing store"", 'Magazine store', 'Table tennis club']",5.0,8
 0x809ac4c5b6110acb:0x35e03db0a493cbc3,['Warehouse'],4.8,6
@@ -3973,6 +4063,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada24207f7f03:0x178079422f369a36,"['Apartment building', 'Apartment complex']",2.2,18
 0x809ada19b42d6479:0xb2b6536fb7b210c,"['Bank', 'ATM']",4.2,5
 0x809ad08d60c17c59:0xc3961c4cca7782ea,"['Military base', 'Military recruiting office']",3.9,18
+0x8084df8ccca12d3b:0x940cc9853a82f93e,"['Home improvement store', 'Garden center', 'Hardware store', 'Paint store', 'Plumbing supply store', 'Tool store']",3.7,6
 0x809adca7103fcbd5:0xc38d7fe674f5c0c5,['Band'],4.0,37
 0x809ada4c87ba1e93:0x5035f31c03a36e9d,"['Taxi service', 'Airport', 'Airport shuttle service', 'Taxicab Stand']",4.6,218
 0x809ae7f72cfceecb:0xa3e66019170e86a7,"['Moving and storage service', 'Business to business service', 'Container supplier', 'Wholesaler']",4.8,5
@@ -3980,6 +4071,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d14a8f70211d:0x63a4bc3e149b5291,['Pet supply store'],4.5,65
 0x8084d903275b6c59:0xd66924933b0e4776,"['Pet boarding service', 'Kennel', 'Pet groomer']",3.8,15
 0x8084d059a386e769:0x2d82bdb712935108,['Auto repair shop'],3.8,4
+0x8084df8c91925c53:0x5f7ac06db8500781,['Agriculture cooperative'],4.0,5
 0x8084d9c1f8018481:0xbff625a3c4ed1787,"['Dog trainer', 'Dog breeder']",4.6,7
 0x809ad7161803ca51:0xf7ded901273dc00b,['Thrift store'],3.3,4
 0x809ae801f01bfcff:0x97d91d2d0489fc25,['Auto parts store'],2.5,8
@@ -3995,6 +4087,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac76cb14e2a0d:0xae1211e085549d87,"['Veterinarian', 'Animal hospital', 'Emergency veterinarian service', 'Pet boarding service', 'Pet groomer']",4.5,158
 0x809ae51aed21ed71:0x7aa1e9faf9f990b4,"['Coffee roasters', 'Coffee shop']",4.7,84
 0x809ac5320499438f:0x1d4946fbef723546,['Thai restaurant'],4.5,68
+0x809aa2d886476c57:0x1fd7b1e14442a84b,"['Nursing home', 'Assisted living facility']",3.5,8
 0x809ac4e23b79c4fd:0x9ed35201ac392053,['Non-profit organization'],4.9,8
 0x809ac596105b5d9d:0x4486f7ed4fd72d30,"['Video arcade', 'Indoor playground']",3.8,4
 0x809ae69a2b0cbf19:0xb8e97221547dee9,"['Beauty salon', 'Nail salon']",4.4,37
@@ -4006,7 +4099,12 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac76b16195ae7:0xb1f8c9b42da5c7ba,['Solar energy equipment supplier'],4.8,18
 0x809ad9f1addef15d:0x65ab41abad306557,['Car dealer'],3.1,88
 0x809ac74f09562467:0xf9c63a6003ec84e5,['Fresh food market'],4.3,13
+0x8084df373dcf0f53:0xcd368234a64eff25,['Farm shop'],5.0,3
+0x809aad5c94d0bb23:0xe7d68e87e6a51fc1,"['Post office', 'Logistics service', 'Money order service', 'Passport office', 'Shipping and mailing service']",3.9,8
+0x809aad5b734e6029:0xdd5d2986587fe794,"['Liquor store', 'Propane supplier']",2.6,8
+0x809aad5d5819b2dd:0xa05af797f582cd45,['Laundromat'],3.4,5
 0x809ad7d2ba36e6e5:0xa42d4f9bcdcfb622,"['Solar energy company', 'Solar energy equipment supplier']",4.2,24
+0x809aad2bb30f7a9d:0x56cd14b544b05b16,['Historical landmark'],3.0,1
 0x809ad6a472963399:0xf680d1b880ba3d6a,['Used car dealer'],4.4,18
 0x809add1256c75453:0x78d928cf06e2a81a,"['Drug store', 'Beauty supply store', 'Convenience store', 'Cosmetics store', 'Greeting card shop', 'Perfume store', 'Stationery store']",3.5,44
 0x809ad03f5755d489:0xe8acab2f0c2d718e,['Hair salon'],4.8,18
@@ -4040,6 +4138,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad3988a9e3a8d:0x3e93553c220a5531,"['Home builder', 'Construction company', 'Housing development', 'Real estate developer']",4.5,25
 0x809ac3cfffc637f7:0x44ed547002cb2b70,['Home builder'],4.0,18
 0x809ac6b7cfea1761:0x5b8c7de67478bc80,"['Episcopal church', 'Church']",4.2,5
+0x809aa34fa346ad4f:0x773bbf55f8a8ff71,"['Tire shop', 'Wheel store']",4.5,18
 0x809ae68db12e1471:0xdace6e79d442113b,"[""Children's clothing store"", 'Baby clothing store', 'Shoe store']",4.4,65
 0x809ada3cd0e5b73b:0x13a813a91b9bb322,"['Futon store', 'Amish furniture store', 'Bedroom furniture store', 'Furniture manufacturer', 'Furniture store', 'Mattress store', 'Outdoor furniture store', 'Sofa store']",4.8,38
 0x809ad12c89f95ae3:0x531e7fe457277633,"['Post office', 'Logistics service', 'Money order service', 'Shipping and mailing service']",2.9,27
@@ -4052,6 +4151,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0953a5750f5:0xc32b4110f7fe8799,"['Tax preparation service', 'Tax consultant']",4.5,78
 0x809adbe9bf17e63b:0xa282da93cb7317c6,['United Methodist church'],4.5,28
 0x808529ca8727b667:0x23d570c560c5b2b8,"['Apartment building', 'Apartment complex', 'Apartment rental agency', 'Student dormitory', 'Student housing center']",3.3,8
+0x8084d8ad74de71a7:0x35c486c3f4ee8885,['Orchard'],4.0,3
 0x809ae6a060b70701:0xb227ef8fa1f3f3da,['Grocery store'],4.0,18
 0x809ac6a5361f5f63:0x8343c150646b4d0e,"['Personal trainer', 'Health consultant', 'Physical fitness program', 'Weight loss service']",4.9,8
 0x809adce012594ea7:0x8bfedfe4a162cfb0,"['Veterinarian', 'Animal hospital', 'Dog day care center', 'Emergency veterinarian service', 'Pet boarding service']",3.4,34
@@ -4112,7 +4212,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0eed46b4653:0x79a227c6389fa02f,['Theater company'],4.8,14
 0x809ad7c7859f81fb:0x1592dd06e44666bb,"['Church of the Nazarene', 'Christian church', 'Church']",5.0,38
 0x809ad928182cc401:0x57a96f33e519dc75,"['Gas station', 'Auto repair shop', 'Convenience store', 'Diesel fuel supplier', 'Fuel pump', 'Gas company']",3.2,18
+0x809abd1b27d5ebb1:0xa4b33a5f140fe503,"['Donut shop', 'Dessert shop']",4.1,85
 0x809ad6cd3921fd5b:0xd34d2c5c9a117324,['Clothing store'],4.3,34
+0x809aa3a64c5491db:0x7db994460ec55db0,"['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",4.6,74
 0x809ad148ca728577:0xee68dd34d8082d5,"['Marketing agency', 'Advertising agency', 'Internet marketing service']",5.0,7
 0x809adfb94b6d49f9:0xbdadc455d7ced222,['Hair salon'],4.0,8
 0x809ad6f188c00001:0xaf5e0335c07ac576,['Legal services'],5.0,1
@@ -4133,6 +4235,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac5c3aaaaaaab:0x5dea9b171c644dd1,['Money transfer service'],5.0,4
 0x809ac5b12e9342ef:0x2e42d6a7b51ab2f2,['Apartment building'],2.6,8
 0x809ae7e5d57909cf:0x45b8aa6bf893ce36,"['Pretzel store', 'Bakery', 'Restaurant']",3.8,18
+0x809aa327fe87c1f1:0xc113eff863d92a12,['Business related'],5.0,5
 0x809ae6962029cb65:0xe9a8d4fd7500db07,['Corporate campus'],4.5,2
 0x809ad7453d9b0153:0xacd105815bcdf58,['Furniture store'],4.2,48
 0x809ad0d2559a915d:0x3077aeb13c5c22b3,['Non-profit organization'],4.5,8
@@ -4252,16 +4355,20 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad7bd8c3a4a71:0xe3c6d0ddf1e89ad5,['Skateboard park'],4.6,18
 0x809ad7ae846677d1:0x84e7039cc7afae37,['Skate shop'],4.9,18
 0x809adb5dabb0afc7:0x12b0abc0a5316529,"['Record store', 'Clothing store', 'Collectibles store', 'Novelty store', 'Toy store']",4.4,34
+0x809aa2d0758299e7:0x96e50fa94fd6e010,"['Florist', 'Balloon store', 'Gift basket store', 'Gift shop', 'Wedding planner']",4.5,28
+0x809a98e3c6c0b673:0x6320d3944e8b3683,['Dairy farm'],1.0,1
 0x809ac4b115b0b487:0xb03ad8eb50d53ce6,"['Apartment complex', 'Apartment building', 'Apartment rental agency']",3.2,18
 0x809ae42e985b522d:0xe06b9dedc3d1dc9f,"['Computer repair service', 'Computer software store', 'Computer store', 'Repairs']",5.0,28
 0x809adfe7a9969c21:0x1275a46346c87ab5,"['Television repair service', 'Electronics repair shop', 'Video camera repair service']",4.3,28
 0x809ac503f766e8ff:0xc55525e6717f9331,"['Equipment rental agency', 'Construction equipment supplier', 'Container service', 'Container supplier', 'Containers supplier', 'Forklift rental service', 'Industrial equipment supplier', 'Portable toilet supplier', 'Records storage facility', 'Waste management service']",1.0,1
+0x809abcce3897494f:0xb77a494795f8a2e3,"['Water works equipment supplier', 'Water testing service']",5.0,2
 0x809ac7c756744453:0x5e8ffa6d75f45263,"['Cannabis store', 'Alternative medicine practitioner', 'Delivery service']",5.0,8
 0x809ad0ce3e3119d5:0xc09472ad7b38ef4b,"['Business to business service', 'Graphic designer', 'Marketing agency']",5.0,2
 0x809ad1b47b295cbb:0x97419f4554fcfcb3,"['Hair salon', 'Hairdresser', 'Wig shop']",3.7,86
 0x809ac2b3bf5434a9:0x4d0ef9b751f154d7,['Government office'],3.2,18
 0x809adcd444f4e0e7:0xdd6494960e4824bf,['State government office'],1.0,1
 0x809aded1b4d00001:0x9e6c01cb21eb4a77,"['Apartment building', 'Apartment complex', 'Apartment rental agency', 'Condominium complex', 'Condominium rental agency', 'Real estate rental agency']",4.0,38
+0x809abdac0c042ef5:0x79aefa31b8dec135,['Gym'],4.8,8
 0x809ad3c346e45867:0x1a4aebed38aeee3e,"['Pet boarding service', 'Dog day care center', 'Dog walker', 'Kennel', 'Pet sitter']",4.6,26
 0x809ad79e67aee175:0x7b8c1ab2825a8c88,['Buddhist temple'],4.5,15
 0x809ada98387eedcf:0x264f70d563f47b94,['Boutique'],3.8,8
@@ -4341,6 +4448,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad728ad9c38e3:0xca0cac869dde4c15,"['Marketing consultant', 'Commercial printer', 'Digital printer', 'Internet marketing service', 'Mailing service', 'Marketing agency', 'Website designer']",4.3,14
 0x809b2b73cb251a5f:0x37d9381cbab1c0ed,['Deli'],3.8,5
 0x809addd3004e6ce7:0xc91275c9f502a807,"['Learning center', 'After school program', 'Camp', ""Children's party service"", 'Education center', 'Summer camp']",5.0,6
+0x809abd0cc406962f:0xcc5517bdc91cfd2f,['Professional services'],4.7,13
 0x809ac5512be6c783:0xf9369b5a06c227c,"['Beauty salon', 'Hair salon']",4.6,8
 0x80852b88f2acfbb1:0x3019df773ad223f6,['Car wash'],3.3,4
 0x809aceab41366a85:0x74992a6541b4600c,"['Wine bar', 'Wine cellar']",4.7,13
@@ -4484,6 +4592,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac71505f26a23:0x1920d58d534e1451,['Game store'],4.6,28
 0x809adacbff87002f:0xdec929983813ee1f,['Community garden'],3.8,15
 0x809adacbfdf54a27:0xf8c0cee6659c75d,['Memorial park'],3.9,36
+0x809abd2c3e133d49:0xb5746a9d7b1eafa7,"['Auto parts store', 'Trailer supply store', 'Truck accessories store']",4.3,45
+0x809aa2d084bb6953:0xd3513bc4579b196a,['Auto body shop'],4.7,18
 0x809acfe912ec47d7:0x9638abb3445b7b8c,"['Window tinting service', 'Decal supplier']",4.7,68
 0x809ae68c0d719eb3:0x7e979355be0d976,"['Sporting goods store', 'Clothing store']",4.4,8
 0x809adedcaa0c95f7:0xaec0eabce03f5a11,['Tuxedo shop'],4.3,3
@@ -4544,6 +4654,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d0df63f701cf:0xfb5498fedb755cbd,['Bakery'],4.3,58
 0x8084d0922943cfb9:0x5b603aacc3267a61,"['Church', 'Non-denominational church', 'Pentecostal church']",4.7,28
 0x8084d1753235f37f:0x30f9c296ba55b4be,['Nail salon'],4.6,8
+0x809abd19fb8c2bb5:0xe304d6c79c0e350,"['Park', 'Tourist attraction']",4.2,88
 0x809ade4de9b6ddd5:0x57a49dd2d30f45c5,['Loan agency'],4.8,57
 0x809adeda7d5ac019:0xcdbbd592e95fc53e,"['Beauty school', 'Barber school', 'Barber supply store', 'Beauty salon', 'Beauty supply store', 'Hair salon']",4.7,158
 0x809adee9aafdd24d:0xf10d6df8c897df50,['Shopping mall'],4.2,8
@@ -4608,6 +4719,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada43f88a7f25:0x3bad4a9f84bd8fb8,"['Beauty salon', 'Day spa', 'Facial spa', 'Hair salon', 'Waxing hair removal service']",5.0,8
 0x809ad7460308c0dd:0xfa7bb7d5a6f06390,['Shoe store'],4.9,7
 0x809ae6a9d3ee8769:0x76707befa76279a2,"['Middle school', 'Public educational institution', 'School']",3.3,46
+0x809ab33dfaa4337f:0xa1b15a6baf9fcd9a,"['Restaurant', 'Bar & grill']",4.0,2
 0x809ad70d0c0a4bb7:0xda387508d8c937c3,"['Home builder', 'Real estate agents']",4.6,8
 0x809ac58ca2cab3bd:0x7af864d984160bb7,['Housing development'],5.0,1
 0x809ac41e9ba8a94f:0x8ab453abd066f901,"['Home builder', 'Mortgage lender', 'Real estate developer']",4.0,1
@@ -4625,6 +4737,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac7db12bab095:0xe244f096194e85a1,['Plumber'],5.0,148
 0x809ac9f2d0c654af:0x22eb7144bfb879,"['Pizza restaurant', 'Pizza delivery', 'Pizza Takeout']",3.8,78
 0x809ad133ea6904fd:0x498463347879e81c,"['Parking lot', 'Tourist attraction']",4.5,53
+0x8084df9ad55c885d:0xc574f5955bfda97,['Gas station'],4.0,57
 0x809ad1282a012b69:0x1fd6fb9bdd9fe682,['Emergency dental service'],4.7,118
 0x809ade4f248b0a6f:0x7088fa3b15f7a51b,['Dentist'],4.9,14
 0x809ae688922b7157:0x73fff8ce4e255612,['Dive shop'],4.2,58
@@ -4901,10 +5014,15 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad12ddb8c346f:0x38e3efe2930c6b0,['State government office'],5.0,3
 0x809ad97e4cdd835d:0x25acd2cddbefff08,"['Apartment building', 'Apartment rental agency']",3.4,8
 0x809ad41a9639bb5b:0x4ce7fd548e2ab8e4,['Mobile home dealer'],4.6,38
+0x809abd2c131a33c9:0x6e20d8d18f6224c6,['Tobacco shop'],4.4,54
+0x809aa2c56940e93d:0xdd02f3ef3f674eb0,['Barber shop'],4.5,48
 0x809ac5d9beafc889:0x5c2de60d4a965207,"['Dental clinic', 'Dentist', 'Orthodontist', 'Pediatric dentist']",4.0,28
+0x809aa2c53cbcc261:0xc1310a9feca31823,['Community center'],4.4,45
 0x809ac621c0c4f025:0x8dd5cf50a1a2e63,['Park'],4.3,58
 0x809ad0f2e47cb97b:0x732e4bc9c8c255be,['Recording studio'],5.0,8
+0x8084df8b5a13e9c7:0xe2bdfa53de299bc7,['Frozen yogurt shop'],4.4,18
 0x8085286e6e1c864b:0x306b86b1d164d358,['Unitarian Universalist Church'],4.7,15
+0x8084df8b17a982ed:0x4c15809486e11f16,['Auto repair shop'],4.8,8
 0x809add7c8415a0d3:0x1d43721e1f9a2f01,['Parking lot'],3.0,4
 0x809ac7eaa8e86e43:0x169eb3ba7069fda4,"['Park', 'Tourist attraction']",4.5,45
 0x809ac7b79b65d387:0x8bbec30349be401e,['Nail salon'],4.3,86
@@ -5050,7 +5168,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac8f19a858e55:0x7b8878f539fd8cca,"['Donut shop', 'American restaurant', 'Breakfast restaurant', 'Cafe']",4.6,53
 0x809ac7b2c0a7d285:0x1302438a4b645efc,"['Sandwich shop', 'Caterer', 'Deli', 'Fast food restaurant', 'Takeout Restaurant']",3.9,26
 0x809ac70c992e7dfd:0xfbc4f4d940b2c37e,['Auto repair shop'],3.0,18
+0x809abc80ff63d953:0x7a71c92fc283a12f,['Dairy farm'],4.1,7
 0x8085296f34f48a8d:0x2331d25f70b1944f,['Fraternal organization'],5.0,5
+0x809a98104103fd7b:0x308bb06749eccbad,['Dairy farm'],4.0,2
 0x809ad07ea66f8d1b:0x834f12ff757dc607,['Fraternal organization'],4.5,8
 0x809ac0aafab2491d:0x23b9e1947414f081,['Fraternal organization'],4.1,26
 0x809ade4f4e38af3d:0x7ca1603fa9af240a,['Fraternal organization'],4.7,27
@@ -5089,6 +5209,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809aded85467c749:0xcfed3f35628df14d,['Real estate consultant'],4.2,18
 0x809ac51f2725f92b:0x7f1f78c28f84ada2,"['Building materials supplier', 'Distribution service']",3.6,10
 0x809ad9f00511840f:0xb048536fdf14f87,['Towing service'],3.6,16
+0x809abd5179b21bb7:0xb4b8f92021535919,['Water skiing instructor'],4.9,11
 0x809adb7c00aa3e97:0xb37b5fef0312f96c,"['Marketing agency', 'Software company', 'Video production service', 'Website designer']",5.0,1
 0x809ad03ed14a65af:0x76d41674e59fbd9f,['Restaurant'],4.3,14
 0x809ac75459b9b1b9:0x4010e2837b5d49e0,['Auto restoration service'],4.1,18
@@ -5171,6 +5292,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adf796ccaee9b:0x40722878cd91a73d,"['Bank', 'ATM']",4.0,14
 0x809adfa84214e7c1:0x2a7f36c4cbed7999,['Community center'],4.5,8
 0x809adfb93578f587:0x1366fc50c4e85960,"['Embroidery shop', 'Embroidery service']",4.5,8
+0x809aa34d573d10b1:0x7985b5f4ce2f7591,['Dairy farm'],4.8,8
 0x809ab9f0fb37f46b:0x4f2b9440b583ccd6,['Mexican restaurant'],4.9,8
 0x809ada4493b6129d:0x5747a1d053f2903a,"['Personal injury attorney', 'Law firm', 'Attorney']",4.4,47
 0x809ac6dc70670a41:0x5d3c012f5e130573,"['Self-storage facility', 'Storage facility']",4.2,6
@@ -5192,6 +5314,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adfbde2f5d281:0x5363f013c20427b2,['Auto glass shop'],4.8,38
 0x809acfd0f3d61279:0x1cffbff45ac2870b,"[""Jehovah's Witness Kingdom Hall""]",4.8,18
 0x8084d108024b6777:0x94fd6bb1737623e1,['Food products supplier'],4.6,8
+0x809abd02edff5009:0x7a5e4b40106255b5,"['Gas station', 'Convenience store']",2.4,8
 0x809ac4d59f52558d:0xed1f83c3c392b083,['Dairy supplier'],3.9,18
 0x809adbf17af1107f:0x7d5277f1659e8b1d,"['Orthodox church', 'Church']",4.9,14
 0x809ad7c39ffb1c0d:0xd0cc464614d48bc3,['Environmental program'],4.3,6
@@ -5244,6 +5367,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada3ec4e7f23f:0x3d6467c2fb976f2d,"['Family law attorney', 'Attorney']",4.3,8
 0x809ae96e329614a9:0x7ae9262754b9e21d,['Home builder'],4.4,18
 0x809ae58375416fd7:0x87b2c45445d97206,['Carpet cleaning service'],5.0,7
+0x809a99e85c8fd66f:0x9cc1d44fae56bfcd,"['Wedding venue', 'Event venue']",4.2,27
 0x809ade17728aeaeb:0x7ce762cf9d25e556,"['Insurance agency', 'Auto insurance agency', 'Home insurance agency', 'Life insurance agency', 'Motorcycle insurance agency', ""Renter's insurance agency""]",5.0,8
 0x809adbdf593fe94b:0x746ef44579b72882,"['Chiropractor', 'Alternative medicine practitioner', 'Pain control clinic']",4.8,28
 0x809ad12931055555:0x92474a70ad547f91,"['Business networking company', 'Club']",5.0,33
@@ -5348,6 +5472,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adf1b6b5b888f:0x18148b5282527205,['Beauty salon'],4.7,88
 0x809ad83423a7ba53:0x7698cdcbfc77ce7,['Mover'],4.0,1
 0x809ad095a0489c69:0x78a4c8fbe8f83499,"['Commercial printer', 'Copy shop', 'Digital printer', 'Graphic designer', 'Print shop', 'Promotional products supplier']",5.0,168
+0x8084df8b4b62b671:0x9f9cfb33e5b7e4de,['Laundromat'],2.6,8
 0x809ac9d07a532af3:0xdcd91b4986d06659,"['Beer garden', 'Bar', 'Bowling alley', 'Indoor playground', 'Restaurant']",4.2,26
 0x809ad99e40138837:0xbef764e3cb284a1c,['Motor vehicle dealer'],4.5,23
 0x809acfdef6f2f227:0xadf52d4184f8e1b6,['Auto body shop'],4.8,17
@@ -5449,7 +5574,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad6257bf98293:0xb882069cc3f93ffc,['Vitamin & supplements store'],5.0,4
 0x809ae803656b0453:0x6a9c80805f560fca,['Used auto parts store'],5.0,2
 0x809adfa096b8c797:0xc50ed4356058c36f,['Real estate consultant'],5.0,3
+0x809ab8adce9ae4a3:0x22ff9118f0997391,"['Building materials supplier', 'Door supplier', 'Millwork shop']",4.3,18
 0x809ae5b6421623ef:0xcd288b3b2ca70641,['Association or organization'],4.7,3
+0x809aac792811e7f1:0x6bc9c34ff1a1fcf1,['RV park'],4.5,106
 0x809ad9a5f752c96b:0xeff0d3ade66b25,['Towing service'],2.5,77
 0x809ad0e0bad1fbf1:0xef334609957fc3a4,"['Hair salon', 'Barber shop']",4.1,88
 0x809ae5d9d0cef987:0xe2245dac8d4914b3,['Ice cream shop'],4.9,48
@@ -5479,6 +5606,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae749f872b055:0xb0e0f43a303571dc,"[""Women's clothing store""]",4.2,6
 0x809add82fa155555:0x102e8c8069a258dd,['Used car dealer'],4.7,18
 0x809ad11e11501949:0x299901eb4732c5fe,['Non-profit organization'],5.0,7
+0x8084df72d8100443:0x45832d7192f34a12,['Museum'],5.0,2
 0x809ad0f0dfacb7db:0xf3df77495406ef62,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.3,108
 0x809ac5595b91dc19:0x1b010d4520bd560c,['School district office'],2.4,8
 0x809ac55c6bf1eb29:0x28554ca88dc49888,['Non-profit organization'],5.0,2
@@ -5538,6 +5666,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adad2626afe2d:0xca8eb6c6b18e5007,['Auto repair shop'],5.0,36
 0x809aded837d54fb3:0xe97381df3c7e0a9f,['Rock shop'],4.9,8
 0x809ade497712a5b3:0x886d4f8ae1a6a110,"['Hair salon', 'Barber shop']",4.9,68
+0x809aa2d01c5034c1:0xabdb9353ffad5ed6,"['Tax preparation service', 'Accountant', 'Tax consultant', 'Tax preparation']",5.0,14
+0x809aa2d0978529f9:0x40da8067b0b165f4,['Gas station'],3.9,18
 0x8084d11398cc935b:0xc448b0258bd6050f,['Building materials supplier'],5.0,3
 0x809ac9f965e99985:0x30af8f54b52aca47,"['Pizza restaurant', 'Indian restaurant']",4.3,68
 0x809ad39073f5d939:0xc1122831a1fac005,['Cold storage facility'],4.2,8
@@ -5659,11 +5789,13 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae5060b970e03:0x7ce8cacf723601ff,"['Cosmetics store', 'Beauty supply store', 'Make-up artist']",4.4,35
 0x809ad5f82f8bcdf7:0xb15a76bbeb956ce,['Beauty salon'],4.5,18
 0x809ad3ff6f31701b:0xfb29974db1ce51ef,"['Industrial equipment supplier', 'Hydraulic equipment supplier']",5.0,1
+0x80854d81912c9467:0x2db5b54c96b30b1d,['Restaurant'],4.4,18
 0x809ac89dbe5514df:0x9390f647324446b5,"['Florist', 'Flower delivery', 'Gift basket store', 'Wedding service']",4.1,58
 0x809ac33b2224e243:0xc7049f324aa1718e,"['Used auto parts store', 'Auto parts store']",4.5,8
 0x809adf1b6c9d6d61:0xda3de1aa5031cd96,['Tax preparation service'],3.2,6
 0x809ad8c4ed0c1171:0xeb5b06c96fbde166,['Towing service'],4.9,48
 0x809adfb5a1d603db:0xfe1cc0cfacfda227,"['Costume store', 'Party store']",3.9,25
+0x8084e004dba61c61:0xadd2df86df88b0bd,"['Winery', 'Tourist attraction']",4.6,18
 0x809ae4f0a0e4a81f:0x87806ce3d912e9bd,['Park'],4.0,4
 0x809ad46ace5a1df1:0xf5ecdcecb7410d79,['Equipment rental agency'],4.2,28
 0x809ac57a6d37a5d3:0xb85447347be07068,['Department of motor vehicles'],1.9,38
@@ -5848,6 +5980,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada56668579d7:0x289179339dffc740,"['Gym', 'Physical fitness program', 'Pilates studio']",4.9,17
 0x809adb347899b865:0xdc54e8e046a8b314,['Restaurant'],4.5,78
 0x809ace166fda44f1:0x9b628d4e798782ec,['Mortgage lender'],5.0,244
+0x809abd29dcae7511:0x8eb4cb989732af47,['Building materials supplier'],4.2,5
 0x809ad1b3a8b91e53:0x227f4e72999d5410,['Hair salon'],3.7,6
 0x809ad6cd1e2fc25f:0x1b8bf2984b89f043,"['Frozen yogurt shop', 'Ice cream shop']",4.1,58
 0x809ac744c1fa7def:0xd41e2e73c1f24846,['Coffee shop'],2.0,4
@@ -5878,6 +6011,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x808529b607a973ef:0x2b52f91b39fe6d02,['Dentist'],4.6,8
 0x808528354dd66787:0xae57ad47c136e9ac,"['Drug store', 'Convenience store', 'Cosmetics store']",2.5,56
 0x809ad98960b7effb:0xb766baa9c4e8b36b,['Bathroom remodeler'],5.0,28
+0x809abd04d1155e7f:0xc549f8130fa8cf71,['Nail salon'],4.2,78
 0x809ad12f482e9c57:0x4eb0e527fbda5496,['State government office'],3.8,4
 0x809acfaf78c4706f:0xb849672c7159a0f6,['Grocery store'],3.1,38
 0x809ad0c104992ab1:0x84dfd0f9a209af28,['Thai massage therapist'],3.0,2
@@ -5918,6 +6052,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809add91684bcd61:0xa4562bddc4443999,['Chimney sweep'],5.0,8
 0x809adf50426b7813:0x64d405231d3a2b92,['Shredding service'],4.8,4
 0x80852903012b5c25:0xf0acec530ca5b9a8,['Swimming pool'],4.5,28
+0x809abcfd782e6c05:0xe2137a618b041a24,"['Fast food restaurant', 'Chicken restaurant', 'Takeout restaurant', 'Seafood restaurant']",3.5,135
 0x809ac744989d3fab:0x49264d67dba6349e,"['Dentist', 'Cosmetic dentist']",5.0,163
 0x809adf70c78109a7:0x28688fa578b8a254,"['Fishing store', 'Outdoor sports store', 'Sporting goods store']",4.7,97
 0x809ac5f7b4b42a2b:0xe575ba98e778a875,['Home builder'],4.1,8
@@ -6073,6 +6208,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad79f4e07cca5:0x7aad9512979fdafb,['Archery range'],4.5,4
 0x808529739eb6e7a7:0x78a8f3c0f7527411,['Barber shop'],3.7,28
 0x80852bd62e3530e5:0x267defe6b4436cf8,"['Auto repair shop', 'Auto air conditioning service', 'Auto electrical service', 'Auto tune up service', 'Brake shop', 'Car repair and maintenance', 'Mechanic', 'Oil change service']",4.5,48
+0x8084e2304e982499:0xed67ce830f056114,['Hiking area'],4.8,9
 0x809ad09b0d6d0371:0x664124b9fcdecfe8,['Hospital'],4.2,568
 0x809ad1ca0524060d:0x60ba04d7d0790f88,"['Pizza restaurant', 'American restaurant', 'Chicken wings restaurant', 'Fast food restaurant', 'Pizza delivery', 'Pizza Takeout']",3.9,318
 0x809ad6ae3b7cc2ff:0x8fc7731044df1bd0,"['Auto parts store', 'Auto body parts supplier', 'Car battery store', 'Car repair and maintenance', 'Car stereo store', 'Motorcycle parts store', 'Trailer supply store', 'Truck accessories store']",4.5,167
@@ -6087,6 +6223,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d054b8bf9c11:0xa52b1f405a5a8f38,['Contractor'],5.0,3
 0x809ad73dafd16813:0x9b1024e3dc057975,"['Beauty salon', 'Hair salon']",4.0,6
 0x809ad6b1a2a84c71:0x6a0f5ab2d319e9a1,"['Tire shop', 'Auto spring shop', 'Brake shop']",4.5,44
+0x809aa3b854e9d673:0x49f8e57878638808,['Restaurant'],4.1,85
 0x809adb3347230753:0xccf5dbaf60fa4357,"['Thrift store', 'Non-profit organization']",4.3,68
 0x809ada3893d17fd5:0x407b312ee01f4be,['Hair salon'],4.6,12
 0x809ada3f67b924ad:0x68f3e629cd0fe26c,"['Consultant', 'Insurance agency']",4.0,4
@@ -6188,6 +6325,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adf3da02dd799:0x27e7085641eb87b5,['Apartment building'],3.6,66
 0x809ad83db78b4397:0x7fdeac9495547ff6,['Heating equipment supplier'],4.8,6
 0x809add564b9e8c55:0x150eed1d116f2cc6,"['Self-storage facility', 'Automobile storage facility', 'Boat storage facility', 'Records storage facility']",4.5,93
+0x809abd2bfa90ff07:0xbc1960fe06caaa3f,['Optometrist'],5.0,2
 0x809ada55da84df53:0xc92352cdab7e2908,"['Optometrist', 'Optician']",3.8,15
 0x8085283dafaf1721:0xc7cea8e2206fc71b,"['Optometrist', 'Contact lenses supplier', 'Eye care center']",5.0,8
 0x809ac7005d222e67:0xec76518355f7f7c6,['Title company'],4.4,7
@@ -6205,6 +6343,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809abf4e0c34f1b1:0xfbca4d686893dc4a,['Park'],4.1,17
 0x809add6d35ff27f9:0x4aa5e81256786f6e,['Liquor store'],4.1,18
 0x809ad7062980c187:0xcda68eb0af607cd2,"['Truck rental agency', 'Van rental agency']",3.2,5
+0x809aacb8ae60ca09:0xeda3c0984f9e2a4d,"['RV park', 'Resort hotel']",3.2,61
 0x809ad96b545bb26d:0x9dc64489c96cdbbf,"['Gas station', 'ATM', 'Car wash', 'Convenience store']",3.4,38
 0x809ae3ff57f34d41:0x28b820d6044b3b66,['Baseball field'],4.0,3
 0x809adba34a73c6b1:0xd339341608b8f4b2,['Doctor'],4.8,18
@@ -6303,6 +6442,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad7b5582ec80f:0xf42af255248d17dd,"['Museum', 'Tourist attraction']",5.0,2
 0x809ad579f648582f:0x88d489548d86d444,['Gas station'],3.4,54
 0x809ada3384c46cb7:0xc1db093bf12425a5,['Auto body shop'],4.7,34
+0x8084df852e532d79:0xd295c0fe7ab912db,"['Gas station', 'ATM', 'Auto repair shop', 'Convenience store', 'Diesel fuel supplier', 'Fuel pump', 'Gas company']",2.4,8
 0x809ac65da931ca9f:0x17afb10f2ecfdb85,"['Gas station', 'Auto repair shop', 'Convenience store', 'Diesel fuel supplier', 'Fuel pump']",3.1,8
 0x809ad1af7ada4421:0x7c8f4f6d9fe67853,['Horse riding field'],4.6,16
 0x809ac496729677d7:0x59e6befbf996d3a,"['Gas station', 'Car wash', 'Convenience store']",3.1,7
@@ -6338,6 +6478,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac6bedd194b79:0xefa8d11ba5abad7c,"['Auto parts store', 'Car accessories store', 'Car battery store', 'Tool rental service']",4.4,226
 0x809ada4b60e7ead3:0xc171383488ccf766,['Gas station'],3.7,38
 0x809ada4b7013a963:0x335ae65a4b95495d,"['Locksmith', 'Emergency locksmith service', 'Key duplication service', 'Security system installer']",4.0,38
+0x8084df8cb31dec51:0x8414c9dd557f918a,"['Auto parts store', 'Trailer supply store', 'Truck accessories store']",4.6,38
 0x809adedb04be1f9d:0xca5916bff2461cea,"['Corporate office', 'Advertising agency', 'Media company', 'Radio broadcaster']",4.6,35
 0x809b29f5fc8fa6b9:0x8467b50da59535a0,"['Insurance agency', 'Auto insurance agency', 'Home insurance agency', 'Life insurance agency', 'Motorcycle insurance agency', ""Renter's insurance agency""]",5.0,1
 0x809ace22e48fccd3:0x2e467d75bed4fa67,"['Gas station', 'Auto repair shop', 'Convenience store', 'Diesel fuel supplier', 'Fuel pump', 'Gas company']",3.7,8
@@ -6423,6 +6564,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0dac0f13db1:0xd2126790ec8cc18c,"['Auto repair shop', 'Auto electrical service', 'Brake shop', 'Oil change service', 'Smog inspection station', 'Transmission shop']",4.8,166
 0x809ae1367c98ecd1:0x45e3d58cc0ff50be,"['Auto dent removal service', 'Auto body shop']",4.7,48
 0x809ae41ae35f9ca5:0x791a6b20e65f817d,['Martial arts school'],4.6,18
+0x809aad76475cb271:0xbf61abe905ba18b8,['Sandwich shop'],5.0,18
 0x809ae504b29a2b91:0x77f3b8fbac0607b8,"['Gym', 'Fitness center', 'Personal trainer', 'Physical fitness program']",4.6,146
 0x809ae4140b104767:0x12fcc650959967c7,"['Pizza restaurant', 'Takeout Restaurant']",3.0,5
 0x809ae3d8b0f32907:0x377dcd48b0d5452b,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",4.0,35
@@ -6467,6 +6609,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad99f94f1f583:0x6baa454fa9271a8e,"['Golf shop', 'Sporting goods store', 'Sportswear store']",4.9,108
 0x809adb11e41bd707:0xe4a7a8e99f3c89a9,['Private investigator'],4.4,18
 0x809add8835891461:0x1ef98660723f42f,"['Pet supply store', 'Animal feed store', 'Pet store']",4.5,38
+0x8084dfd6123ce63b:0x3d4ce25ae996a9a1,['Brewery'],4.5,38
 0x809adb29dd812a63:0x55aaf76459694a91,['Restaurant'],4.3,78
 0x808529dd4dc45df1:0x5aaeebf54115c7a9,['Vietnamese restaurant'],4.0,8
 0x80852bb8dd58f2db:0x57cef4b4e2cf7615,"['Shipping and mailing service', 'Copy shop', 'Gift wrap store', 'Greeting card shop', 'Lamination service', 'Mailbox rental service', 'Notary public', 'Passport photo processor', 'Shredding service']",5.0,13
@@ -6500,6 +6643,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0b95f79ef3b:0x646dbfd412f22057,"['Massage therapist', 'Holistic medicine practitioner', 'Life coach', 'Lymph drainage therapist', 'Reiki therapist', 'Sports massage therapist']",4.6,48
 0x809ae5d3317d511d:0xbac754231aedf5cd,['Corporate office'],4.5,17
 0x809ae5060bb48dc7:0xa81fe254250ea8cf,"[""Men's clothing store"", 'Clothing store', 'Custom t-shirt store', 'Shoe store', 'Tailor', 'Tuxedo shop']",4.1,16
+0x809abc7891a7e861:0x6c3dae6f1dfc3bf7,['Pumpkin patch'],4.1,38
 0x809b1f72902c81a1:0x2ecfc5bfc8539bdf,"['Auto repair shop', 'Smog inspection station', 'Tire shop', 'Wheel alignment service']",4.2,27
 0x809ab8a4a810477d:0x94c688d1b57b7298,['Medical Center'],4.3,38
 0x809ac670ee2efcc1:0x4be94d3dea216bb1,['Home builder'],4.0,4
@@ -6621,6 +6765,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d0fd80daebed:0xb1783e3fdd8e82a2,['Pest control service'],4.8,128
 0x809ad12bc2427779:0xf53660356de7a490,"['Beauty salon', 'Barber shop', 'Eyelash salon', 'Hair salon', 'Make-up artist', 'Nail salon']",3.9,8
 0x809ad0c3c353cc05:0xd20734c4baf463d1,"['Used book store', 'Book store']",4.6,18
+0x809aa2dad95e9e65:0xcd972c5626b6b52b,['Recreation center'],4.6,38
 0x809ad9a4a6468c25:0x6552d472c1b3f669,['Bubble tea store'],3.8,74
 0x809ac5305b71729b:0xf3e6cf326ac19ae,['Clothing store'],5.0,8
 0x80852963f52616c3:0xf426b9973b2bb8,"['Hair salon', 'Beauty salon']",4.6,25
@@ -6712,6 +6857,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac76e65e5b2e3:0x6f5a9df396898cb5,"['Car dealer', 'Car rental agency', 'Used car dealer']",4.6,7
 0x809add28b840c143:0x2deed76247c07ce6,"['Cell phone store', 'Electronic parts supplier', 'Electronics store', 'Telephone company']",4.0,27
 0x809ac745ddd5db13:0xeae39fe323bc282d,"['Coin dealer', 'Diamond buyer', 'Gold dealer', 'Jeweler', 'Jewelry buyer', 'Pawn shop']",4.7,38
+0x809adc3de7afb905:0x7a327854e73d7b25,"['Sailing school', 'Boat rental service', 'Boating instructor', 'Recreation center']",4.3,3
 0x809adcbcd0523069:0x9cf38c762f96418b,['Accountant'],5.0,3
 0x809ad1d91f38d87b:0xbe8f90a65e9b3e3d,['Cocktail bar'],4.3,74
 0x809ade4ee11df03d:0xcbb27499998db5e5,['Convenience store'],2.8,18
@@ -6725,7 +6871,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada193b953301:0x6268b3c636bd88bf,"['Chinese restaurant', 'Asian restaurant', 'Restaurant']",3.8,26
 0x809ae69958a0d293:0xd06098c21c437b07,"['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant', 'Restaurant']",4.3,133
 0x809ad9cc9f60e58f:0xd27ae7b51ba4988d,['Electronics store'],3.0,2
+0x809abd02fd7a82e1:0xe7e41270e03be583,"['Pizza restaurant', 'Pizza delivery', 'Pizza Takeout']",3.8,88
 0x809ab9e62da4aebb:0x30d3fd4b30fee23,['Warehouse'],4.5,10
+0x809abdaa15ab3725:0x6ce9fbd20ec51838,['Restaurant'],5.0,5
 0x809ae6ac8253eed3:0xdc8300134b2e523,['Performing arts theater'],4.8,98
 0x809ae42093f04197:0xfd59b5c7c6f0a24b,['Apartment complex'],3.7,8
 0x809add3d94accbd5:0xafa34cf3122b3b0f,"['Flooring store', 'Carpet installer', 'Carpet store', 'Flooring contractor', 'Wood and laminate flooring supplier', 'Wood floor installation service']",4.6,124
@@ -6733,6 +6881,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae4dea45a0575:0x1cbaae4ede799bb3,['Home builder'],4.2,6
 0x809ae558940768df:0xa82e00ebc279cd3f,['Park'],4.8,4
 0x809ad630f3e07511:0x1da02efa2ce32d4d,"['Government office', 'Conservation department', 'Local government office']",3.2,18
+0x809aa2d412df20ab:0x518e6ed19b1cf829,['Seventh-day Adventist church'],4.2,5
 0x809adfeda6368569:0x53a0abf669e9d02e,['Barber shop'],4.7,54
 0x809ade270ea9b267:0x72e508b747d70c67,"['Tax preparation service', 'Accountant', 'Tax consultant', 'Tax preparation']",4.4,18
 0x809adfdb63371883:0xb3056701c5b7838d,"['Gas station', 'Auto repair shop', 'Convenience store', 'Diesel fuel supplier', 'Fuel pump', 'Gas company']",3.1,8
@@ -6888,6 +7037,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada18f5e60bfb:0x9cfbe66213afc080,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.9,28
 0x809ada1e9a5c35d9:0xf15b563528a1f67,"['Cell phone store', 'Telecommunications service provider']",4.4,18
 0x809ad0d50190b7d5:0xa404619eff438407,['Legal services'],4.2,68
+0x809abd26bfe4d853:0x4ea27662c3fb5a52,"['Trailer dealer', 'Horse trailer dealer', 'Trailer repair shop', 'Trailer supply store', 'Truck accessories store', 'Truck topper supplier', 'Utility trailer dealer']",4.6,108
 0x809ae7e3c22eb2ed:0xe874f2120fe0f767,['Bar'],4.5,65
 0x809ad6a8d8f8bbf5:0x949aa63da4cd226b,"['Truck rental agency', 'Moving and storage service', 'Moving supply store', 'Packaging supply store', 'Propane supplier', 'Self-storage facility', 'Trailer rental service', 'Trailer supply store', 'Used truck dealer', 'Van rental agency']",3.6,64
 0x809ace1c9a8a533b:0x75b4edec446b8927,"['Insurance agency', 'Auto insurance agency', 'Home insurance agency', 'Life insurance agency', ""Renter's insurance agency""]",4.3,7
@@ -7099,6 +7249,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada551282741f:0x6e02c990aebb5c28,['Bakery'],4.1,54
 0x809adf95f0327fc3:0x3647d44836afb530,"['Auto repair shop', 'Smog inspection station']",4.4,68
 0x809ad05e2693e0a5:0xb8cd3a2adaf0a211,['Book store'],4.8,118
+0x809abd04d1155e7f:0xc54ed63d9faf30b3,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.7,57
 0x809add6fba892aeb:0x1791b2dbb3cca544,"['Pizza restaurant', 'Pizza delivery', 'Pizza Takeout']",4.6,48
 0x809ae788557ae8cb:0xc13cb1bdf495d4c8,['Manufacturer'],4.0,2
 0x809ac6f6831bcc9b:0x50fcbfc5371d15a,['Gas station'],4.2,78
@@ -7144,7 +7295,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8085282ba9920f3f:0x95c8490113a02d2b,['Farm'],4.4,58
 0x809ad0f6c6ccc819:0x89c7935fa2fca07a,['Hair salon'],4.9,28
 0x8085297e7b53a695:0x31d5662504d3508,"['Auto repair shop', 'Oil change service', 'Tire shop']",4.9,54
+0x8084dd817b415cf1:0x39af3e6b829d5f3b,['Farm'],4.9,7
 0x808529765e048203:0x47ca85e0ef8b3110,"['Beauty salon', 'Hair salon']",4.2,28
+0x80851fed102d4353:0xa4ac507016466000,['Egg supplier'],5.0,15
 0x808528ee82982f21:0xcd85db72a0d28dad,['Park'],4.8,8
 0x809ac78321453b83:0x88e0205911d3e332,['Bubble tea store'],4.5,157
 0x809ac723f6a764d7:0x9ebc648402719494,['Animal hospital'],4.5,68
@@ -7180,6 +7333,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac435f3442e8b:0xacd8a9e8f690a6ed,['Interior designer'],3.4,8
 0x809add55911bffb5:0xd033068f0caa24f6,"['Irrigation equipment supplier', 'Fertilizer supplier', 'Landscaping supply store', 'Lawn irrigation equipment supplier']",4.7,8
 0x809ae4168e20724d:0xd689bfbf96640f67,"['Nail salon', 'Spa', 'Waxing hair removal service']",4.0,21
+0x808520110c7ab43f:0x414d471156f168d3,['Farm'],5.0,8
 0x809adda3f5ff2fe5:0xf668d70978846173,['Car detailing service'],5.0,47
 0x809b53df6785f543:0x75aee257442701b2,"['Photography service', 'Photo restoration service', 'Photographer', 'Wedding photographer', 'Wedding service']",5.0,18
 0x809adeffe04dfdb3:0x7128678aa9ada4cb,['Pharmacy'],3.9,14
@@ -7191,6 +7345,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ade4972e34f09:0x5f4c154d90839a8e,"['Pizza restaurant', 'Family restaurant', 'Italian restaurant', 'Takeout Restaurant', 'Vegetarian restaurant']",4.3,206
 0x809ac74f22b5cd1b:0x93272787d656569a,"['Art gallery', 'Gift shop']",4.2,8
 0x809ad9e2e8cdd105:0xd0c5e6ad0113625d,['Used car dealer'],4.5,14
+0x809abc4e4c60c611:0x92135faa29251f4b,['Association or organization'],4.5,98
 0x809ad79ca6e55555:0x458f4d75fdb1c573,['Furniture store'],4.5,15
 0x809ae538e3a71565:0x3c3530cfb736a96a,"['Costume store', 'Party store']",4.1,17
 0x809ade23e5edf869:0xad75951e53769738,['Bridal shop'],4.5,48
@@ -7297,6 +7452,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8085297399c74335:0x8f38870a00bb52fc,"['Body piercing shop', 'Tattoo shop']",4.3,77
 0x8084d0f2deb5f5df:0xca0bf1c517a5bd44,"['Nail salon', 'Waxing hair removal service']",3.4,48
 0x80852973bd7fdb17:0x7ec9f4c4ce5bc185,"['Cell phone store', 'Telecommunications contractor', 'Telecommunications service provider']",4.8,24
+0x8084df8ddce7a9b3:0x79e81f4ca6886ed0,['Liquor store'],4.1,8
 0x8084d0f25c0c00a7:0xdbbafa0b65323ebf,['Courier service'],5.0,4
 0x8084d0e4c0b753cf:0xb2d6ec73bca36947,['Legal services'],4.4,38
 0x808529d60080410b:0x9093df70cecb889d,['Apartment complex'],5.0,2
@@ -7351,6 +7507,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad9daa29540af:0x2feecc033feb961c,['Baptist church'],4.6,17
 0x809adbdf435abdc5:0x542aa5f05e4b350b,"['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",4.0,38
 0x809ac652fa2ab415:0x19614a82d6e7f281,['Business center'],4.3,3
+0x809aad5c90a3d05b:0xab110f652c8b3bfb,['Bait shop'],4.1,48
 0x809adfb976ad335d:0xffa9f9caec9e8114,['Antique store'],3.8,13
 0x809ad14dadb381bb:0xefa365ae0b00b5fa,['Used car dealer'],3.8,27
 0x809ad9fa07935305:0x1ed0a2e18ca73733,['Towing service'],3.0,38
@@ -7414,6 +7571,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac1645115fc83:0x485c94d488fb1737,['Nail salon'],4.1,34
 0x809ac6befe35e401:0x563222fd58f3c7c4,"['Dental clinic', 'Cosmetic dentist', 'Dentist', 'Emergency dental service', 'Orthodontist']",4.9,314
 0x809ac76b5bd4e9f1:0xd314388b631ae4c5,['Nail salon'],3.8,68
+0x809acf88f1c7e6a3:0x4c1bfce063abeb83,"['Beer distributor', 'Brewpub']",4.3,48
 0x809ac7947f9da339:0x4ebe7b50d49450d8,"['Veterinarian', 'Animal hospital', 'Emergency veterinarian service']",4.0,66
 0x809ad6cd7419c5b9:0x8fb3ba38bd426da5,"['Winery', 'Gift basket store', 'Tourist attraction', 'Wine store']",4.8,17
 0x809ac51dc3fa966b:0xf9440ae3663ab048,['Truck repair shop'],4.7,8
@@ -7479,6 +7637,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adca465715d29:0x1df6877603950ed9,"['State government office', 'Tax department']",1.9,105
 0x809ad7b9d669b63b:0x90c3602c17853cf5,['Church'],4.3,13
 0x809aded6005bcd2b:0xeb4660a549f735da,['Marriage or relationship counselor'],3.7,3
+0x80900b24d1501eef:0x9339e1f75156d9bc,['Farm'],4.9,16
 0x809ad64916c48281:0x7841aa6248aeed97,"['Estate planning attorney', 'Attorney']",3.7,3
 0x809ae42ea3391a83:0xad28829ca916dc5e,"['Cell phone store', 'Cell phone accessory store', 'Telecommunications service provider']",4.0,28
 0x809ae7aa070ab4a3:0xe44a0a2e23b389ae,"['Gun shop', 'Ammunition supplier']",3.5,118
@@ -7508,7 +7667,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0c3e4953dcb:0x4ff041855df4d924,['Beauty salon'],5.0,5
 0x809adf3d31e4ab89:0x828a2800ace72606,"['Sandwich shop', 'Caterer', 'Deli', 'Fast food restaurant', 'Restaurant']",4.0,128
 0x809adedf9f24ac1b:0x8bb79a25debd1662,"['Trailer dealer', 'Trailer repair shop', 'Trailer supply store', 'Utility trailer dealer']",4.1,57
+0x809abcfd784a3ccd:0x8de4dd50e1476273,"['Chicken restaurant', 'Fast food restaurant']",3.2,158
 0x809ac70209448ac3:0x3194f10dee1442ee,"['Chinese restaurant', 'Asian restaurant', 'Restaurant']",4.0,186
+0x809aa2d08839ac3f:0x829fb32fb2266fde,['Gun shop'],4.7,16
 0x80852974fd0f0c97:0x518acaa48b210817,"['Pet supply store', 'Animal feed store', 'Pet store']",4.7,48
 0x809ac4acb0129501:0x5c758ce66abf69a5,"['Drug store', 'Beauty supply store', 'Convenience store', 'General store', 'Greeting card shop']",3.8,104
 0x809add137dd3066b:0xdb61cb10490f73cd,['Sushi restaurant'],4.3,58
@@ -7522,6 +7683,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae688c79cc72d:0xf1014b042cfe939a,['Property management company'],3.3,581
 0x809ada64da962e2d:0x83e9eed585ecaced,['Animal hospital'],4.4,58
 0x809ae68eb913ac99:0x8dfe9b3b66ad1b05,"['Clothing store', 'Jeans shop', 'Fashion accessories store', ""Men's clothing store"", 'Shoe store', 'Sunglasses store', 'Swimwear store', ""Women's clothing store""]",4.2,78
+0x809aa2d7ef42e839:0x58304bc2f87d924f,['Park'],4.1,92
 0x809adb0be3668ad9:0x9be772a424dff9a6,"['Personal injury attorney', 'Legal services']",4.5,208
 0x809ac543f7adedf7:0xc51478706e672b52,"['Fast food restaurant', 'Falafel restaurant', 'Greek restaurant', 'Halal restaurant', 'Mediterranean restaurant', 'Middle Eastern restaurant']",4.5,118
 0x809ad7b8ba9315c1:0xbde2969eff0d08e0,"['Self-storage facility', 'Automobile storage facility', 'Boat storage facility', 'Moving supply store', 'RV storage facility', 'Storage facility']",4.7,328
@@ -7660,9 +7822,12 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac33535b638b5:0x4ce236f00c36e131,"['Church of Jesus Christ of Latter-day Saints', 'Church', 'Non-profit organization', 'Religious organization']",4.7,8
 0x8085291180ce15b3:0x4b223755ad2225b2,['Event venue'],4.3,36
 0x809ad7b0442f2ff5:0x6c633c5ddac932fe,"['Beauty salon', 'Hair removal service']",3.8,17
+0x809ab1f0171fa3c9:0xc33cad2fd8700c6e,['Museum'],5.0,5
 0x8084d14ad96990b9:0x24bd7c95a4646039,"['Indian restaurant', 'Nepalese restaurant']",3.4,8
 0x809ad03b5b19e3a7:0x6be51f52972d662,"['Truck rental agency', 'Trailer rental service', 'Van rental agency']",3.8,8
+0x809aa2d8f4667f9d:0x75c5ce974705f302,['Preschool'],5.0,1
 0x809ada8b5cec8373:0xfd05fd12153a1eb6,['Bagel shop'],4.4,13
+0x809aa31dbfb014a9:0xd69ef4d4ebaf4896,['Restaurant'],5.0,6
 0x809add84216ae9ff:0xdbbe44cb4299b19f,"['Beauty supply store', 'Barber supply store', 'Cosmetics store']",4.3,38
 0x8085297313856af7:0xd8cda6b332d59457,['Antique store'],4.8,4
 0x808529902142147d:0x789fbfd7e5e418c5,"['Hair salon', 'Beauty salon']",4.8,28
@@ -7797,6 +7962,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0d51a33ac8f:0x4ec0be2fd3cc0a4d,['Car rental agency'],4.3,58
 0x809ac5471404e5fd:0x7b59ae834363e780,['Seventh-day Adventist church'],4.8,28
 0x809ade4f151169b1:0x14e5fadc9e576c39,['Veterinarian'],4.8,108
+0x8084e2305361f199:0x8f8098ae0d9c080,"['Nature preserve', 'Tourist attraction']",4.7,105
 0x809adf1b6c9d6d61:0x93d7cbfe8e6c774f,"['Insurance agency', 'Auto insurance agency', 'Home insurance agency', 'Motorcycle insurance agency', ""Renter's insurance agency""]",3.8,34
 0x809ad4106cf23d61:0xe0ee7d0c54a79e25,['Insurance agency'],5.0,2
 0x809adcc3537125b3:0x304a02b805b66de8,"['Housing development', 'Mobile home park']",3.9,58
@@ -7848,6 +8014,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adacecfd30bc7:0x799ae178989d8dbc,['Import export company'],3.9,47
 0x809adfb58da46f13:0x1d35af3251010890,"['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",3.8,14
 0x809acefdb40a424b:0xe41c78c9d8cdbc9a,"['Mobile phone repair shop', 'Cell phone accessory store', 'Cell phone store', 'Electronics repair shop', 'Phone repair service']",4.8,438
+0x8084dff04bd48555:0x324888ea67d90c37,['Fruit and vegetable store'],4.6,58
 0x809ac491de0834a3:0x3ad9a55f9c8a06c2,['Corporate office'],4.1,18
 0x809ad9f4a3ca81e9:0x59b1282e6b28c2d3,['Car dealer'],4.3,36
 0x809adbb3038b2723:0xe3301334538dc3a1,"[""Jehovah's Witness Kingdom Hall""]",4.9,25
@@ -7862,9 +8029,21 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac4c338e2dfaf:0xb894f0cf2be01f3d,['Auto wrecker'],4.5,17
 0x809ae6a8bf9051c5:0x84686b72fab928d2,"['Veterinarian', 'Emergency veterinarian service']",4.6,88
 0x4076fdfb3be29d7f:0x991f9c4949a4022a,['Optical wholesaler'],3.0,6
+0x8084df8cb170acef:0x23b33b21686c6ee6,"['Auto repair shop', 'Brake shop', 'Smog inspection station', 'Tire shop']",4.7,8
+0x8084df8dc322ebe1:0x166f324c1955b525,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",4.2,98
+0x8084dfeda65b2d95:0xc1a52ccffa033d5c,['Landscaper'],4.5,4
+0x8084df84d6d7487d:0xbc89a49b043f0fe2,['Gas station'],4.0,65
 0x8084d0e36df6d3c1:0x4e351b682e6a7164,"['Law firm', 'Estate planning attorney', 'Personal injury attorney', 'Trial attorney']",4.1,8
+0x8084df8b4d689bdb:0xf9d986c5fc1ef0a3,"['Supermarket', 'Latin American restaurant', 'Mexican restaurant']",3.9,8
+0x8084df8cad118f0f:0x418119707958b2c7,['Barber shop'],4.3,18
+0x8084df328a0ef881:0xc1ee82fdfcd224b,['Laundromat'],4.1,8
+0x8084df8b4e90f713:0x29d3209534c99c7e,['Grocery store'],4.3,3
+0x8084df87d8d982c1:0x18d6d7586a17e24,['Veterinarian'],4.6,57
+0x8084df8cb170acef:0x4e88636c337ba3dd,"['Smog inspection station', 'Auto repair shop', 'Car repair and maintenance', 'Oil change service', 'Used tire shop']",4.0,15
 0x809ae7835e3461e7:0x833ecfd7ca916a2c,['Library'],4.4,58
 0x809add95aff702a1:0xdbc001413dd44c83,['Beauty salon'],4.7,68
+0x8084dfed3b6b4f97:0xc7ef2f5b2b6edd8,['Self-storage facility'],4.0,4
+0x8084dff2c74491b5:0xe0cb94deffee19a4,['Grocery store'],3.9,18
 0x809ad12985675263:0x4726977cbf3999a0,"['Church', 'Religious organization']",4.9,18
 0x809add0ee986cc67:0xaf221db778773f52,"['Park', 'Tourist attraction']",4.2,97
 0x809ae6ab39a180fd:0x365ebb9448fecbb6,['Fraternal organization'],4.3,16
@@ -7885,6 +8064,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x87133f30bd07476d:0xfc9d56cceb42f35f,['Home builder'],4.0,18
 0x809ad4035b73ab1f:0xed6140fcc6541601,['Mobile home dealer'],3.7,28
 0x809ab8b16337009f:0x55e2bbad5666f4ef,"['Pest control service', 'Insulation contractor']",4.9,588
+0x809abd290d62433d:0x1425382e22264a2e,['Mobile home park'],4.2,45
 0x809ac8816efdcbf7:0xbb982636c9b3280d,"['Country club', 'Non-profit organization']",4.7,113
 0x809ac7b79b65d387:0x15e5cee4bc519da7,"[""Women's clothing store""]",4.2,35
 0x809ac7414a162cab:0x83552684b3d00fc9,['Real estate agency'],4.1,7
@@ -8128,6 +8308,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad1b6e978988d:0xf54357871a9c29e2,['Vaporizer store'],4.7,17
 0x809ad1dd8e768dcf:0xe38d53e3dc6f2136,['Vegan restaurant'],5.0,3
 0x809adab975ec2899:0xaf47d1010150b7a5,"['Community health centre', 'Pediatric dentist']",3.6,7
+0x8084df8b51ead723:0xc0cdf187731f38bb,"['Bistro', 'Restaurant']",4.8,48
 0x809adb2fbd111ea7:0xbf9ab9b3f399202e,"['Hamburger restaurant', 'Chicken wings restaurant', 'Fast food restaurant', 'Delivery Restaurant', 'Restaurant']",3.9,78
 0x809ad1d1d3780683:0xe1d5bfb66d7b0d1a,"['Indian restaurant', 'Indian sizzler restaurant', 'Indian takeaway', 'Modern Indian restaurant', 'North Eastern Indian restaurant']",4.6,48
 0x809ac56e0a7d61a7:0xc70ad7b764858a72,"['Vegan restaurant', 'Vegetarian restaurant']",4.6,118
@@ -8155,6 +8336,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809addc3b3dd612d:0x9e1ee1471f40752a,"['Department of motor vehicles', 'Kiosk']",3.8,6
 0x809ada329a3e032d:0xca89f5c34f68d0ee,['Used car dealer'],3.7,48
 0x809ae8002d53c443:0xd6741568168a8060,['Auto parts store'],4.1,15
+0x8084df8b14e1bc6b:0x600587eae1e2001f,"['Mexican restaurant', 'Restaurant']",4.3,307
 0x808529b6fc4934af:0xb124fee459ee401a,"['Hardware store', 'Air filter supplier', 'Electrical supply store', 'Home improvement store', 'Paint store', 'Plumbing supply store', 'Tool store']",4.5,31
 0x808529740b4d6d1d:0x6a75a5e1442a145f,['Car wash'],4.3,135
 0x8084d7d1e015f911:0x48195f1ef135afa,['Golf course'],4.4,148
@@ -8200,6 +8382,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae47cbf96e89b:0xf0ae563ed44224f4,['General contractor'],4.6,8
 0x809ac78d0ac575ed:0x791d32044e73254c,['Deli'],4.7,68
 0x809ada2b631945f3:0x9486737f2c030554,"['Used car dealer', 'Auto broker']",4.5,180
+0x809aa2cf8ba29efd:0xd7bfd23372fc7f3e,['Cell phone store'],4.6,22
 0x809ae7f72696f259:0x964eda14ee555879,"['Car repair and maintenance', 'Auto repair shop']",4.9,117
 0x809ad1da2f8e1b4d:0xf1c3ed79ae54ebfb,"['Window tinting service', 'Auto body shop']",4.9,64
 0x809b2c4b2aee979b:0x966d3cd2499681,['Farm'],5.0,4
@@ -8336,7 +8519,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad9f4a3bfe2d7:0x2bfd1d9a79c9cea9,['Evangelical church'],4.7,18
 0x809ad094f5f4b6a5:0x862d74808d042651,"['Fast food restaurant', 'Restaurant']",4.6,34
 0x809ad1eb716e94a7:0x2be54b6fb244f3ba,['Tattoo shop'],5.0,13
+0x809aa2d77a83415b:0x83f42b144ba6f6b2,['Bakery'],4.8,135
 0x809ae7f8aebd5c2b:0xeea1dd6200a13873,['Pest control service'],5.0,278
+0x809aad573bdadb39:0x3627e12d40f3d9b3,['Restaurant'],4.5,88
 0x809ae17d3ce3a225:0xfb6ee00cb29ce5e0,"['Self-storage facility', 'Moving and storage service', 'Moving supply store', 'Storage facility']",4.8,98
 0x809ad72f419dc585:0xa257c3c4f97140c3,"['Party planner', 'Event planner', 'Graphic designer', 'Party store']",4.3,18
 0x809ad73dbbfe5ef1:0x840e2979936bf736,"['Pizza delivery', 'Takeout Restaurant']",4.5,116
@@ -8352,9 +8537,19 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adb4ca11a2f07:0x79ed252045bb2f6b,"[""Jehovah's Witness Kingdom Hall""]",4.7,18
 0x809ac7ab464df4c5:0xf2847b9be8675005,"['Hospital', 'Medical Center']",4.0,5
 0x809ada38c0683fb3:0x27ad1d51f3ba1501,"['Business center', 'Commercial real estate agency']",3.9,18
+0x809abd13c132d79f:0xee84850cc5fd2976,['Park'],4.5,63
+0x809abd02c21aac87:0xc4b2c290c4b82863,"['Sandwich shop', 'Caterer', 'Deli', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant', 'Salad shop']",3.9,101
 0x809ac74e9ce9727d:0xb9d11abe406ecd88,['Social services organization'],3.0,6
+0x809aa2e61434fc79:0xfc1f5d3772c57f4b,['Home builder'],4.2,8
 0x809ad99dcf7f3ea5:0xf61ef884250224fb,"['Used car dealer', 'Car dealer']",3.4,38
+0x809abcfd9c092997:0x7f87a661be515fc4,"['Oil change service', 'Brake shop', 'Tire shop']",4.3,128
+0x809aa2dad95e9eff:0xf8c7e6c4af52082,['City government office'],3.3,8
 0x809ada2ca648e6b9:0xbebbcb6f8c63dbb0,"['Used car dealer', 'Car dealer']",2.6,27
+0x809aa2c5630c0157:0x5098d9e05d2449f0,"['Cell phone store', 'Cell phone accessory store', 'Telecommunications service provider']",4.0,58
+0x809aa2d0741bb807:0xb5d3eef8805d8067,['Furniture store'],4.7,28
+0x809abd26eec5b9ad:0xcdff96cae982d050,"['Auto repair shop', 'Muffler shop', 'Tire shop', 'Transmission shop']",4.4,38
+0x809aa2d0741bb807:0xec4cad9c7870b5db,['Furniture store'],5.0,2
+0x809aa2cf8bb5cf27:0x27ef1ebe4cccb1f7,['Beauty salon'],4.1,8
 0x809ac6519f8c2d8b:0x2fc157426e5f2f76,"['Park', 'Tourist attraction']",4.3,105
 0x809ad0d6ed78b363:0xd93ea825133b09e,"['Massage spa', 'Day spa', 'Massage therapist', 'Spa', 'Thai massage therapist']",4.6,88
 0x809ac5d8c3977dc9:0x1ee68ab222e0ea7d,"['Skin care clinic', 'Day spa', 'Facial spa', 'Massage spa', 'Massage therapist', 'Medical spa', 'Waxing hair removal service']",4.2,24
@@ -8379,6 +8574,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada477d54072d:0x45cc639747235d9e,['Locksmith'],4.2,137
 0x809ae7f890817913:0x80daa66d63feae5e,['Cabinet maker'],5.0,1
 0x809ab9ee7fab0749:0x42f145241e8227e1,['Smog inspection station'],4.9,84
+0x809aa3b7bedb63bf:0xb73f970df3dedc1,"['Restaurant', 'American restaurant', 'Hamburger restaurant', 'Indian restaurant', 'Seafood restaurant']",4.7,56
 0x809ac6cc59097767:0xe1f0a1dd9c169bd6,"['Park', 'Tourist attraction']",4.4,28
 0x809ac13cb47f81bf:0x20839377f8d312fa,"['Drug store', 'Convenience store', 'Cosmetics store']",3.6,14
 0x809ad18f7126fbb7:0x4c9e90ffed5f0619,['Tea house'],4.7,58
@@ -8419,6 +8615,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad6260a4d05cb:0xab585da4943b2f25,['Apartment complex'],3.3,48
 0x809ad651233e9c1d:0x8f2306d3ac5eeab8,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.9,55
 0x809ad7a75aeac585:0xcb24beb999eab134,"['Cell phone store', 'Telecommunications service provider']",4.2,35
+0x809aa27f6815e8fb:0xd365c160925a1a58,['Farm'],4.3,3
 0x809ad7d3040caf51:0xcd958388af02e9c4,"['Auto body shop', 'Auto bodywork mechanic', 'Auto dent removal service', 'Auto glass shop', 'Auto painting']",4.3,78
 0x809ad61d56966e85:0xaf05b39f71a9893,['Warehouse'],4.1,15
 0x809ada1dd3794c7d:0x69206d32c4baec92,['Jewelry store'],3.5,44
@@ -8468,6 +8665,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae7bec4d6cdc1:0x8808e0d4f886d38,"['Restaurant', 'Bar', 'Brewpub', 'Coffee shop', 'Tea house', 'Wine bar']",4.8,38
 0x809b2080eda3f745:0xb51501f738cfd186,"['Garage door supplier', 'Garage builder']",4.3,18
 0x809adcc73a04bf61:0xfd7824c4e1ce495c,['State government office'],2.2,53
+0x809aad0f03fb8dc9:0x4afc0c09ede0293,['Marina'],4.7,76
 0x809ae0744462cd8b:0x52591adccc936330,['Professional organizer'],5.0,1
 0x809ad4086faee207:0x34faa96c795ad56f,['General contractor'],1.0,1
 0x809ad41a23d1ee73:0xf8f2caa0b5d6262e,"['Self-storage facility', 'Automobile storage facility', 'Moving and storage service', 'Moving supply store', 'Storage facility']",4.4,98
@@ -8764,6 +8962,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae7fe62d976e3:0x72b828789a5569a6,['Auto repair shop'],4.7,3
 0x809ad129277235b7:0x7745efc7770b7fc,['Public library'],4.5,17
 0x809add5c4c7a5e31:0x2604e56b46b5ef03,['Telecommunications equipment supplier'],4.8,114
+0x8084df8de809de19:0xc94d2423dfa7347e,"['Pizza restaurant', 'Caterer', 'Italian restaurant', 'Pizza delivery', 'Pizza Takeout']",4.2,135
+0x8084df8f2281976f:0x9cac3debd79b2bf2,['Park'],4.5,19
+0x8084df8b5058cedf:0x8eab015187acc49e,"['Beauty salon', 'Hair salon', 'Massage therapist', 'Nail salon', 'Waxing hair removal service']",4.7,18
 0x80852972eb1c5363:0x1b64e8259960de12,['Electric vehicle charging station'],4.8,1
 0x809ada3208b86af3:0xdf0c6219ba6685e,"['Auto body shop', 'Auto dent removal service']",4.7,66
 0x809ad0d9f4e346d5:0x292ef3770846f594,"['Restaurant', 'Grill']",3.9,18
@@ -8795,6 +8996,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0ddb2ef9d23:0xdf37d15c321cb445,"['Yoga studio', 'Meditation instructor']",4.9,408
 0x809aded8fce2f887:0x8eefa2f96c5cf6fa,['Bar'],4.4,168
 0x809ac8072c4b0a75:0x8c853d0364792181,['Park'],4.6,124
+0x809abccc3e5521ff:0x3bbfa713f8a5fcfb,"['Park', 'Tourist attraction']",4.3,154
 0x809ad99e643cbd0b:0x8a311775292025be,"['Used car dealer', 'Car dealer', 'Used truck dealer']",4.1,68
 0x809ad8d10a198eb3:0xb3f1a8f6b77737f0,['Bottled water supplier'],4.3,66
 0x809aded14164783b:0x9bd4658910a581a7,"['Drug store', 'Beauty supply store', 'Convenience store', 'Cosmetics store', 'Greeting card shop', 'Perfume store', 'Pharmacy', 'Stationery store']",3.4,28
@@ -8882,6 +9084,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad044ea8cabb3:0xeb10ef68aaeb102d,"['Beauty salon', 'Hair salon']",4.8,14
 0x809ad0b92a058e11:0xfd478fec0b913ac8,"['Gas station', 'Auto repair shop', 'Convenience store', 'Diesel fuel supplier', 'Fuel pump', 'Gas company']",3.1,10
 0x809ad12548008833:0x67299058a1cbdda1,"['Art gallery', 'Art studio']",4.5,68
+0x8084e231aa7b09ff:0x78a3794e6228da3d,['Hiking area'],4.8,38
 0x809ad0fa949140cd:0x2e31d89c12da58e8,['Smog inspection station'],4.6,44
 0x809ad11e03b75b55:0x3e80754d4609c6d4,"['Smog inspection station', 'Gas station']",4.6,37
 0x809ad76691e10acf:0x3722c2878d7c71bf,"['Restaurant', 'Brewery', 'Brewpub', 'Gastropub']",3.8,88
@@ -9018,6 +9221,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8085293efd706ef5:0x6bb5563effababc7,['Cannabis store'],4.7,118
 0x8084d1cf86c8871b:0xd7c9aa01763030d1,"['Tire shop', 'Auto repair shop', 'Wheel store']",3.9,148
 0x809ad127ec01e7d5:0x9d9a39b700f9e1b2,['Veterinary care'],3.0,2
+0x8084e1cc3fbf5bb1:0x4fd39dbd156a9ba1,['Hiking area'],4.4,44
 0x809adbd578a35047:0x96d5cbc7059efa30,['Mechanic'],4.5,18
 0x809ada2b5aee9e69:0x24150dc4d2c495c9,['Car dealer'],4.3,58
 0x809ada34578248e7:0x9e1bbba3f9b0725c,"['Auto body shop', 'Auto dent removal service', 'Auto restoration service', 'Car detailing service']",4.4,49
@@ -9085,8 +9289,10 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adfaa16ed6877:0xa72cdfbe5c68b279,"['Retreat center', 'Event venue']",4.6,18
 0x809ac494a10619a9:0xcea24df61273fb55,['Electrician'],4.5,2
 0x809ad12d008088f3:0xe04859b0c109f853,['Bar'],5.0,2
+0x809aa2db5b6962ff:0xb70886cc32e7a156,['Public swimming pool'],4.3,98
 0x809ad9f6ea7822a1:0x75d088332804b52,"['Family law attorney', 'Divorce lawyer', 'Attorney']",3.5,28
 0x809ac704bd83122b:0x703a68402b9a173,"['Employment agency', 'Employment center', 'Temp agency']",5.0,2
+0x809abd052cfa7847:0xc9d9621c5a9fd1fd,"['Hair salon', 'Barber shop', 'Beauty salon', 'Waxing hair removal service']",3.8,32
 0x809ac7a5b8a279fb:0xdf666e53727a0473,['Book store'],4.7,34
 0x809ad09155555555:0x8eda6f79cf9ed6ca,"['Welding supply store', 'Dry ice supplier', 'Helium gas supplier', 'Industrial equipment supplier', 'Industrial gas supplier', 'Welding gas supplier']",4.8,67
 0x809ad179f20d6e05:0xc7cbab6bb997f791,"['Park', 'Tourist attraction']",3.9,28
@@ -9112,6 +9318,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad12c98c22e3b:0xaf0ce1890ae4beeb,"['Transportation service', 'Car rental agency']",2.0,1
 0x809ad71617d08b27:0x13c33db01785edc5,"['Loan agency', 'Auto insurance agency', 'Check cashing service', 'Money order service', 'Money transfer service', 'Tax preparation']",3.0,25
 0x809ac4775e3c80d1:0x1ea0783314ffb66,['Egg supplier'],5.0,8
+0x809abdaf4284c449:0x15b8c2faf4f989c3,['Car wash'],4.5,85
 0x809ada2b4597222f:0xdbe31d4da93c718e,"['Used car dealer', 'Car dealer', 'Truck dealer', 'Used truck dealer']",3.7,52
 0x809ae7863d08bbbd:0xe1ca7d8b83c686ce,['Event venue'],3.4,16
 0x809adce20643df31:0xd3e53bb430990a61,"['Cell phone store', 'Electronic parts supplier', 'Electronics store', 'Telephone company']",4.2,28
@@ -9205,6 +9412,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad83911ba31d3:0x34b9398b6d458323,"['Building materials store', 'Air compressor repair service', 'Air compressor supplier', 'Fastener supplier', 'Hardware store', 'Repair service', 'Screw supplier', 'Tool repair shop', 'Tool store']",5.0,5
 0x809ace1bedab9d53:0x9f64436e7243b134,"['Miniatures store', 'Game store', 'Hobby store', 'Painting', 'Model shop']",4.7,84
 0x809ada7aab2a7e8f:0x2f78654906f38231,"['Museum', 'History museum', 'Tourist attraction']",4.6,47
+0x809aa293e28997c3:0x52c6b93d93fb72f6,"['Vineyard', 'Caterer', 'Event venue', 'Wedding venue', 'Winery']",4.4,8
 0x809ada5640b0cebb:0x9dc8be7268d4c9cb,"['Hair salon', 'Beauty salon', 'Facial spa', 'Hair extension technician', 'Tanning salon', 'Waxing hair removal service']",4.5,118
 0x809add86b7ba6af3:0x6625fabc6bd9a63b,['Display stand manufacturer'],3.9,16
 0x809ac660bdb91263:0x40ea6543ad48bfd7,"['Motorsports store', 'Motorcycle dealer', 'Motorcycle parts store', 'Motorcycle repair shop', 'Motorcycle shop', 'Used motorcycle dealer']",4.5,138
@@ -9310,13 +9518,23 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ace544c2c3ebf:0xd8f071327ae0ca14,"['Park', 'Tourist attraction']",4.2,128
 0x809ad98bd835b8c5:0x65788f5302a66428,['Barber shop'],4.8,28
 0x809adb46b57d273f:0xda977e50477e59e,"['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",4.1,18
+0x809aad5d43f5215b:0x9df1288c7eef2304,['Grocery store'],4.2,48
 0x809ad71c07e5ad41:0xd6ee61bebf7a1b6d,['Shopping mall'],4.3,136
 0x809ae6997e21b8db:0x2a18efa13f1a1c3,"['Mexican restaurant', 'Brunch restaurant', 'Latin American restaurant']",4.2,417
 0x809ae5b34e63bc17:0x16d3a4d9f5f99a64,['Oil change service'],4.3,88
 0x809ade214f7b1099:0x8399f8d32e751423,"['Photographer', 'Portrait studio']",2.7,18
+0x809abcf982d1b0ff:0x7f238b04767da69b,['Butcher shop'],4.9,56
+0x809aa2dcbf770d1f:0xe137ba54383c544f,['Villa'],4.0,1
+0x809aa2d08e443ce7:0x549b4056a87a7d2b,"['Brewery', 'Brewing supply store', 'Brewpub']",4.5,44
+0x809aa2c5630c0157:0x301f0724632b8b01,['Cafe'],4.2,44
+0x809aa2d08d2ed067:0x7a1d6f0a24aa5640,"['Cell phone store', 'Electronic parts supplier', 'Electronics store', 'Telephone company']",4.5,44
 0x809ac74359ac8bf5:0xefecba5dcae670a7,"['Video game store', 'Collectibles store', 'DVD store', 'Electronics repair shop', 'Electronics store', 'Game store', 'Repair service', 'Toy store']",4.6,128
+0x809aa2cf8bb5cf27:0x41cd9ad43f4feb73,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.2,65
 0x809ad7c941107e13:0xfbe9c69f9ae8dbd1,"['Paint store', 'Building materials store', 'Building materials supplier', 'Paint manufacturer', 'Painting', 'Paintings store']",4.6,27
 0x809ab9d42fb704b9:0x9618f8ea90128a92,['Gas station'],4.2,56
+0x809aa2cf8bb5cf27:0x6c3fa87175c3da9b,['Donut shop'],4.5,78
+0x809aa2cf8bb5cf27:0x724e41bb8535434d,['Frozen yogurt shop'],4.8,48
+0x809aa2d057e8da39:0x7c6f10d895aace77,['Restaurant'],4.3,38
 0x809adaff81ab11ad:0x124333a82acff704,"['Baby store', ""Children's clothing store"", 'Fashion accessories store', 'Toy store']",4.3,6
 0x809ad0eb0aef1881:0x1649661408e4630c,['Corporate office'],4.6,18
 0x809adaff847cb311:0x3b09c1042e2ce55f,['Wine store'],4.8,8
@@ -9490,6 +9708,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad013c7e522fd:0x735cdae898a8cc52,"['High school', 'Catholic school', 'Co-ed school', 'Private educational institution', 'Summer camp']",4.4,28
 0x809ad0763e6f1295:0x696fb031d1128a0a,"['Non-profit organization', 'Lodging']",4.6,198
 0x809ad404b35efccf:0xa1b3f7b693a47b02,"['Apartment complex', 'Apartment building']",3.2,6
+0x809aad5b7b46853b:0x6d92ce73251c5b84,['Campground'],2.5,4
+0x809aac84c0b5cf91:0xaa87ed926ac7ce28,['Corporate office'],2.6,5
 0x809ad1b2a0b5de81:0x1fe55c4d3855fb09,"['Frozen yogurt shop', 'Dessert shop', 'Ice cream shop']",4.1,55
 0x809ad9800e1e88c3:0xc95b9c4ee11a26fe,"['Auto parts store', 'Trailer supply store', 'Truck accessories store']",4.3,132
 0x809ad981ea88ecf3:0x768fe1fbec129b0c,['Car dealer'],2.7,88
@@ -9497,9 +9717,11 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809b29876b42294b:0xcaac85b782f26b1a,['Park'],4.3,98
 0x809ad99d0ae9db0f:0xedab52a250fc1a01,['Used car dealer'],4.3,38
 0x809ad99e6f5a5555:0x3e4f34b123cffe75,['Car dealer'],3.9,8
+0x809aadd92d765c1b:0xc3eb071a3fb35b05,['Cannabis store'],4.4,48
 0x809ac6762dcdc06d:0xb2ff520c7464a4c0,['Indian restaurant'],4.6,33
 0x809ac7b7455c6567:0xc23ebde6131573b2,"['Cell phone store', 'Internet service provider', 'Telecommunications service provider']",4.4,107
 0x809ac375e325185b:0x2b189bc5102a1b21,['Aircraft supply store'],4.6,17
+0x809aa2cf8bb5cf27:0x9d00a57a5d5e2e1b,['Tobacco shop'],4.2,18
 0x809ae416eec825d3:0x6f020884864b8fd7,"['Vaporizer store', 'Lounge']",4.3,97
 0x809ad060a2976df9:0xadde25b1c06cca07,['Health food restaurant'],4.3,158
 0x809ac7a5d84bb097:0x5cbe5b81330c4650,"['Massage therapist', 'Reflexologist', 'Spa', 'Sports massage therapist']",3.7,8
@@ -9508,6 +9730,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad92aff4bf9d9:0x64031a94c570194d,"['Volvo dealer', 'Car accessories store', 'Car dealer', 'Car finance and loan company', 'Car leasing service', 'Used car dealer']",4.7,218
 0x809adfdba15f65a1:0xe7c3d6785749ac9f,"['Animal hospital', 'Veterinarian']",4.7,188
 0x809ada56196e0967:0x25f77fedb62ad81c,"['Handyman', 'Carpenter', 'Deck builder', 'Door supplier']",3.7,28
+0x809aa2c5741d6927:0x8dbeee2e77b33537,"['Gas station', 'Auto repair shop', 'Convenience store', 'Diesel fuel supplier', 'Fuel pump', 'Gas company']",3.3,6
 0x809ac34abefa8829:0x306f8ff0c9760159,['Apartment building'],3.4,36
 0x809ad9dfb75f883d:0x1438c7cd97a01044,['Gutter cleaning service'],3.2,5
 0x808529b6789f2839:0x5b02570e1bbdeff9,['Apartment complex'],4.3,8
@@ -9766,6 +9989,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0d64977d7eb:0xfd789f174813988f,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",4.1,94
 0x8085297358e7e6bd:0xca35a7f05d4ed556,"['Japanese grocery store', 'Grocery store']",4.7,128
 0x80852bb91b27883f:0xfc9f14655de78651,['Gas station'],3.6,104
+0x809aad557ceff239:0x805229750552d87a,"['Event venue', 'Wedding venue']",4.9,45
 0x80852972dd12ed59:0x4b91071e9f6de5a,"['American restaurant', 'Catering food and drink supplier']",4.3,168
 0x809add4794458fb3:0x1c3fbdb74508b9c9,"['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",4.2,338
 0x809ad1da6bcc5a53:0xa8e7a3d9f07c00c3,['Hydroponics equipment supplier'],4.3,34
@@ -9913,12 +10137,22 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d19f771ae27b:0x1d7ff67fc5e6a279,['Car wash'],4.6,133
 0x809ae0b69bd1c045:0x7ed985dd89351259,"['Chocolate shop', 'Chocolate artisan', 'Chocolate cafe', 'Dessert restaurant', 'Dessert shop', 'Ice cream shop', 'Wine bar']",4.6,108
 0x809ada33692b196b:0x43a6f8257393718a,"['Moroccan restaurant', 'Restaurant']",4.5,55
+0x809aa2d01c5034c1:0x5c139f9a2763c7a0,['Chinese restaurant'],4.3,118
+0x809abd02fd7a82e1:0x92c7517dc6c83712,['Mexican restaurant'],3.7,178
+0x809aa2c3e0fb12d1:0xd85f873bfacedc24,['Car wash'],4.5,113
+0x809aa2daa1000115:0x6cad3fd0a74ff29,['Chinese restaurant'],4.5,65
+0x809aa2d01c5034c1:0x2d943e22fa1498ae,['Beauty salon'],4.3,48
 0x809ac4ab00a1df77:0x4be4217e687beec4,"['Chinese restaurant', 'Asian restaurant']",4.5,58
 0x809adbaa33b36083:0x6160939f537380f2,"['Boot store', 'Belt shop', 'Jeans shop', 'Hat shop', 'Perfume store', 'Western apparel store', 'Work clothes store']",4.8,52
+0x809aa2d01c5034c1:0xa976e611f3f027d4,['Beauty salon'],4.4,67
+0x809aa32035b0828b:0x780b3fff40b54441,"['Park', 'Tourist attraction']",4.1,97
 0x809ad09a76552c55:0xed163e8196a28f8b,['Research and product development'],4.1,36
 0x809ac031fc44ea87:0xe040a408976585de,['Farm'],5.0,3
+0x809aa2daa1000115:0xa4c5202aa23f2502,['Animal hospital'],4.6,28
+0x809aa2d0eeebc27d:0x28b68a88b7414739,['Mexican grocery store'],4.4,15
 0x809acefd6b43df4d:0xf3f9d864ffe350cb,"['Cell phone store', 'Telecommunications service provider']",4.0,138
 0x809ad5f420c86383:0x4f36ca6f15b2cec6,"['Community health centre', 'Dental clinic', 'Doctor', 'Medical clinic']",3.0,53
+0x809aa3a71b02c1f9:0xc2689b4f128a5003,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.2,58
 0x809acfe9e03c1125:0xebbd7d0a77660aa7,"[""Jehovah's Witness Kingdom Hall""]",4.9,28
 0x809ac745de69b689:0xdbdc8d63ff5fab7a,['Florist'],3.6,7
 0x809ac64c03705003:0x2c1ce602b3aea537,"['Pottery store', 'Painting studio']",4.5,68
@@ -10078,6 +10312,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada3afbdab84d:0xa07d28c158f01e18,"['Plastic surgeon', 'Nutritionist', 'Weight loss service']",3.9,138
 0x809ad0d662ef68c3:0x9c26544912db159d,['Market researcher'],4.6,115
 0x809b29e386ea7b5d:0x97ab44fbc06c63b3,"['Pizza restaurant', 'Family restaurant', 'Italian restaurant', 'Takeout Restaurant', 'Vegetarian restaurant']",4.4,94
+0x809aa2cf8bb5cf27:0xed3642571c60dbab,"['Italian restaurant', 'Restaurant']",4.3,185
 0x8084d114c4fc472f:0x11851c8ef7f8cb7e,['Truck accessories store'],4.1,28
 0x809acf6293d047c7:0xfdaef681645faf59,"['Pizza restaurant', 'Family restaurant', 'Italian restaurant', 'Takeout Restaurant', 'Vegetarian restaurant']",4.3,267
 0x809ac700445f083b:0x172e9717b87e0eb2,['Business center'],4.4,14
@@ -10103,6 +10338,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d09375e3592d:0x37086bff9dbc32d9,['Gym'],4.1,38
 0x809ac4e17e057cf3:0x92ad8ac0569f5f25,"['Hotel', 'Army facility']",3.2,13
 0x809ae509cb914c45:0xe73edfa81a9b8c39,"['Veterinarian', 'Animal hospital']",3.9,64
+0x809aa2c1aa570765:0x14562db1e8ad97be,['Concrete product supplier'],4.2,5
 0x8085296fde8fa323:0xddbb9e59a507df9e,"['Restaurant', 'American restaurant', 'Bar & grill', 'Diner', 'Family restaurant', 'Hamburger restaurant', 'Steak house', 'Traditional American restaurant']",3.8,208
 0x809ad0e781611c95:0xd76f45ee3f3d17b5,"['Medical clinic', 'Doctor']",4.8,44
 0x809ad00bb38fd4cd:0x41ec8e8922a0b3d7,['Used car dealer'],4.7,58
@@ -10159,6 +10395,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae68eb913ac99:0x119426004fa82217,['Shoe store'],3.6,14
 0x8084db3e5d7fe8fb:0xd657d43615b67315,['Golf club'],4.8,8
 0x809ac5441dd6b9e9:0x3a3c18c81eb535ff,['Restaurant'],4.4,17
+0x809abc51d2753abd:0x3c22d1573af0afc0,"['Livestock dealer', 'Livestock auction house']",4.5,13
 0x809ab0addb3bc269:0x981dbdd349f29b18,"['Fertilizer supplier', 'Manufacturer']",3.4,5
 0x809ac7169ad31065:0x1153cd6530fc3b45,['Brazilian restaurant'],4.6,24
 0x809ad3e0132e07ed:0x7539756e2ab7fada,"['Sushi restaurant', 'Restaurant']",4.5,207
@@ -10260,8 +10497,12 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad72b0e951db9:0xb89b0307efea603e,['Tobacco shop'],4.7,54
 0x809ae4705ec94545:0xa4efde8f1827cf59,"['Park', 'Tourist attraction']",4.4,158
 0x809ac593b33e3d99:0xa21895f57d8c0ab6,"['Pizza restaurant', 'American restaurant', 'Chicken wings restaurant', 'Fast food restaurant', 'Pizza delivery', 'Pizza Takeout']",3.7,288
+0x809aa2d075e86d7f:0x9c8d8217c5c59baf,"['Pizza restaurant', 'American restaurant', 'Chicken wings restaurant', 'Fast food restaurant', 'Pizza delivery', 'Pizza Takeout']",3.7,198
 0x8084d0d8ac83df43:0x5c00428a3c7fe13a,"['Insurance agency', 'Auto insurance agency', 'Motorcycle insurance agency', ""Renter's insurance agency""]",5.0,98
 0x809ad99de17b9af9:0xe04fef6c29e653be,"['Paint store', 'Auto body shop']",4.5,66
+0x809aa2d0f2fbe77b:0xb2f4c076550519d2,"['Bakery', 'Cafe']",4.5,124
+0x809aad6b5d15dfe9:0xd2f343cfcad4fb7f,['Park'],4.3,18
+0x809aad65025b7033:0x90bfdbaab0fea79c,"['Mobile home park', 'Real estate']",3.1,28
 0x809ac76aa783e71f:0x32f20ef8f926fc56,"['Grocery store', 'Discount supermarket', 'Grocery delivery service', 'Produce market', 'Supermarket', 'Warehouse store', 'Wholesale grocer', 'Wholesaler']",4.1,288
 0x809ab8bad94ac0a5:0x63ee87953798338,"['Paint store', 'Hardware store']",4.6,28
 0x809adedfb0db87a5:0x440d801b6b20e32f,"['Pawn shop', 'Antique store', 'Coin dealer', 'Gold dealer', 'Jewelry buyer', 'Jewelry store']",4.8,836
@@ -10326,6 +10567,10 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae6ac911322fb:0x35047245b4a8405b,['Shopping mall'],4.7,16
 0x809ad129bc57cdd9:0xb1a15ccca3062591,"['Mediterranean restaurant', 'Greek restaurant', 'Halal restaurant', 'Middle Eastern restaurant']",4.4,256
 0x809ad0e350995681:0xd7e0d2dac55a14c5,"['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",4.5,187
+0x809aa2d70a4bce3b:0xf03f2b887946125a,['Coffee shop'],4.9,76
+0x809abb1485f7f8ad:0x64d77ac1a3c5f5bb,['Wedding venue'],4.6,108
+0x809aa2d9db0182f1:0xf1b1396641e9b77d,['Boutique'],5.0,5
+0x809aa2d62bae078b:0x49e7c45b869aedfc,['Episcopal church'],3.3,3
 0x809ad43c4deb8501:0xc1cd2cb1540a3075,['Furniture store'],4.4,163
 0x809ad6b1706a50e7:0x62d46f7afb2294c6,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.8,108
 0x809ad12bcf14e929:0x56d6d8518af0de4c,['Government office'],4.3,46
@@ -10361,6 +10606,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809b29ea59efd8bf:0x8b04d11eb0c946a0,['Park'],4.3,25
 0x809ada5bffc8fc8d:0xfc269135c675ad93,['Electric vehicle charging station'],3.9,7
 0x809ad094c82267a5:0x28354eade9bfe245,['Parking garage'],3.8,95
+0x8084dff2c00d57b9:0x2da36a35adb7b941,['American restaurant'],4.3,134
 0x809ad732302a83d5:0x1d5fdf7a6d14e74b,"['Self-storage facility', 'Automobile storage facility', 'Moving and storage service', 'Moving supply store', 'Storage facility']",3.9,225
 0x809ac6b9585bc4b9:0x9d3ea5f924de4c62,['Japanese restaurant'],4.5,276
 0x809ada51b79d95ab:0x255f5a8cc6e87d06,"['Park', 'Tourist attraction']",4.4,348
@@ -10400,6 +10646,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae68dcea096f3:0x34b8ff9b7e604041,"['Shoe store', 'Store']",4.3,38
 0x809ae68eb913ac99:0xaf3d76612944880,"['Sunglasses store', 'Fashion accessories store', 'Gift shop', 'Shopping mall']",4.0,38
 0x809ac6e0a44b9dd7:0xbd007532c582d18,"['Park', 'Tourist attraction']",4.5,85
+0x809abdcde52c0f47:0x893fb4454adead82,['Home goods store'],4.5,53
 0x809ac7beabf37059:0x6025712a76e7a08b,['Sandwich shop'],4.7,68
 0x809ac73eadecc1bb:0x5f34060d44e04eae,['Liquor store'],4.4,98
 0x809ac74681a62b37:0x397e5e9bed8c7e88,"['Painting studio', 'Artist', 'Arts organization', 'Bar', 'Craft store', 'Event planner', 'Event venue', 'Gift shop', 'Party planner', 'Wine bar']",4.8,72
@@ -10555,6 +10802,16 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adcc76b604471:0x574fa7afd41ac60a,['Distillery'],5.0,25
 0x809ad1b5e7f29b97:0x1e85adc7836f02f,"['Chinese restaurant', 'Karaoke bar']",3.8,168
 0x809ac7c2c0932e3d:0x51b609477f68f120,"['Laotian restaurant', 'Thai restaurant']",3.9,33
+0x8084dffb06def6d1:0x1314ac74b864505e,['Restaurant'],4.6,107
+0x8084dfed7d3bc7af:0xea29ddaa364305d8,"['Restaurant', 'Bar', 'Italian restaurant']",3.8,25
+0x8084df8b68ac538b:0xff317f41fb317ebd,"['Park', 'Tourist attraction']",4.5,72
+0x8084dff4afc5afbf:0x165c6f0ec46031be,"['Chinese restaurant', 'Seafood restaurant']",4.5,128
+0x8084df8b0660d4d3:0xf3525248e290697f,['Park'],4.3,48
+0x8084df8b5310082b:0x5c505365c675dbc,['Tourist attraction'],5.0,8
+0x8084dff2d5c65f89:0xc00cdddc83fc315c,['Dentist'],5.0,4
+0x8084dff2c56825a1:0xa3fb5e600381da5,['Gas station'],4.9,38
+0x8084df8ca76885f3:0xe8b2437214a442f1,"['Guitar store', 'Guitar instructor', 'Music store', 'Musical instrument repair shop']",5.0,8
+0x8084df8b45868a05:0x676f2cb5ff6f95c8,['Gift shop'],5.0,1
 0x808529a9e7125a97:0xa71bd8f799a03ffc,"['Cafeteria', 'Fine dining restaurant', 'Restaurant']",4.3,258
 0x808529abddcd7af9:0xea1eec1a0d8bca18,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.7,46
 0x8085290f65b38fdd:0x41a721532a5933fc,['Food court'],4.2,233
@@ -10602,6 +10859,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac4dbbb0c72d5:0xdecbe05a45e367d,['Janitorial equipment supplier'],5.0,5
 0x809ae50107c446bd:0x1a3ce17e4965cec1,['Restaurant'],3.8,165
 0x809ae5bfca0711dd:0x646ddf5af997a15,['Mexican restaurant'],4.6,28
+0x8084df8b507df28b:0x29d370c52c11abc2,"['Winery', 'Wine bar']",4.9,24
 0x809ae686cb1c717b:0x75010abc9324829e,['Cafe'],3.6,8
 0x809ad1f47c09e885:0xff17464e484ebfa0,['Cannabis store'],4.9,16
 0x809ad1756394dc8b:0xb246afafcf7f8859,['Sporting goods store'],5.0,27
@@ -10621,6 +10879,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae7fdc093bf91:0x45dc4661c62555a8,['Auto repair shop'],4.7,13
 0x809adf11f3cfc207:0x4f4586d5882e5efb,"['Glass repair service', 'Auto glass shop']",4.0,4
 0x809ae68b927e9d69:0xe15235002927ff9,"['Indian grocery store', 'Asian grocery store', 'Grocery store', 'Supermarket']",4.2,368
+0x8084df8dea5951dd:0x7518f36486833ef1,['Sporting goods store'],4.4,86
 0x809ad0f0e108decf:0x527f5706964b3ea5,"['Sauna', 'Massage spa', 'Massage therapist', 'Spa']",4.5,148
 0x808529733dbf7f5b:0x9e235fc2a7dfe725,"['Japanese restaurant', 'Restaurant']",4.6,333
 0x809ad14da545dcf3:0x84b7d092cf01b112,['Liquor store'],4.5,26
@@ -10772,6 +11031,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac64c03705003:0xa46f0527db96e09d,"['Chocolate shop', 'Candy store', 'Gift basket store', 'Gift shop']",4.7,133
 0x809acf4924d3dd5d:0x857a3855e001a036,"['Sewage treatment plant', 'County government office']",4.4,8
 0x809b2baefa2e5f55:0x6ca5cf6f6d995147,['Distribution service'],4.0,28
+0x809aa2eb3ba12499:0x858327bb81d1ecca,['Golf course'],3.8,198
 0x809add1a30276471:0x88709a3cc5f1e25b,['Tire shop'],4.5,125
 0x809adb27d306b64b:0x35c5d9202760f02e,['Mexican restaurant'],4.3,58
 0x809ab8ca2fab7355:0xea61f42253e3e22f,"['Indoor playground', 'Party equipment rental service', 'Toy store']",4.4,88
@@ -10804,6 +11064,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8085295018ca5e09:0xa1a1cccce4fd2fed,"['Veterinarian', 'Animal hospital']",4.8,46
 0x808529641469b0d5:0xa2a848b9cb507c31,['Nail salon'],3.9,34
 0x80852964b5d3de2b:0xb3b4fd74b5879615,"['Gym', 'Chiropractor', 'Physical therapy clinic']",4.3,14
+0x809aa2d75f5fabdb:0x89ce22bd05f58381,['Community center'],3.8,18
+0x809aa2d9bb156ef7:0x88aaf4dbbf37980c,"['Wine store', 'Vineyard']",4.5,55
 0x809ad4719f3aaf41:0x51d4ce89eba6de41,['Manufacturer'],2.5,4
 0x809ae78369359bab:0x46a7186cf000b6a3,['Furniture store'],4.6,58
 0x809ac5c0c23be257:0xd534cfa3d22ea42f,['Indian restaurant'],3.8,184
@@ -10877,6 +11139,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac5b3ceefa8af:0x91ef79f9a0328c86,"['Laundromat', 'Laundry', 'Laundry service']",4.6,8
 0x8084d146c8510767:0x48dd07627838c032,"['Video game store', 'Cell phone store', 'Collectibles store', 'Electronics store']",4.5,204
 0x809adcc39720253b:0x661d17e235276a83,"['Property management company', 'Mobile home dealer', 'Mobile home park']",3.5,8
+0x809aa2daa1000115:0xa05e5860bf98f047,['Sandwich shop'],4.6,176
 0x809add00a71f515d:0xa1ac359d9c874cb9,"['Restaurant', 'Bar', 'Casino', 'Cocktail bar', 'Concert hall', 'Dance restaurant', 'Event venue', 'Lounge', 'Night club']",4.3,274
 0x809addbc6ec539c3:0x2fa88bf88d24144f,['Park'],4.6,108
 0x809adb2257c0861f:0x131382209db128fe,['Mattress store'],4.9,8
@@ -11102,6 +11365,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada1e8ef9142f:0x77d2682ec57beb5e,"[""Women's clothing store"", 'Clothing store', 'Fashion accessories store', 'Jewelry store', 'Shoe store']",4.2,68
 0x80852913cfe8b4ad:0x5f685aba0dedd2a6,['Conference center'],4.4,54
 0x809ac6dc8fa5018b:0x2acac5dda15d6f5c,['Restaurant'],4.5,97
+0x808552638a5b1af1:0x1011894a0de81aff,['Bridge'],4.3,28
 0x809ad76003dc0999:0x2c59a283506ab8b6,['Liquor store'],3.9,105
 0x809ad9e1f935d0b3:0x6fe68eeebc60504c,['Auto body shop'],4.5,95
 0x809ad758ea12b6f1:0x1c82a827e5e0fcde,"['Takeout Restaurant', 'Restaurant']",4.4,64
@@ -11193,6 +11457,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae68db12e1471:0x2154ab92763fa605,"[""Children's clothing store"", 'Baby clothing store', 'Shoe store']",4.5,16
 0x809ad6fb3b363d77:0x2dce3e55a9fb3f62,['Mexican restaurant'],4.5,798
 0x8084d0e3fa092563:0x2b1aacef5548b40,"['Dodge dealer', 'Auto body shop', 'Auto repair shop', 'Car dealer', 'Chrysler dealer', 'Jeep dealer', 'Oil change service', 'Truck dealer', 'Used car dealer']",4.1,458
+0x809aad52f63c7a9d:0x4688bff21af62cd9,['Bridge'],4.4,28
 0x809ad0e0aebbfa6f:0x3be431731768391b,['Urgent care center'],4.1,84
 0x809ab9bbcf1a7399:0xa1f406849e17022e,['Home builder'],4.5,18
 0x809ac89ef91d5e4b:0x6156a22fb72fc634,['Optical products manufacturer'],4.2,8
@@ -11322,6 +11587,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad6adf982e0d5:0xf7c282d33530bcd4,"['Tax preparation service', 'Tax consultant']",4.8,138
 0x809ad04d6500c29b:0x9f2d476a833be975,"['Seafood restaurant', 'Fast food restaurant']",2.9,58
 0x809ad0ab01688d91:0x16b39743d6d5547d,['Pest control service'],4.6,1815
+0x809abd3945482969:0x94287ec051a9718a,"['Park', 'Tourist attraction']",4.5,227
 0x809ac5c43495c567:0x4b0188b781af057e,"['Office supply store', 'Business to business service', 'Computer consultant', 'Computer store', 'Copy shop', 'Furniture store', 'Mailing service', 'School supply store', 'Shredding service', 'Used office furniture store']",4.0,127
 0x809acfbf68059b4f:0x2e6ba851f7f1f059,"['Thai restaurant', 'Restaurant']",4.4,148
 0x809ad9f251a62769:0x2d7f359736604e70,"['Trophy shop', 'Engraver']",4.7,38
@@ -11330,6 +11596,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d11a7295c531:0xaef0891f3787f689,"['Self-storage facility', 'Storage facility']",4.2,33
 0x809ac175a19d983b:0xff90ad988277ab36,"['Park', 'Tourist attraction']",4.2,44
 0x809ad00b3884ad57:0x26b42d7dfaeca3fe,['Barber shop'],4.4,47
+0x809abd2a39cda869:0x1358f29e540a20c4,['Storage facility'],4.7,8
 0x809adad09dbb5a4f:0x31c32b6c81f1e431,['State government office'],3.7,3
 0x809ac745fd287893:0x5e0240bd812f2492,['Bar'],4.5,108
 0x809ae3d89f709e03:0x6291f88f3d614178,"['Mexican restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Fast food restaurant', 'Spanish restaurant', 'Taco restaurant', 'Tex-Mex restaurant']",2.9,158
@@ -11452,6 +11719,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d0ff27a04f7b:0x7fb1fda6adb07e8f,['Fraternal organization'],4.5,8
 0x8084d0e678b9e445:0x99342551596ee854,['Log cabins'],4.6,7
 0x809ad126d6879097:0x1e9f6dba6a88b67e,"['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",4.4,1046
+0x809aa2d60d735d89:0xab7e893c615a3d6,['Mexican restaurant'],4.8,67
 0x809adbb80c99c645:0x639c9b2f8a0b7e25,['Dentist'],4.7,68
 0x809ad75bd0e744a3:0xb061d04baca1baaf,['Family restaurant'],4.3,570
 0x809ad98e2618781b:0xede0fed9f020d8e0,['Grocery store'],4.3,204
@@ -11463,6 +11731,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ace168dff2edf:0x3eb29ccef48bbaf1,['Chiropractor'],5.0,148
 0x809ae6997e21b8db:0xf2d5127df8231393,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.9,58
 0x809ac56f788cd851:0x88b17319638bf20e,['Chinese medicine store'],4.6,14
+0x809aa2d07fee6569:0xffcc355e9c15f16e,['Barber shop'],4.9,33
 0x809ad0737bb417d5:0xcdfa6042705e4e95,['Live music venue'],4.7,66
 0x809adaaa9dfb9d91:0x7121820c2f007bf,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",3.6,138
 0x809adfeb5f546c75:0x98cbd58a8671cbbf,['Restaurant'],3.6,177
@@ -11536,6 +11805,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae786acbfffff:0x2adddb71adfcb1e8,['Association or organization'],5.0,2
 0x809adfdd501c1cf9:0x2ca1d1c5cbb3b5d2,['Thai restaurant'],4.6,137
 0x809ad0c35cf6a681:0xef9cc95042c868cb,"['Photographer', 'Aerial photographer']",5.0,85
+0x8084dff4ad232d7b:0xdaf87a51cbd20c86,['Mexican restaurant'],4.4,138
 0x8085297334f527db:0xb68f51b948cd60d8,['Steak house'],4.3,208
 0x80852974dc3f0fbb:0xd097800e99e124bc,"['Restaurant', 'Gluten-free restaurant']",4.4,53
 0x809ad133165b2cf7:0xbe908941f1176944,['American restaurant'],4.2,85
@@ -11567,9 +11837,24 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adaff847cb311:0x89c61e8f8c733ca8,['Frozen yogurt shop'],4.6,86
 0x809ad6239c332fcb:0x5afc721afb331388,['Restaurant'],4.2,108
 0x809ac0679e21c317:0x5a99c3c23f873ae5,"['Pizza restaurant', 'Family restaurant', 'Delivery Restaurant']",4.8,485
+0x809aa3ab62e29ff1:0x1fcfa51fecf254b8,['Mexican restaurant'],4.4,248
+0x809aa2d743e6d8ad:0x74f666cdb27a5b5f,['Mexican grocery store'],4.4,218
 0x809ac067efbebd9f:0x38e3f9ad083c7e30,"['Animal feed store', 'Pet supply store']",4.6,278
+0x809abd2c6d06890f:0x91115aea2bcaaaed,['Mexican restaurant'],4.5,255
 0x809ac7dd9cbe7a8d:0xc62516caf3e65a02,"['Seafood restaurant', 'Restaurant']",4.0,25
+0x809abc55f7b1da83:0x3319403d4ebf1c39,['Store'],4.6,37
 0x809ac7545a7cdc57:0x2d26a664c0a280ba,"['Food bank', 'Social services organization']",4.5,158
+0x809aa2daa1000115:0x34656f7d9909e30a,['Nail salon'],4.5,28
+0x809aa2d01c5034c1:0x74aa79a26e8579c5,"['Hawaiian restaurant', 'Fast food restaurant']",4.5,104
+0x809a98728f13d13b:0xa22f83344ff4cfb,['Stable'],3.7,7
+0x809abd0285d41839:0xe6b17980df518cf4,['Sushi restaurant'],4.3,98
+0x809abd02c21aac87:0xee1c5d3f1619718d,"['Hair salon', 'Beauty salon']",4.1,108
+0x809abd02c21aac87:0xf065de92feee8aea,['Nail salon'],3.5,27
+0x809abd02fd7a82e1:0xfac6d9fdcc077290,"['Print shop', 'Mailing service']",4.6,18
+0x809aa393be282f05:0x8e4131aea965d697,['Antique store'],4.9,17
+0x809aa2c186fc86e1:0x9dce9121e7bbdbf5,"['Tire shop', 'Auto repair shop', 'Brake shop']",4.9,18
+0x809a96169fbf0021:0xad6f70b4c70558b8,['Horse breeder'],5.0,1
+0x809aa2cf8bb5cf27:0xb60c81c4d7172124,['Fitness center'],4.6,38
 0x809acf7b342b9e99:0xfdd978329ac9281b,['Auto body shop'],4.9,7
 0x809ac6553aa9b773:0xbda8979716bc4c01,"['Ice cream shop', 'Cake shop', 'Dessert restaurant', 'Frozen yogurt shop']",4.3,288
 0x809acfdd98abf4ef:0xc5f58814a8d70513,['Auto repair shop'],4.9,33
@@ -11745,6 +12030,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adfcfe4b0aa2d:0xee0a759b3831e63a,['Barber shop'],5.0,87
 0x809ad4744911e1bd:0x1ce1c7f52715b3db,"['Logistics service', 'Shipping company', 'Shipping service', 'Trucking company', 'Warehouse']",3.5,78
 0x809ad12d93a39ce1:0x8627c9a3590fd133,['Personal injury attorney'],5.0,8
+0x809abd2010f16761:0x89fa21f3a9315b4e,['Home goods store'],3.0,2
 0x809ad6cd6ab0a92f:0xcb1b33c46e499875,['Pizza restaurant'],2.6,228
 0x809ad0d5fddb5dfd:0xc22ea5112bf61a63,"['Tire shop', 'Auto repair shop']",4.1,68
 0x809ad120e75b8007:0xaa89b8be4924efe3,"['Dollar store', 'Craft store', 'Discount store', 'Grocery store', 'Home goods store', 'Kitchen supply store', 'Party store', 'School supply store', 'Toy store', 'Variety store']",3.6,395
@@ -11816,6 +12102,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad6f18554c247:0x9bc52b960723f823,"['Business center', 'Real estate agency']",4.7,3
 0x809add5e4eebb0c3:0x91eb64ad121b1eb0,"['Deli', 'Caterer', 'Restaurant', 'Sandwich shop']",4.6,317
 0x809add60664dd1e9:0x7494558b7b71caa1,"['Mediterranean restaurant', 'Greek restaurant', 'Halal restaurant']",4.3,336
+0x809aa2c55cf73ebd:0x86d241382f43d7b6,"['Fast food restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Mexican restaurant', 'Restaurant', 'Taco restaurant', 'Tex-Mex restaurant', 'Vegetarian restaurant']",4.0,317
 0x8084d0fd89857155:0xa19f5f356d6dc58b,"['Hydroponics equipment supplier', 'Arborist and tree surgeon', 'Garden', 'Seed supplier', 'Topsoil supplier']",4.7,64
 0x809ad6c93004df11:0x85d9755acc3f6e0d,"['Chinese restaurant', 'Bar', 'Restaurant']",4.3,265
 0x808529cc2d4595ad:0xbe51f4c2c8660090,['Halal restaurant'],4.3,165
@@ -11836,6 +12123,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adb1a4d618ff9:0xa1573192b162bd8f,['Auto repair shop'],4.6,8
 0x809ae6ad47277843:0xa74e6f37a3bb6bb4,['Parking lot'],5.0,2
 0x809ada579747981b:0x5e97a269f74ad47f,['Auditorium'],4.1,8
+0x809aa2d436c51dd7:0xe3c2955f83104b80,"['History museum', 'Tourist attraction']",4.6,28
 0x8084d1a7ceede07f:0xbbd3df47e7ff2c63,"['RV dealer', 'Camper shell supplier']",4.4,77
 0x8084d08d4c2fb2c5:0xd2e69e5c5e4ed491,['Hotel'],3.8,178
 0x809add1374412a19:0xa4c78ac27bf5878b,"['Pizza restaurant', 'American restaurant', 'Chicken wings restaurant', 'Fast food restaurant', 'Pizza delivery', 'Pizza Takeout']",3.9,387
@@ -11893,6 +12181,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad447eea56df3:0x7267613cb70b5bfa,"['Distribution service', 'Warehouse']",2.9,278
 0x809ac4315f488ebf:0xa4bc8ff55e475683,['Warehouse'],3.0,58
 0x809ad7d27753dd55:0x51d22ea95ef9f51b,"['Food products supplier', 'Distribution service']",3.7,78
+0x8084e008daf91587:0x8adf2b3dd860ba4b,"['RV dealer', 'Trailer dealer']",4.8,36
 0x809adad39ae37f5f:0xd53bdce0e465d130,['Auto repair shop'],4.9,38
 0x809b29dc4a14a311:0xd280392dbab338fa,"['Pizza restaurant', 'Caterer', 'Chicken wings restaurant', 'Family restaurant', 'Italian restaurant', 'Pizza Takeout']",3.6,234
 0x809ad982009fbfe5:0x161430c79d5eefb3,"['Auto insurance agency', 'Insurance agency', 'Tax preparation']",4.7,93
@@ -11914,6 +12203,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac4e4c29cec97:0x7c62bd1e8bc39b4c,['Association or organization'],3.0,4
 0x809adceec3f9057f:0x45d3257ab0222681,['Motorcycle parts store'],3.6,38
 0x809ad6ab99dac46b:0xb09083b0876474da,"['Park', 'Tourist attraction']",4.1,138
+0x8084df8b45868a05:0x82f7dd0de51f017a,"['Winery', 'Tourist attraction']",4.7,78
 0x809add60e346c355:0xb4b3bfbe2af1d50f,"['Fast food restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Mexican restaurant', 'Restaurant', 'Taco restaurant', 'Tex-Mex restaurant', 'Vegetarian restaurant']",3.9,534
 0x809ac6beac0b3ec1:0xbb0b1406de464965,"['Pizza restaurant', 'Caterer', 'Italian restaurant', 'Pizza delivery', 'Pizza Takeout']",4.0,278
 0x809ada5741963969:0x58adddad19304357,"['Gastropub', 'Bar', 'Brunch restaurant', 'Live music bar', 'Restaurant']",4.4,378
@@ -12024,6 +12314,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad758cf4bd123:0xd2d2427733c853ed,['Donut shop'],4.3,128
 0x809ad05e56159e39:0xa59023f016c521fd,['Baptist church'],4.5,13
 0x809ad731df40205b:0xd3f2178ebcb24930,['Restaurant'],4.2,44
+0x809aa2d1abc007b3:0xb8acb2b701f47737,['Sandwich shop'],4.1,98
 0x809add5bc3878a01:0x4c51a223d49db84,['Soccer field'],4.6,58
 0x809adfb8932b8b69:0x8122d5500c675d6b,"['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",4.6,77
 0x809ade3068f0be03:0xbaad46cc58e9dd66,['Tobacco shop'],4.4,38
@@ -12036,6 +12327,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adad4f3529549:0x242e26b44ad948e6,['Plasterer'],5.0,5
 0x809adfdcea60e11f:0x7ceaf0efbacb6d4e,['Shopping mall'],4.3,45
 0x80852bc8176a3e4b:0xef78007ce99c93dd,['Deli'],4.2,228
+0x8084df8b61b2524d:0x8ad1ecafff466769,['Spanish restaurant'],4.8,128
 0x809ad478357f3bd5:0x4f07c89fad2b4201,['Commercial printer'],3.2,5
 0x809ac4d4745fd795:0x42c5e07ce01a9dab,['Warehouse'],3.7,118
 0x809ada5825a44661:0x7a67dd918ac6fc0c,"['Orthopedic surgeon', 'Medical group', 'Orthopedic clinic', 'Podiatrist']",4.1,38
@@ -12050,6 +12342,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809acfc5ebbf4b65:0x16c9b1d1d5329ae,"['Donut shop', 'Coffee shop', 'Ice cream shop', 'Tea store']",4.4,64
 0x809ae99f7fa2ba45:0x5deb6d8d22c05d80,['Auto parts store'],3.6,58
 0x809ad9736aa8da43:0x3687ce72cadf3542,"['Peruvian restaurant', 'Caterer', 'Delivery service', 'Mexican restaurant', 'Self service restaurant']",4.3,354
+0x809aa2daa1000115:0xb838e60919077579,['Japanese restaurant'],4.5,204
+0x809abd1ad3a9373f:0xae5767e14db7e550,"['Fast food restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Mexican restaurant', 'Restaurant', 'Taco restaurant', 'Tex-Mex restaurant', 'Vegetarian restaurant']",3.5,178
+0x809abd2899627a5d:0x31976f17c201271a,['Mobile home park'],3.3,64
 0x809ac8faa193a7f1:0x5bc493c0833aa1d5,"['Animal hospital', 'Veterinarian', 'Veterinary pharmacy']",4.5,78
 0x809ad756ffeb165f:0x1e65d212f08e4a99,['State government office'],2.8,8
 0x809ad6e3234642c5:0x7b49dbe8abae98fe,"['Pizza restaurant', 'American restaurant', 'Chicken wings restaurant', 'Fast food restaurant', 'Pizza delivery', 'Pizza Takeout']",3.6,216
@@ -12071,6 +12366,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809add6d9e745cf1:0x244827ec15c2226b,['Gas station'],3.7,67
 0x809ad9cc02cfce6d:0x3324bc4bdd776812,['Chinese restaurant'],4.2,424
 0x809b29e3a6a76b21:0xc68b947e5ac7eb2a,"['Gas station', 'Diesel fuel supplier', 'Fuel pump', 'Gas company']",3.9,238
+0x809abcf5a2b7bb6b:0x4c9b96748760ca90,['Education center'],4.6,88
 0x809ad3e24c0af70f:0xd5d984c573475844,['Gas station'],4.0,108
 0x809ad9cea4a405b5:0x4b9b5878af78ddd0,"['Convenience store', 'ATM']",3.8,237
 0x809adbca6d3c7f87:0x402bb1bf5462d56b,['Shopping mall'],4.2,5
@@ -12185,6 +12481,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac552c5e3810f:0xd902eed6b3538bae,['Restaurant'],4.2,125
 0x809ac567f053617d:0xa186e3723d512ece,['Noodle shop'],4.5,38
 0x809ada55cb09fef5:0xc6b05ab997a966f0,"['Auto repair shop', 'Auto air conditioning service', 'BMW dealer', 'Brake shop', 'Car repair and maintenance', 'Chevrolet dealer', 'Ford dealer', 'Honda dealer', 'Lexus dealer', 'Toyota dealer']",4.6,208
+0x809aa2c3df796901:0x9917504562cd4083,['Window installation service'],4.6,28
 0x809ada1c89983c9d:0xd8d58d9796fb6f7f,"['Mortgage lender', 'Loan agency', 'Mortgage broker']",4.7,8
 0x809ac5d8ba8ecf19:0xe65a5b6554f1c745,['Insurance broker'],4.9,104
 0x809ae6ac8b2bc123:0x4bd0fa0f31e732a,['Bicycle Shop'],5.0,14
@@ -12194,6 +12491,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809b29e02baa2c27:0x7ae08573c6f21cf,"['Preschool', 'Elementary school', 'Religious organization']",5.0,6
 0x809b29e04c53b553:0xe053aa5db66f281a,['Family practice physician'],5.0,5
 0x809ac89a2604e7d9:0xbe737627de11f7ec,['General contractor'],5.0,2
+0x809aab89122ba2e1:0xee7acf872b8ad5db,['Marina'],4.7,67
+0x80854d4517409531:0xde8c3174ff2d51ea,['Diner'],4.1,28
 0x809adfdd1127debf:0x8a0910d5c770a6b2,['Car wash'],4.4,265
 0x809ae81b999969d9:0x3c9ff75f51570594,['Fraternal organization'],4.2,17
 0x809add524da5848f:0xe9ebe3a3bf17a6e1,"['Park', 'Tourist attraction']",4.5,88
@@ -12282,6 +12581,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada4d6af07cdf:0x2fdf7d694dffa4b2,"['Pizza delivery', 'Chicken wings restaurant', 'Takeout Restaurant', 'Pizza restaurant']",3.3,234
 0x809ada4b1517521d:0x3811ef83a4c3d4e,"['Liquor store', 'Wine store']",4.2,95
 0x809ada4afac573f7:0xaa2501b93899f340,"['Pizza restaurant', 'American restaurant', 'Chicken wings restaurant', 'Fast food restaurant', 'Pizza delivery', 'Pizza Takeout']",3.7,285
+0x8084df8df5a9edb1:0xb9d61afd256275bb,"['Supermarket', 'Gas station']",3.9,194
+0x809aa2dd129efc0f:0xc9346aa74bf0258,"['Catholic church', 'Church']",4.8,56
 0x809adbc4f6a16edd:0xe1ee445cef669097,['Grocery store'],4.3,28
 0x809ada34935f0a03:0xaf5f1abf23e487c,"['Tire shop', 'Auto repair shop', 'Car repair and maintenance', 'Mechanic', 'Wheel alignment service', 'Wheel store']",4.6,256
 0x809adba56876c0c5:0x334787335153e58a,"['Park', 'Tourist attraction']",4.2,135
@@ -12289,6 +12590,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809acfeb4561ec5b:0x2263a8e1718fa4c5,['Business center'],3.9,15
 0x809adbcac6e809f7:0x1a5cdccbadaf7c5c,['Business center'],4.0,8
 0x809ada3bd377b117:0x87d4c58f2a5620e1,['Shopping mall'],4.3,134
+0x8084dff08fa3ef01:0x458a3bb42b08777a,['Catholic church'],4.8,33
 0x809ad989bc5bf12b:0xcf9d3f15c75b3ddb,['Smog inspection station'],4.2,93
 0x809adba93ba015db:0xe288505c850564f0,"['Church', 'Wedding chapel']",4.8,48
 0x809ae71a7134d5bd:0x72fe11c35d772e43,['Home builder'],3.7,18
@@ -12321,6 +12623,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad92b07a98a05:0x22f93fec376d025f,['Car wash'],3.8,238
 0x809acfe7c944eaf7:0xd39175300d0656c7,"['Transmission shop', 'Auto repair shop', 'Brake shop', 'Oil change service']",4.1,96
 0x809ad46e1d028fd7:0x85c210df50bcd50e,"['Tool store', 'Abrasives supplier', 'Electric motor store', 'Electrical supply store', 'Hydraulic equipment supplier', 'Industrial equipment supplier', 'Janitorial equipment supplier', 'Material handling equipment supplier', 'Plumbing supply store', 'Safety equipment supplier']",4.1,14
+0x809abd52cb09c74d:0xee0b8874ff8a3d17,['Pest control service'],5.0,5
 0x809ae68c247fe93b:0x36f2a7dc16b810b3,"['Outlet store', ""Children's clothing store"", ""Men's clothing store"", 'Outlet mall', ""Women's clothing store""]",4.6,87
 0x809ac6442a7e3b33:0x23f9185d9ead58ac,"['Sushi restaurant', 'Seafood restaurant']",4.1,55
 0x809ac6494c780ec9:0xaf4a555103cd7523,"['Beauty salon', 'Massage therapist']",4.7,38
@@ -12331,6 +12634,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adbca40458c77:0xa2668d4c8de6958b,"['Beauty supply store', 'Beauty salon', 'Facial spa', 'Gift shop', 'Hair salon', 'Nail salon']",4.3,128
 0x809ad90e6f962c7d:0xea287c24144b3934,"['Park', 'Tourist attraction']",3.8,138
 0x809ad96ecf4e0bc3:0x50bb6aafa6610aec,"[""Children's clothing store""]",4.2,124
+0x809abd2ec9837313:0x62cb0910bce50d04,['Gas station'],3.6,38
 0x809ad14effffffff:0x4a1691d813800667,"['Car dealer', 'Corporate office']",4.7,6
 0x809ad3cd8291c05d:0x868a08f14901517,"['Pond supply store', 'Pond contractor', 'Pond fish supplier']",4.8,235
 0x809ad118c734e4db:0x908e442cc586a8a6,['Gas station'],4.0,126
@@ -12389,6 +12693,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x80852bb65c13d643:0xc2b9f1cd656cbeb1,"['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",3.9,45
 0x80852834473efcdd:0x33436158e76ecc1a,"['Restaurant', 'Fast food restaurant']",3.5,297
 0x809ad6461ca52fdb:0x48d3df06053728a7,['Barbecue restaurant'],4.1,503
+0x8084df852ce0b9a5:0x219425edf421fbab,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.4,145
 0x8084d14af1c15a9d:0xc15036354442b43a,['Nail salon'],4.1,47
 0x809ad04fa65e3671:0x347e059462dcce0c,['Brewery'],4.6,298
 0x808529a964432a77:0x4fd8c822869787d0,"['Furniture store', 'Glassware store', 'Kitchen supply store', 'Lighting store', 'Linens store', 'Outdoor furniture store', 'Rug store', 'Window treatment store']",4.5,128
@@ -12408,8 +12713,22 @@ gmap_id,category,avg_rating,num_of_reviews
 0x808529986abfb69f:0xa46331f7b224673b,['Apartment building'],2.8,38
 0x808528354dbccedd:0x49b0e4a853051c60,"['Tax preparation service', 'Tax consultant']",4.8,148
 0x809adac240674049:0xd4a57a591ebf2863,"['Used car dealer', 'Car dealer']",4.5,36
+0x809aa2d08549fc3f:0x526eba69273fa20e,['Seafood restaurant'],4.7,118
+0x809aa2d11b16a807:0xd3af6a968e8e1f3d,"['Dollar store', 'Clothing store', 'Discount store', 'Discount supermarket', 'School supply store', 'Tobacco shop', 'Toy store']",4.2,88
+0x809abd04d1155e7f:0xbcdc5e864b8ae995,"['Pizza restaurant', 'Family restaurant', 'Italian restaurant', 'Takeout Restaurant', 'Vegetarian restaurant']",4.6,58
 0x809ad994e236b529:0x8ad36f115cbf1742,"['Car dealer', 'Used car dealer']",3.4,58
+0x809aa2cffbbc01d1:0x34ac2738aa4448f3,"['Drug store', 'Convenience store', 'Cosmetics store']",3.9,8
+0x809abd031b54a8c1:0x488ccda48928162e,"['Dollar store', 'Craft store', 'Discount store', 'Grocery store', 'Home goods store', 'Kitchen supply store', 'Party store', 'School supply store', 'Toy store', 'Variety store']",3.5,35
+0x809abd04a0556659:0xd246d318628e66e6,"['Movie rental kiosk', 'DVD store', 'Movie rental store']",4.0,1
 0x809ac76dc4903b55:0x6ec017b44a2816af,"['Volkswagen dealer', 'Auto parts store', 'Auto repair shop', 'Car dealer', 'Used car dealer']",4.5,253
+0x809abd2ed3662be9:0x772127c84da4e79a,['Supermarket'],4.1,36
+0x809aa2c4161a7463:0xefc0d9a4d392abc,"['Tire shop', 'Brake shop', 'Car battery store', 'Truck repair shop', 'Wheel alignment service']",4.4,205
+0x809abd29d56d4b71:0x622277dce086e7d7,['Assemblies of God church'],4.8,44
+0x809abd282feb0cd5:0xa833ff25d35baf21,['Construction'],4.7,7
+0x809aa2d0bb541291:0x40de53630b70d4c0,['Liquor store'],4.5,78
+0x809aa2d70a31aee5:0xaa5d804823eb5ce2,['Barber shop'],4.9,27
+0x809aa2d0714ee2ed:0x5bebf0245bcd52e0,"['Cell phone store', 'Telecommunications service provider']",3.1,16
+0x809abd2ede1e95a7:0xbf9255c1b10aaf5,['Liquor store'],4.3,38
 0x809ac43445ad892f:0xde718773c635d95b,['Trucking company'],3.3,8
 0x8084d13f56dab03b:0xaee7977f374b951e,"['Chevrolet dealer', 'Buick dealer', 'GMC dealer']",4.3,266
 0x809ad9fc9dd60675:0x32ac301d3896db77,['RV repair shop'],4.2,198
@@ -12462,6 +12781,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae50606f444f5:0xc780a30ba778993c,"['Frozen yogurt shop', 'Dessert shop', 'Ice cream shop']",4.3,128
 0x809ad6cd40025f2f:0x4fed3ce02d3e87a7,['Tattoo shop'],4.5,64
 0x809ae6ab66284ffd:0x392b6c7f2996c0ea,"['Internet service provider', 'Business to business service', 'Cable company', 'Computer service', 'Electronic parts supplier', 'Security system supplier', 'Telephone company']",3.4,278
+0x80854d4ffe9d25ab:0x467ef9e9cba0b342,['Resort hotel'],4.4,334
+0x80854d4cc6576221:0x863eeca66e4ab32b,['Restaurant'],4.3,38
 0x809ad0c2c236f569:0xe4a48f4d36c98ae4,['Bed & breakfast'],4.5,138
 0x809ad12962805227:0xe4ed3e4c0c5c4f88,"['Event venue', 'Caterer', 'Wedding venue']",4.9,8
 0x809ace6b020ee7a7:0xfa1afe7cd600dc57,['Shopping mall'],4.2,288
@@ -12571,6 +12892,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac6789b465441:0x7bb1b8f59dfb51de,"['Tire shop', 'Car battery store']",2.9,8
 0x809ac53097010bfd:0x983b449599612646,['Beauty product supplier'],3.6,8
 0x809ad479036c58f1:0x9c94c52df74e2584,['Bakery'],4.4,18
+0x809aacbdfb7f28d5:0xd87c17461d1d4b69,"['Marina', 'Boat rental service', 'Boat storage facility']",4.3,27
 0x809ac8dae07d01ad:0xc0ea54c400851663,"['Chicken restaurant', 'Fast food restaurant']",3.0,145
 0x809ac6492c4782fb:0x7de36a64eb73093a,"['Mexican restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Fast food restaurant', 'Spanish restaurant', 'Taco restaurant', 'Tex-Mex restaurant']",3.9,205
 0x809ae41a1a9f8f07:0x16390e86f7e5a009,['Shopping mall'],4.0,346
@@ -12680,6 +13002,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x80852987a6f771d5:0x6f59cc016a1dbe9,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.3,148
 0x808529639354f7f7:0x3c0cecce9a7c52bf,"['Sandwich shop', 'Deli', 'Takeout Restaurant']",4.5,88
 0x8085297c69586c77:0x454fe4f50a4c2e54,['Biotechnology company'],5.0,3
+0x809aa2d075e862b3:0x690de9e0c22697e6,"['Fitness center', 'Juice shop']",4.3,28
 0x809ad43dacaf6767:0x9d2f09aa01e3a99d,"['Battery store', 'Car battery store', 'Cell phone accessory store', 'Light bulb supplier', 'Lighting store']",4.4,163
 0x809ad0935fed9c99:0x6aa169d9560b026d,"['Fast food restaurant', 'American restaurant', 'Hamburger restaurant']",3.3,188
 0x809ada557e597047:0x5c62724b44ccfcb6,"['Hamburger restaurant', 'American restaurant', 'Diner', 'Fast food restaurant', 'Lunch restaurant', 'Restaurant']",4.1,308
@@ -12772,6 +13095,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ade19af84cdcd:0x68808b398d653fad,"['Shipping and mailing service', 'Business center', 'Fax service', 'Office supply store', 'Packaging supply store', 'Passport photo processor', 'Poster store', 'Print shop', 'Promotional products supplier', 'Sign shop']",3.5,58
 0x809ade236dc807c1:0x611b9babd98dc289,"['ATM', 'Credit union']",2.7,68
 0x809adfdba4f421cb:0x48a4ad402215e296,['Family practice physician'],3.6,54
+0x809abcfd67b4f541:0x4573e00647ff21,"['Hotel', 'Event venue']",4.4,258
 0x809ae68c5abc42c7:0xfa4ef6d7eb923d35,"['Chinese restaurant', 'Asian restaurant', 'Restaurant']",4.2,228
 0x809ae7b09efac20d:0xd97b31ca097d2e4d,['Bar & grill'],4.2,98
 0x809ad4192b37ef89:0x61bba6c6a184a721,['Truck repair shop'],4.5,118
@@ -12779,6 +13103,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac74f236fffff:0x33d43cfcfd6fa607,['Restaurant'],4.5,184
 0x809ad0dad8c39925:0xf470b8f026fe2c3,"['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",4.3,268
 0x809adcafd9836027:0x506fcc541603ea34,"['Marine supply store', 'Bait shop', 'Boat cover supplier', 'Canoe & kayak store', 'Fishing store', 'Outdoor sports store', 'Water ski shop']",4.2,126
+0x809abcd9a8925e1b:0x5b56d018d9c0072b,['Garbage collection service'],4.1,15
 0x809ad6adfcc49127:0xfdcf8aafe3caa4bb,"['Dental clinic', 'Dentist']",4.6,5
 0x809ad6b1f547df9f:0xbe05e9bb774ceab1,"['Drug store', 'Beauty supply store', 'Convenience store', 'Cosmetics store', 'Greeting card shop', 'Perfume store', 'Stationery store']",3.0,28
 0x809aded3895c72c9:0xd8e8480ee54c9c1a,"['Russian grocery store', 'Grocery store']",4.2,188
@@ -12880,8 +13205,10 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809acfdfff42096d:0xedca99471d224809,['Money transfer service'],2.0,2
 0x809acfc3d1c6deff:0x37dbd7f376c1c887,['Cold storage facility'],3.5,35
 0x809ac0b2971ab36d:0x221b387340a49fa4,"['Coffee shop', 'Cafe']",4.3,138
+0x809abd027f9a9c7b:0xd041fdfcc2eb23fa,"['Fast food restaurant', 'Breakfast restaurant', 'Chicken restaurant', 'Hamburger restaurant']",3.9,535
 0x809adfdc8d5bd497:0xe98030e1fe8fdfc6,['Coffee shop'],4.7,137
 0x809adbb97044ed85:0x4d15196002a34981,"['Gym', 'Fitness center', 'Personal trainer']",4.0,156
+0x809aa2cf8bb5cf27:0xe8ba3db337038d9b,"['Mongolian barbecue restaurant', 'Chinese restaurant']",4.3,178
 0x809ae1508c936c2f:0x489169b5cedf90c8,"['Patisserie', 'Cafe', 'Restaurant']",4.7,418
 0x809ada32de44e25b:0x6e77b46aacb20d7f,['Sushi restaurant'],4.3,78
 0x809ac4f9c312b955:0xf0d5f5544e090b0b,['Hydroponics equipment supplier'],4.4,93
@@ -13016,6 +13343,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adb461c293469:0x26a6579c9c369c2f,"['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",3.4,1297
 0x809ad1a329de7605:0xe4db7a50f842e997,"['Pub', 'Bar']",4.2,258
 0x4076ff887da23d81:0x51e9d058f047b408,"['Uniform store', 'Police supply store', 'Safety equipment supplier']",3.1,145
+0x809aa2daa0efc8ab:0x981d0c4a62ec0dae,"['Diner', 'American restaurant', 'Breakfast restaurant']",4.0,636
 0x809ac7b9ac3a84f5:0xb975cd6b039d7b01,"['Plus size clothing store', 'Clothing store', 'Fashion accessories store', 'Lingerie store', ""Women's clothing store""]",4.4,88
 0x809ac56f2e2bb1d1:0x82bd2a8f6a82d6b4,['Vietnamese restaurant'],3.8,38
 0x809ad994ebafde0f:0x511c42296d014312,"['Afghani restaurant', 'American restaurant', 'Falafel restaurant', 'Halal restaurant', 'Vegetarian restaurant']",4.6,158
@@ -13106,6 +13434,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809add5581424b93:0xf412754d4c96af44,"['Self-storage facility', 'Truck rental agency']",4.6,35
 0x809ad01bd77817eb:0x5ddd45e706d9ac11,['Mexican restaurant'],3.8,18
 0x809ad40e070ffb67:0xaa8a0d04f6fab4f9,"['Truck parts supplier', 'Auto parts store', 'Trailer supply store', 'Truck accessories store']",4.3,18
+0x809abcfda78e47db:0xdb437408a024cca,['Gas station'],4.0,3
 0x809ace1c8233db3d:0xee0b7aef8cb577e6,"['Pet supply store', 'Pet store']",4.4,238
 0x809ad03f2a1fbdc7:0x6a283e4134fc7e0b,['Muffler shop'],4.7,104
 0x809ac5bfd604e0a3:0xd0b338d9f1c9a545,['Banquet hall'],4.3,68
@@ -13205,6 +13534,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad716455d6e8d:0x11de4798aeac509b,['African restaurant'],4.4,127
 0x809adbc3b5b70d8d:0xdd242837204cba75,"['Grocery store', 'Fruit and vegetable store', 'Health food store', 'Natural goods store', 'Organic food store', 'Produce market']",4.5,229
 0x809ac5078e2463d9:0x44f402d7e433f471,['Car wash'],3.8,46
+0x809aac84c7d1dd21:0xa7d13b89a38a1d8f,['Chamber of Commerce'],4.2,5
 0x809ac6796590700f:0x3b347d676d5af079,"['Hotel', 'Indoor lodging']",4.3,328
 0x8084d1545fd63f95:0x1b5072d9d16fa878,"['Pet supply store', 'Pet groomer', 'Pet store']",4.3,510
 0x8084d6bbae2dc115:0x5452f4a615249096,"['Park', 'Tourist attraction']",4.6,293
@@ -13262,7 +13592,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d1ab453447ff:0x7b353a53249f7120,"['Lodge', 'Hotel']",3.4,208
 0x4076fd8ca35170cf:0x19bd34bed775683b,['Builder'],3.0,8
 0x808529736cb02df9:0xd2f54d2ead26cb28,"['Asian restaurant', 'Chinese restaurant', 'Fondue restaurant', 'Hot pot restaurant']",3.7,76
+0x809abcfdb538be03:0x9d10e58d870d95aa,"['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",3.5,943
 0x809acfc7570b0205:0x428c75ece80e0ac6,"['Car wash', 'Car detailing service']",4.0,268
+0x809aa2d70085adcb:0x38163b7adc249474,"['Californian restaurant', 'American restaurant', 'Bar & grill', 'Restaurant']",4.4,538
 0x809ac0b2971ab36d:0x999f1116b8fe9c1c,"['Ice cream shop', 'Cake shop', 'Dessert restaurant', 'Frozen yogurt shop']",4.3,58
 0x809b29e4b8612703:0x790211c78af20e4,"['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",3.8,188
 0x809add137feaff55:0x150b8f25fb33eaf5,['Gas station'],3.6,165
@@ -13357,9 +13689,12 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac7008d376f35:0x364db7b174217211,"['Real estate consultant', 'Real estate agency']",5.0,13
 0x809ad637b9aadefd:0xdb075207fcf671ec,"['Variety store', 'Discount store']",4.5,504
 0x809ad0dd3a1ce869:0xc271ed7694a37ac0,"['Pizza restaurant', 'Restaurant']",4.2,638
+0x8084dff4bb12098d:0x43295b4cfefd679c,"['Pizza restaurant', 'Family restaurant', 'Italian restaurant', 'Restaurant']",4.3,134
+0x8084dff2d6f70923:0xd4c7d3067ae78cd2,['Bakery'],4.5,148
 0x809ac54dabc35073:0xc6625f74065f8f50,"['Used tire shop', 'Tire shop']",4.6,167
 0x809ad98cbfc6b6fd:0xe6b514f5832256f6,"['Car dealer', 'Used car dealer']",4.5,44
 0x8084d15a7db54163:0xd8ff1169f636d9b6,"['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",4.7,718
+0x809aa3252d78b9c5:0x7927edda189b8bda,"['Dog breeder', 'Pet adoption service']",4.8,8
 0x809ad9a1c749afcf:0x59c23bb4b89dc8ea,"['Golf course', 'Golf driving range', 'Golf instructor', 'Public golf course', 'Restaurant']",4.4,777
 0x80852bb891604c6f:0x975f4666127d7d7e,"['Grocery store', 'Bakery', 'Deli', 'Gourmet grocery store', 'Supermarket']",4.6,673
 0x8085298aefed6879:0x69b523ee5c13963e,"['Public golf course', 'Golf club', 'Golf course', 'Golf driving range', 'Golf instructor', 'Lunch restaurant']",4.1,137
@@ -13408,6 +13743,8 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac8fa66d40aa7:0x1c80809451ff6a4a,['College'],4.5,45
 0x809ac5713ce97aff:0x279940e4c55fb0ac,"['Auto parts store', 'Car accessories store', 'Car battery store', 'Tool rental service', 'Truck accessories store']",4.3,28
 0x809ada3bd92baeb1:0x3864c24f49e0205a,"['Computer repair service', 'Computer consultant', 'Computer security service', 'Computer support and services', 'Data recovery service', 'Used computer store', 'Website designer']",4.9,798
+0x809aa2daac27b427:0xfc364f1983e32bad,"['Auto parts store', 'Car accessories store', 'Car battery store', 'Tool rental service']",4.3,208
+0x809abd2c41444f77:0x7d615751de0b307d,['Smog inspection station'],4.7,118
 0x809ada0155555555:0x195f130ef569fe14,['Auto electrical service'],4.3,38
 0x809ad141b60634db:0x3a0f92471cf8dc66,"['Pizza restaurant', 'Pizza delivery', 'Pizza Takeout']",4.1,118
 0x809adaff847cb311:0xbcda263a57b46374,"['Chocolate shop', 'Gift basket store', 'Gift shop']",4.4,8
@@ -13483,6 +13820,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad9f3570452f1:0x16d2c1b7025cd8e8,"['Auto parts store', 'Auto repair shop', 'Tire shop', 'Truck accessories store', 'Truck repair shop', 'Wheel store']",3.7,258
 0x809ae4294cefea8b:0xe599282cfe562336,"['Grocery store', 'Grocery delivery service']",4.3,598
 0x809ae50ef128fc21:0x3305a7a01216c0dc,"['Fast food restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Mexican restaurant', 'Restaurant', 'Taco restaurant', 'Tex-Mex restaurant', 'Vegetarian restaurant']",3.7,228
+0x809abcfc0492d83d:0xd54a5035eabddca8,['Taco restaurant'],4.6,204
 0x809ac17fdd04442d:0x55c2da7e8c78012e,['Home builder'],4.5,4
 0x80945da2ee6a8397:0xd575d3950863fda3,"['Government office', 'Corporate office']",4.7,8
 0x809ad0d6c37c2159:0xa5a10f508795602b,"['Sushi restaurant', 'Asian restaurant', 'Bar', 'Cocktail bar']",4.4,788
@@ -13494,6 +13832,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0f6bf36a0f5:0xd5ccc37731842f98,"['Truck rental agency', 'Moving and storage service', 'Moving supply store', 'Packaging supply store', 'Propane supplier', 'Self-storage facility', 'Trailer rental service', 'Trailer supply store', 'Used truck dealer', 'Van rental agency']",3.4,87
 0x809ad0711ea90bc3:0xda028fa05501345,"['Japanese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Authentic Japanese restaurant', 'Restaurant']",4.4,314
 0x809ac549f98d520d:0x82400703da205415,"['Pizza restaurant', 'Halal restaurant']",3.9,38
+0x8084df8b0d7e57df:0x9222d6adab539db8,['Community center'],4.2,48
 0x809ac72476dc55c1:0xede3a47373ec9227,['Hair salon'],5.0,4
 0x809ac67dd4ea58fb:0x4ce75c5b312df559,"['Noodle shop', 'Asian fusion restaurant']",4.2,54
 0x809acf6296a9f6f1:0xa83a16eab8a88b50,['Asian restaurant'],4.1,106
@@ -13534,11 +13873,13 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad07b0759522f:0x532a40de7be5a633,['American restaurant'],4.1,56
 0x809ad637834c391f:0x62be2c14b5a5954c,"['Japanese restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",4.3,1128
 0x8084d11ec920a8d3:0xa8803aa3bc5c3f,['Pakistani restaurant'],4.6,58
+0x8084df8b145783b5:0x7b724376767368ec,"['American restaurant', 'Bar', 'Restaurant']",4.5,518
 0x809ad7a215c6d697:0x1f22e5c9b210fe76,"['Cell phone store', 'Electronic parts supplier', 'Electronics store', 'Telephone company']",2.8,108
 0x809ad7a71aeb4737:0xf1677669ad6c6431,['Gas station'],3.4,148
 0x809b29e04b289c5f:0x11166539d7baa761,"['Mortgage lender', 'Mortgage broker']",4.5,8
 0x809ad12cedf731d9:0xd03303b37348695a,"['Mexican restaurant', 'Latin American restaurant']",4.0,418
 0x809ad6387e8d1817:0xdd7744b8d03d35d9,"['Shipping and mailing service', 'Business center', 'Fax service', 'Office supply store', 'Packaging supply store', 'Passport photo processor', 'Poster store', 'Print shop', 'Promotional products supplier', 'Sign shop']",2.9,58
+0x8084e004dba61c61:0xa09e335e6bfaf1b9,['Brewery'],4.9,168
 0x809ad413d5cfe44f:0x6e7cdc13de3caaad,['Landscaping supply store'],4.6,38
 0x40765459cacf5d0d:0x821721797638ea9b,['Church'],4.7,193
 0x809ad63ec1bcb215:0xf260d08b1ebca863,['Nail salon'],4.3,64
@@ -13562,6 +13903,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adcdc17ebc64f:0x9bc25c940a340a78,['Mobile home park'],3.7,116
 0x809add6ceed2c42d:0xbd0faa8924b2e7ec,"['Karaoke bar', 'Bar', 'Karaoke', 'Pool hall', 'Restaurant']",4.3,258
 0x809ade273fbee5d5:0x963ae113289f1817,['Bar'],4.2,28
+0x809abd28383cfaa3:0xb6292b4f789d8f6f,['Southern Italian restaurant'],4.8,308
 0x809ad9125c7aeaa5:0x239f89bf742a8d66,['Softball field'],4.2,158
 0x809ac7247e7a9e3f:0xa16fdb3608f422d4,"['Sushi restaurant', 'Buffet restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",3.8,608
 0x809ac786cca64a69:0x154327dc2e6452e3,['Car wash'],4.7,78
@@ -13589,6 +13931,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ae42929f907df:0x913b81a828f83970,['Mexican restaurant'],4.6,508
 0x809add5e48c578cd:0x8ee92199edc20a4c,"['Used car dealer', 'Car dealer']",4.8,193
 0x809ade49a117c54f:0x5ca967dc612f1d24,['Glass & mirror shop'],3.7,25
+0x8084df8b5a5f1cc5:0xd22b4d8fa38b61ee,['Steak house'],4.6,1135
 0x809ad73d1b89f617:0x5dd0d10d6c1f28fb,"['Self-storage facility', 'Automobile storage facility', 'Boat storage facility', 'RV storage facility']",4.7,257
 0x809add84a8b4ef77:0xdcba6f001a09bc25,"['Fast food restaurant', 'Hot dog restaurant', 'Restaurant']",3.9,435
 0x809ac4ab7e935533:0xf68d8e5b09601b82,"['Fast food restaurant', 'American restaurant', 'Takeout Restaurant', 'Mexican restaurant', 'Restaurant']",3.6,368
@@ -13605,6 +13948,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adb27dfc29c89:0x19c84ea238804c5d,['Donut shop'],4.7,193
 0x809ae6f9b78503eb:0x2bf201f2b06c44bd,"['Hyundai dealer', 'Auto parts store', 'Auto repair shop', 'Chauffeur service', 'Used car dealer']",4.3,548
 0x809ad65faadc23f9:0xffc4456ea9266639,"['Air conditioning repair service', 'Air conditioning contractor', 'Air conditioning store', 'Air conditioning system supplier', 'Air duct cleaning service', 'Air filter supplier', 'Furnace repair service', 'Heating contractor', 'Heating equipment supplier', 'HVAC contractor']",4.9,308
+0x8085279ed7786643:0x39d14e167790be1,['Bridge'],4.6,18
 0x809ad63eeb2ec02b:0xb4f69894208a3602,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.4,298
 0x809adb2f387b2e29:0x4f3110e4b7820cb2,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.0,387
 0x8084db1dc3d8e9e5:0xfd65535bc03ad83c,['Cemetery'],4.3,6
@@ -13654,6 +13998,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac4c1b665abd9:0x6750acbaf7496400,['Trucking school'],3.9,8
 0x809acfc97ab6b37d:0x984525a37fa0aadb,['Gym'],4.1,54
 0x809acee2a51f32eb:0x4bf41f80faa96aa,"['Chocolate shop', 'Candy store', 'Gift basket store', 'Gift shop']",4.8,118
+0x809abd1b322ea993:0x727c1e0dbf7488fa,"['Home improvement store', 'Garden center', 'Hardware store', 'Pet supply store', 'Propane supplier']",4.4,354
 0x809ace45f3759fb7:0x19afc3b43fe2e43f,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.3,313
 0x809ac9d455227c47:0x1afc41cc3784520f,"['Wildlife refuge', 'Nature preserve', 'Tourist attraction']",4.3,364
 0x809b29dfac2a1b8d:0xf2203b38bb968f8b,"['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",3.8,67
@@ -13796,7 +14141,10 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad47ba2d178e5:0x132d3ae05c6f3d6c,['Wholesale grocer'],3.8,77
 0x809adad83e6dfa4d:0x8d20462548321559,"['Personal trainer', 'Fitness center', 'Nutritionist']",4.5,36
 0x809ad92ba9e91521:0x6d42c22e01b656bc,"['Hotel', 'Business center', 'Indoor lodging']",3.4,1108
+0x809abd2eb5839bef:0x14ae41452239769d,['Hotel'],4.1,418
 0x809ac7b70fcdc061:0x7b55783a5899883,"['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",4.6,148
+0x809aa2d057e8da39:0xcc591d0093d2bfd8,['Supermarket'],4.3,241
+0x809abd26f57c342d:0x61d2faafa72821ac,"['Hotel', 'Lodge']",3.9,98
 0x809ac0a17a8612dd:0xacc399a0202c4b3c,['Veterinarian'],4.6,47
 0x809ad7554ec860e5:0x9add64f0f3e1dbdd,"['Gym', 'Aerobics instructor', 'Personal trainer', 'Physical fitness program', 'Tanning salon', 'Yoga studio']",5.0,8
 0x809acfe80a6d581b:0xd177749806ede0df,"['Auto body shop', 'Industrial equipment supplier', 'Truck repair shop']",4.8,18
@@ -13929,6 +14277,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad13c54e7c1ad:0x9bf8f488d4145df9,['Plumber'],4.8,318
 0x809acfc0aae81a6b:0xff037e41acf99880,"['Pizza restaurant', 'American restaurant', 'Chicken wings restaurant', 'Fast food restaurant', 'Pizza delivery', 'Pizza Takeout']",3.9,428
 0x80852835497b6d89:0x8033f15d05beae9f,"['Chinese restaurant', 'Asian restaurant', 'Restaurant']",3.8,448
+0x8084df853988f305:0x98af13b385ef490b,"['Campground', 'RV park']",4.0,155
 0x809ad21c14787e51:0x98e25b9be4a9bc49,"['Cell phone store', 'Cell phone accessory store', 'Cell phone charging station', 'Computer accessories store', 'Mobile phone repair shop', 'Phone repair service', 'Telecommunications service provider', 'Telephone company', 'Telephone exchange']",4.9,78
 0x809ac57947b3ca77:0x8e0a2e5ba8418696,['RV storage facility'],3.2,17
 0x8084d15735a61445:0x7c07448e8e669305,['Hotel'],4.2,418
@@ -13995,6 +14344,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac5eae21be407:0x25c7d2c77241c1bb,"['Filipino restaurant', 'Restaurant']",4.3,78
 0x809ac7238cd0110d:0x18684a94e5cbfc45,"['Breakfast restaurant', 'Cafe', 'Crêperie', 'Lunch restaurant']",4.6,133
 0x809ac7729a8b131f:0xd53b45581146ec0f,"['Jeep dealer', 'Car dealer', 'Chrysler dealer', 'Dodge dealer', 'Ram dealer', 'Truck dealer', 'Used car dealer', 'Used truck dealer']",3.9,1221
+0x809abd02864e6e0b:0xbdba6677a30caf60,['Coffee shop'],4.6,295
 0x809ac34ba51f1803:0x8cf12182ef07ee69,"['Dog park', 'Animal shelter']",4.5,168
 0x809ad758aee9e733:0x80d1739f520380a0,['Mexican grocery store'],4.1,311
 0x809ad197dcd7c3b9:0x377b3d78990ec6eb,"['Grocery store', 'Grocery delivery service']",4.4,693
@@ -14018,6 +14368,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad060622b7cc5:0x91058b57fffe4468,"['Pet groomer', 'Cat boarding service']",4.8,173
 0x809ad0f6cd4d3cdb:0x7bd4bcbaa10e8dbf,"['Loan agency', 'Auto insurance agency', 'Check cashing service', 'Money order service', 'Money transfer service', 'Tax preparation']",3.5,13
 0x809ada93d188cc39:0xc87e70efa2a1cdb3,"['Hair salon', 'Barber shop', 'Beauty salon', 'Waxing hair removal service']",4.0,97
+0x809abd052b84c26b:0x25b19e1372c48774,"['Dollar store', 'Craft store', 'Discount store', 'Grocery store', 'Home goods store', 'Kitchen supply store', 'Party store', 'School supply store', 'Toy store', 'Variety store']",4.1,104
 0x809ac5c086277da7:0xe17baeeb772a61f8,['Chiropractor'],5.0,38
 0x809acfe8937cef6b:0x8aa5dcfc10f321b9,"['Tire shop', 'Auto repair shop', 'Auto tune up service', 'Brake shop', 'Used tire shop', 'Wheel store']",4.4,208
 0x809ad07a97cc0d9b:0xce6aa665ada3864e,['Veterans organization'],4.4,118
@@ -14061,6 +14412,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada53fb6d2387:0xc0a49eb2937ffd97,['Unitarian Universalist Church'],4.9,28
 0x809adaea70d45795:0xc5da6c867b39a829,"['Art center', 'Event venue', 'Media house']",4.4,14
 0x809addc5a59a7c17:0x9e3b1edc3569d0ac,"['Cultural center', 'Museum']",4.9,18
+0x809aa2dabce9d7c1:0xc988c050a32b4f98,"['Pizza delivery', 'Delivery Restaurant', 'Takeout Restaurant', 'Pizza restaurant', 'Pizza Takeout']",4.1,88
 0x809ad0c0171dc677:0xe03b779d474934bb,"['Hamburger restaurant', 'Restaurant', 'Sports bar']",3.9,465
 0x8084d0e40f4a993f:0xa67b4169d7ab1170,"['Cookie shop', 'Dessert shop', 'Gift basket store', 'Wedding bakery']",4.6,35
 0x809ade4eb23ce8c7:0xb342e08f0808c6b3,"['Discount store', 'Grocery store', 'Kitchen supply store', 'Outlet store', 'Party store', 'Produce market', 'School supply store', 'Toy store']",4.4,598
@@ -14170,6 +14522,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac7059d54f5e9:0x6891ae8f54b5ec02,['Business center'],4.5,17
 0x809ac772d2694f81:0x35ed86edc16f4bf5,['Auto market'],4.2,1144
 0x809ac77c3909b057:0xecd8377687baa8f,"['Mexican restaurant', 'Bar', 'Caterer', 'Fine dining restaurant']",4.2,176
+0x809abd9e2af19067:0x936f67e4a06b718b,['Towing service'],4.7,867
 0x809ae5010f1007cb:0x2d5caf5547ba1417,"['Seafood restaurant', 'Caterer', 'Family restaurant', 'Mexican restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",4.2,295
 0x809ac7005c894073:0x80cde53d1f9eab07,"['Sandwich shop', 'Restaurant', 'Soup restaurant', 'Soup shop']",4.3,188
 0x809ac6fd97ad2433:0x395bb72cd5168d44,"['Chinese restaurant', 'Restaurant']",4.1,236
@@ -14179,6 +14532,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac0ab51442777:0xd2883cf307bbeff4,"['Restaurant', 'Breakfast restaurant']",4.6,248
 0x809ac0b2971ab36d:0x4ad5e7a89c8b0107,['Mexican restaurant'],4.2,278
 0x809ad575d4ad4e81:0xbfd8db5c1760362f,"['Indian restaurant', 'Asian fusion restaurant', 'Caterer', 'Chinese restaurant', 'Event venue', 'Fast food restaurant', 'Halal restaurant', 'Indian takeaway', 'Mobile caterer', 'Modern Indian restaurant']",4.6,98
+0x809aac84c7d1dd21:0x202bbe69c69ad1ac,['Marina'],4.5,192
 0x809b29fc867a201b:0x367634e8e3a0e0e5,"['Fast food restaurant', 'Hot dog restaurant', 'Restaurant']",3.8,264
 0x809ad6461081c3b1:0x2426e12d808ab984,"['Seafood restaurant', 'Caterer', 'Family restaurant', 'Mexican restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",4.3,430
 0x809adcae63da4065:0xfadb14cd1f60b929,"['Christian church', 'Assemblies of God church', 'Church', 'Religious organization']",4.7,157
@@ -14197,8 +14551,10 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad63dd241dcb3:0xe851032fab6dd7a4,['Park'],4.3,56
 0x809adac34c9d37a3:0xdd4173967112bd79,"['Garden center', 'Fence supply store', 'Garden furniture shop', 'Landscaping supply store', 'Lawn mower store', 'Plant nursery', 'Ready mix concrete supplier', 'Retaining wall supplier', 'Sod supplier', 'Topsoil supplier']",4.4,38
 0x809ada8d95d4d42f:0xa8638427c7cf7d94,['Baseball field'],4.8,18
+0x809aa2d66efad3b5:0xfdf4b6f68f21f3c0,"['American restaurant', 'Breakfast restaurant', 'Diner', 'Ice cream shop']",4.5,778
 0x809ac5c57601d4cd:0x53b362eaa165d2cd,['Restaurant'],4.5,48
 0x809ada93d188cc39:0x9f5d07f79b9f6016,"['Japanese restaurant', 'Sushi restaurant']",4.2,673
+0x809aa2da9e36c7f1:0xd46a9f56e091a785,['Mexican restaurant'],4.3,392
 0x809ad161b7b01efb:0xba06934ea7e5689e,"['Barbecue restaurant', 'Restaurant']",4.1,217
 0x809adcb6bcded295:0xa1978f259b6c8ea7,"['Fast food restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Mexican restaurant', 'Restaurant', 'Taco restaurant', 'Tex-Mex restaurant', 'Vegetarian restaurant']",3.6,974
 0x809add475c198c7f:0xee1a37ae80eb2103,"['Tex-Mex restaurant', 'American restaurant', 'Bar', 'Bar & grill', 'Hamburger restaurant', 'Mexican restaurant', 'Restaurant']",4.0,1310
@@ -14504,6 +14860,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adfcca96f79a1:0xf2b47f1138473a5e,['Grocery store'],4.0,7
 0x809ade490a896a5b:0x27e202c352793331,['Auto repair shop'],4.5,113
 0x809ae7fc0a013bb9:0xdf5f9861f5966e6,['Motorcycle repair shop'],3.5,74
+0x809abd2ee889e731:0x9b490c5b176bf0e6,"['Self service car wash', 'Car wash']",4.1,27
 0x809adee85b2143a9:0xdcc9abb5e56345c0,"['Car stereo store', 'Audio visual equipment supplier', 'Auto parts store', 'Car alarm supplier', 'Window tinting service']",4.4,46
 0x8085bb62e9b54b01:0xc1eab67e49ff8d88,"['Go-kart track', 'Event venue']",5.0,4
 0x809adf1e73a75eeb:0x38c24b6178c514ba,['Shopping mall'],4.0,95
@@ -14515,6 +14872,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ada57717369ef:0x381cc8d0243fdec3,"['Californian restaurant', 'Bar', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe']",4.4,481
 0x809ada6521cbc4d7:0x14b68f75c68ee96e,"['Liquor store', 'Grocery store']",4.2,36
 0x809ae15504e8a1a5:0x7a8511502369caef,"['State park', 'Tourist attraction']",4.6,354
+0x809aadab026cdde5:0x70d769d9d431181a,['Restaurant'],4.3,68
 0x809add6b4972fd57:0xed23668c4d420136,"['Restaurant', 'Chicken restaurant']",4.4,308
 0x809ad97f35a74d89:0x802d4c3ddc9be4a9,"['Department store', ""Children's clothing store"", 'Clothing store', 'Jewelry store', ""Men's clothing store"", 'Sunglasses store', 'Swimwear store', ""Women's clothing store""]",4.3,557
 0x809ae41b0f420e13:0x174873a26e5074a7,['Grill'],4.5,443
@@ -14562,7 +14920,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d11f8d7632cf:0x1a930f845c6f4f1c,"['Auto glass shop', 'Glass & mirror shop', 'Glass repair service', 'Glass shop', 'Sandblasting service']",4.6,8
 0x808528352850eb7f:0xf0c028147d501ae2,['Bubble tea store'],4.4,68
 0x809ad55380c76abd:0xfc10fac48dbb33b0,"['Bubble tea store', 'Tea house']",4.1,78
+0x8084dd62863323ab:0x73b08ffc3fac394,"['Event venue', 'Bed & breakfast', 'Hotel', 'Inn', 'Restaurant', 'Wedding venue']",4.9,138
 0x809ad63623b1281b:0xd11a0e7ce42c6d38,"['Department store', 'Baby store', 'Clothing store', 'Electronics store', 'Furniture store', 'Grocery store', 'Toy store']",4.0,347
+0x809abd1cd28d381b:0xc73b03084a43814f,"['Department store', 'Clothing store', 'Craft store', 'Discount store', 'Electronics store', 'Grocery store', 'Home goods store', 'Sporting goods store', 'Supermarket', 'Toy store']",4.1,1567
 0x809ad0d17941b4a3:0x110fbaf1d279bee2,['Ford dealer'],4.2,807
 0x809ad1ad60f72a61:0xfe1af09370f01aab,"['Mexican restaurant', 'Caterer', 'Fast food restaurant']",4.0,578
 0x809ad1377cd5c881:0x4127a8d61a00fe40,['Animal shelter'],4.5,1256
@@ -15132,6 +15492,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0944fcf1a03:0xe311cb2988dcd515,"['Grocery store', 'Grocery delivery service']",4.0,2012
 0x809ad0d8051652b9:0x48c5869114419f0f,"['Park', 'Tourist attraction']",4.7,1266
 0x808529745625fce9:0xb6d34db1a4ab5c90,"['Seafood restaurant', 'Restaurant']",4.7,208
+0x8084df8ab94f3045:0x95927b58b9988574,"['Restaurant', 'Event venue', 'Live music venue']",4.6,668
 0x8084d0e439687e11:0x3ec4265b47bb8f26,['Restaurant'],4.5,334
 0x809ad0d7cf80b363:0x287d2d03c8620718,['Movie theater'],4.4,931
 0x809ada197025c777:0x83dd284abf1597f8,"[""Children's amusement center"", 'American restaurant', ""Children's party service"", 'Family restaurant', 'Pizza restaurant', 'Video arcade']",3.9,1032
@@ -15429,6 +15790,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adf90f6c3e609:0x4e41d05f096c48f,"['Park', 'Tourist attraction']",4.3,1418
 0x809ad11a295e0373:0xf6f858da337ee61d,"['Pizza restaurant', 'Italian restaurant', 'Restaurant']",4.6,388
 0x809adbb796bf79f3:0xf30b9c259886ca95,"['Video game store', 'Cell phone store', 'Collectibles store', 'Electronics store']",4.2,361
+0x809aad982b61c80d:0xfafb6112bf29448e,['Cannabis store'],4.6,88
 0x809ada372b5471bd:0xa1cc8e983a82ded6,"['Sandwich shop', 'Caterer', 'Deli', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant', 'Salad shop']",4.3,327
 0x809ade1b8c376587:0x19c434d7f5a0ebf7,['Apartment building'],3.0,18
 0x809adb0e90846efd:0x7d030e49fef89a6a,"['Gas station', 'Car wash']",3.9,138
@@ -15514,6 +15876,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ade198deec879:0xc91161c9aa4aa1d7,"['Drug store', 'Beauty supply store', 'Convenience store', 'General store', 'Greeting card shop']",3.4,14
 0x809adf95d32cc429:0xb2cbb35ba63b6311,"['Smog inspection station', 'Car inspection station']",4.5,85
 0x809ade2f96fcac1d:0xb1a754ec1c2e3b34,"['Chicken wings restaurant', 'American restaurant', 'Bar & grill', 'Takeout Restaurant', 'Restaurant', 'Sports bar']",4.1,1514
+0x8084dff6a99ac773:0xa880e8397b5547a7,['Park'],4.8,227
 0x809ad68b08b9fd13:0x30c20730e7e697e0,"['Indian restaurant', 'Buffet restaurant', 'Catering food and drink supplier', 'Indian takeaway', 'Meat dish restaurant', 'Restaurant', 'Vegetarian restaurant']",4.1,588
 0x809ad68b03da5dc7:0xe4bb3dab416a8aac,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.2,488
 0x809ad6f0c9a266f3:0x458063d621328736,"['Park', 'Dog park']",4.0,196
@@ -15629,6 +15992,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adaaa43ad694b:0x8ba57cc7c938e4e8,"['Vietnamese restaurant', 'Chinese restaurant']",4.1,818
 0x809ac571a72fd62b:0xf87c0c23beb2fee9,['Chinese restaurant'],3.8,1410
 0x809ac5d92bb4b059:0x76645011b01cb470,"['Chinese restaurant', 'Asian restaurant', 'Restaurant']",4.0,414
+0x809aa2cf8bb5cf27:0x30fe81de85806dd9,"['Pizza restaurant', 'Caterer', 'Italian restaurant', 'Pizza delivery', 'Pizza Takeout']",3.8,135
 0x809ac598d4cdc74f:0x7eaa4a812a40084d,"['Mexican restaurant', 'Restaurant']",4.4,296
 0x809acf8ef251308b:0xa37aba0b4e681a5b,['Shopping mall'],4.0,216
 0x809ac5939a53610f:0x2746ea40aec21cea,"['Taco restaurant', 'Latin American restaurant', 'Mexican restaurant']",4.1,344
@@ -15667,6 +16031,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad1322af62a8f:0x73dbdf617a014844,['Toy store'],4.9,45
 0x809ab8b3c0484c53:0x7d96ff02203c79b9,"['Lawn mower store', 'Equipment rental agency', 'Landscaping supply store', 'Lawn mower repair service']",4.2,68
 0x809ac55b12bade97:0xbc78ddd722905e10,"['Tropical fish store', 'Aquarium', 'Fish store']",4.6,393
+0x80851fd1b320d073:0xf04afc63eb0af812,"['Park', 'Tourist attraction']",4.4,337
 0x80852bc7f2589669:0x416d3238f7daf958,"['Honda dealer', 'Auto parts store', 'Car dealer', 'Used auto parts store', 'Used car dealer']",4.5,678
 0x808529733e64b817:0xc7891fb577fc52f4,['Thai restaurant'],4.3,468
 0x8085299092245463:0x87f3c3c414116a4e,['Donut shop'],4.7,138
@@ -15682,7 +16047,12 @@ gmap_id,category,avg_rating,num_of_reviews
 0x80852834378be4bd:0x6f98ecb9d571a046,"['Gas station', 'Car wash']",4.0,55
 0x80852973149a97f3:0x90cdc2c602ab26e5,['Cafe'],4.4,184
 0x80852974938a22f5:0x78abc4a59677a062,"['Shipping and mailing service', 'Business center', 'Fax service', 'Office supply store', 'Packaging supply store', 'Passport photo processor', 'Poster store', 'Print shop', 'Promotional products supplier', 'Sign shop']",3.3,58
+0x809aa2c50d77856f:0xfe37e2f53080f4b6,"['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",3.5,1073
 0x809ac78a1a991a2b:0x4476409bb086bd0d,['Seafood restaurant'],4.3,587
+0x809aa2c55412295d:0xd2802d66bc5913f0,"['Fast food restaurant', 'Hamburger restaurant']",4.0,449
+0x809abd02f0fd0f6b:0x1843d2f333812202,"['Grocery store', 'Grocery delivery service', 'Store', 'Supermarket']",4.3,718
+0x809aa2d098cd5729:0x22041fcc233cdbf1,"['Pizza restaurant', 'Delivery Restaurant']",4.7,393
+0x809aad5d5b95d979:0x27d24a0876dd5d9d,"['Restaurant', 'Bar', 'Bed & breakfast', 'Casino', 'Chinese restaurant', 'Gambling house', 'Hotel', 'Mexican restaurant']",4.2,88
 0x809ac67889e21c4d:0xc7b9bc2436594bd5,['Gas station'],4.5,214
 0x809ad6d2d1cc2751:0xe862f30942813e34,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.1,498
 0x809add2622a3b025:0x62f10496654b9cd9,['Liquor store'],3.6,218
@@ -15874,7 +16244,10 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0d0da785f3d:0xdc2839206601d58,['Park'],4.4,48
 0x808529735f5ab02f:0x4b7c5d7db917b318,"['Indian restaurant', 'Asian restaurant', 'Nepalese restaurant', 'South Asian restaurant']",4.3,278
 0x809ae5011e88f827:0xf158177d84f33a7b,"['Juice shop', 'Restaurant']",4.2,133
+0x8084df8da1da2029:0x6ddabe6e7e4f1517,"['Dollar store', 'Beauty supply store', 'Discount store', 'Grocery store', 'Party store', 'Pet supply store']",4.0,304
+0x8084dff3537cdca7:0xd8322c8639758da6,"['Hotel', 'Wedding venue']",4.3,48
 0x809ada3274922edf:0xf6b7ada03dc3e58a,"['Auto repair shop', 'Auto air conditioning service', 'Racing car parts store', 'Tuning automobile', 'Window tinting service']",4.4,68
+0x8084df844ffb52fb:0x35920ff7e36d40b9,['Training centre'],4.6,16
 0x809ada389e3b574d:0xa976cbacaaa10fc8,"['Diner', 'American restaurant', 'Breakfast restaurant']",3.7,1592
 0x809ad6f30f948a91:0x9df1948194035919,['Hotel'],4.3,868
 0x809ada5bf1baf1cd:0xfc1ca71221a0814,"['Hotel', 'Extended stay hotel']",4.1,738
@@ -15904,7 +16277,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809add61ac7ad511:0xa0c036c2045ed3e6,['Attorney'],1.0,3
 0x8084d1cb88a0ad21:0x88dd4cfb18f26503,"['Event venue', 'Wedding venue']",4.9,8
 0x8084d0e4707e4357:0xaf14a5925dc75c7,"['Post office', 'Logistics service', 'Money order service', 'Shipping and mailing service']",2.9,28
+0x809abd292ba3954b:0x71a15c12fae8263d,['Gas station'],4.1,195
 0x809ad0e753e06473:0x9c4845e0a3b00cc1,['Coffee shop'],4.6,114
+0x809aac90be851531:0x2b3bfa4c94f33431,"['American restaurant', 'Bar']",4.2,164
 0x809ad0df7ecad081:0x72c02b126ce789c5,"['Bar & grill', 'Fine dining restaurant', 'Gluten-free restaurant', 'Restaurant']",4.4,1971
 0x809ad09378df7355:0x7d016d3eed84048f,"['Italian restaurant', 'Restaurant']",4.5,978
 0x809ad0c37234552d:0x7059a85eb9031ad8,"['Coffee shop', 'Cafe']",4.6,1227
@@ -16025,6 +16400,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad40f569fd48d:0xd88d72257737d5b8,"['Diner', 'American restaurant', 'Breakfast restaurant']",3.9,1116
 0x809ada3ced499e05:0xc8407993d29a9323,"['Restaurant', 'American restaurant', 'Breakfast restaurant', 'Family restaurant']",4.0,1397
 0x809ad0d937c7ed09:0x4bb081cda971d086,"['Car rental agency', 'Van rental agency']",4.2,552
+0x809aa2d010a6e297:0x5fa1c017a888a3c3,['Grocery store'],4.3,471
 0x809ac336aaaaaaab:0x5bb59bbf2770e000,"['Park', 'Tourist attraction']",4.3,1638
 0x809ad473b1daf377:0xea3b81742a47d0e,['Warehouse'],3.8,28
 0x809ad3f90284fc07:0x932f2a3bf5c06536,['Logistics service'],3.7,8
@@ -16044,6 +16420,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x8084d1aae7ab3d49:0xf2f83ec6e6ed3c73,['Hotel'],4.1,778
 0x8084d146c8582d4b:0xeabfc65c8ee66f5e,"['Mediterranean restaurant', 'American restaurant', 'Greek restaurant']",4.7,268
 0x8084d145d72e086f:0x320450150c4e8729,"['Home improvement store', 'Appliance store', 'Bathroom supply store', 'Cabinet store', 'Hardware store', 'Lighting store', 'Paint store', 'Rug store', 'Tool store', 'Window treatment store']",4.1,715
+0x8084df8b53474343:0xc917c7601088b0e5,"['Hardware store', 'Home improvement store', 'Paint store', 'Tool store']",4.8,86
 0x8084d0e437c414ef:0x56c5939528507ccf,['Mexican restaurant'],4.0,148
 0x8084d145ced29b21:0xd818e447a0db5dcd,"['Building materials store', 'Dry wall supply store', 'Insulation materials store', 'Lumber store', 'Marble supplier', 'Masonry supply store', 'Millwork shop', 'Molding supplier', 'Roofing supply store', 'Welding supply store']",5.0,3
 0x809ac8f012d2eed1:0x51532b5ea22494d4,"['Korean barbecue restaurant', 'Barbecue restaurant', 'Korean restaurant', 'Restaurant']",4.4,1525
@@ -16099,6 +16476,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac888fd6376af:0x81bf91ae43149c91,['Thai restaurant'],4.5,698
 0x809ad0df2258cf3f:0x788187e3726d2660,"['Park', 'Tourist attraction']",4.4,705
 0x809ac89e9e77fd81:0xe9d3736452bc2914,"['Sandwich shop', 'Caterer', 'Deli', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant', 'Salad shop']",3.7,108
+0x809ad12affffffff:0xd490837370a0fb7e,"['Nature preserve', 'Bird watching area', 'Hiking area', 'Picnic ground', 'Tourist attraction']",4.7,822
 0x809ac64e793c36c3:0x1e9f6cc2379bfa9c,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.2,318
 0x809ac7973afe176b:0xa03e68c628fc9657,"['Park', 'Tourist attraction']",4.6,26
 0x809adbfb0843b66f:0x2d87352e8e3abd66,"['Fast food restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Mexican restaurant', 'Restaurant', 'Taco restaurant', 'Tex-Mex restaurant', 'Vegetarian restaurant']",3.6,668
@@ -16147,6 +16525,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac7d1c0a0b887:0x1f379666f6ced4e5,['Donut shop'],4.5,56
 0x809ac87423e0c007:0xfe0b53122210d571,['Dentist'],3.1,13
 0x809ace23728d0b17:0x753f0ba0f634128b,"['Grocery store', 'Grocery delivery service', 'Store', 'Supermarket']",4.2,1468
+0x809aa2d3db9967f5:0x310a47efdc370f52,"['Dentist', 'Cosmetic dentist', 'Dental implants periodontist', 'Denture care center', 'Orthodontist', 'Pediatric dentist']",4.2,44
 0x809adaa4bd5c8a09:0x2863d1ad33053cf7,"['Fast food restaurant', 'Restaurant']",4.5,624
 0x809ad0e029b8f46b:0xbd00591428814ef1,"['Pizza delivery', 'Chicken wings restaurant', 'Takeout Restaurant', 'Pizza restaurant']",2.9,178
 0x809ad0c3c32b59af:0x1372b0b14e04695f,"['Gift shop', 'Store']",4.9,58
@@ -16192,6 +16571,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809aded136269e23:0x454c9f53adcc954,"['Cell phone store', 'Telephone company']",3.7,312
 0x809ad99f6467807d:0xdcd90e9b8438354a,['Car wash'],4.4,153
 0x809ade275c7c7ddb:0xf84ca7c4e58c3197,"['Furniture store', 'Bed shop', 'Bedding store', 'Bedroom furniture store']",4.7,56
+0x809ab3c3c21d858f:0x85280f24580418c8,['Resort hotel'],4.4,108
 0x8084d15250fb5efb:0xd1d2b9132ed9a03e,['Shopping mall'],4.3,1779
 0x809adf7bc4f2136d:0x5424ad96529dc8e9,"['Hair salon', 'Beauty salon']",4.4,175
 0x809adbd8ba9f08f7:0xaa7e42f9038bca2f,['Auto repair shop'],4.1,64
@@ -16296,6 +16676,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x808529737d3cecaf:0xc55db35756bb734e,"['American restaurant', 'Bar', 'Pacific Northwest restaurant (US)']",4.0,583
 0x809ad96400000001:0xcd676e829ec96085,"['Antique store', 'Fair']",4.6,338
 0x809ac6beb589bdb7:0x550470fe35f0c5d8,"['Grocery store', 'Grocery delivery service']",4.3,1127
+0x809a98b9f065beb1:0xf09aa4f59146febd,['Veterinarian'],4.6,8
 0x809ac5d8b7f9bd37:0xb69452ac83011119,"['Park', 'Baseball field', 'Dog park', 'Fishing pond', 'Scenic spot', 'Softball field', 'Swimming pool', 'Wedding venue']",4.6,1575
 0x809ad046d00ac333:0x617d07e19b4db594,['Restaurant'],4.5,1478
 0x809ac66b151c53f7:0x92add9bae03c446a,['Movie theater'],4.3,1764
@@ -16305,18 +16686,22 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac7a61ad7d05b:0xeeee0c0713140eae,"['Wedding venue', 'Banquet hall', 'Event planner', 'Event venue', 'Wedding planner', 'Wedding service']",4.6,228
 0x809ac6a6c7d4f395:0x2223aeae82d69219,"['Church of Jesus Christ of Latter-day Saints', 'Christian church', 'Church', 'Non-profit organization', 'Religious organization']",4.9,46
 0x809ac7235109f9f7:0x61119915a9cba78e,"['Auto parts store', 'Car accessories store', 'Car battery store', 'Tool rental service']",4.4,186
+0x809abd284a248e6d:0x9cd785dac9b50a4d,['Hamburger restaurant'],4.4,587
 0x809ad129843681bb:0x3601a932c1db3cd5,"['Sandwich shop', 'American restaurant']",4.5,365
 0x809ad12961d792e7:0xce4d283cac371f2,"['Drug store', 'Beauty supply store', 'Convenience store', 'General store', 'Greeting card shop']",3.8,47
 0x809ad1297c5e642f:0x2bf31655c067465f,"['Mexican restaurant', 'Restaurant']",4.4,234
 0x809ac066e68d6621:0x30d4b419db88145d,['Convenience store'],4.5,4
 0x809ad12bd437d1b5:0x4c61b19a8b24c703,"['Korean restaurant', 'Asian restaurant']",4.3,133
 0x809adcb72bf880eb:0xd62aff619c3e4f15,"['Mexican restaurant', 'Caterer', 'Chicken restaurant', 'Fast food restaurant']",3.6,577
+0x809abcfd73e271fb:0xbf5933f8112c105,"['Air conditioning repair service', 'Auto repair shop', 'Brake shop', 'Oil change service', 'Smog inspection station']",4.6,28
 0x809ac64f15fd2345:0x52291d521731be4c,"['Department store', 'Baby store', 'Clothing store', 'Electronics store', 'Furniture store', 'Grocery store', 'Toy store']",4.1,548
 0x809ac62fffffffff:0x5aa05c34475034e3,['Performing arts group'],4.7,25
+0x809abd2bfa90ff07:0x7f2ad007544da479,['Optometrist'],4.0,8
 0x809aded906ca4381:0x8dff6a48f078dbd7,['Escape room center'],4.2,105
 0x809acfb7575e5d25:0x27ce78cdf05f4c87,"['Church of Jesus Christ of Latter-day Saints', 'Christian church', 'Church', 'Non-profit organization', 'Religious organization']",4.6,18
 0x809ac4d6e28f0639:0x5c4b2f52b0d889e8,['Cannery'],4.8,8
 0x809ac7231a65e38b:0x424bde06c1a15ff1,"['Mexican restaurant', 'Latin American restaurant']",4.5,226
+0x809abd029ec47573:0x97d05afec10c6577,['Chinese restaurant'],4.3,148
 0x809ae65fe1cdaa19:0x90b3926111c15d48,"['Church of Jesus Christ of Latter-day Saints', 'Place of worship']",4.9,338
 0x809ac64dd5152d4f:0xc2e235ca1059d420,"['Craft store', 'Art supply store', 'Picture frame shop', 'Yarn store']",4.3,835
 0x809add6b4de50ec3:0x6b55f74833d73e9e,"['Mexican restaurant', 'Fast food restaurant']",4.1,368
@@ -16326,7 +16711,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac65378d97981:0xdaacb4a8c0a67759,['Grocery store'],4.4,452
 0x809ac3cf106dae7f:0x1fa8e4e9acced96a,['Park'],4.6,58
 0x809ac160872cd0af:0xc54503afd01dec4a,['Mexican restaurant'],4.5,128
+0x809abd2c131a33c9:0x9efbd060e96a3d8e,['Smog inspection station'],4.5,58
 0x809ac745f0b43307:0x6645dc08c09a914c,['Locksmith'],4.7,76
+0x809abd55a2a606a7:0x9afa7d5a0e420dc7,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.2,361
 0x809ad7d28965531d:0xf2078bd7c69662b5,['Circus'],4.9,78
 0x809ac64eca1349cd:0xcf0d18c3e1e97b2d,"['Cell phone store', 'Telephone company']",3.7,138
 0x809ab8bad94ac0a5:0x84de608ada9a2ae2,"['Boot store', 'Clothing store', 'Western apparel store']",4.5,268
@@ -16384,6 +16771,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x808528354dbccedd:0x96ecfc20fadcfdcf,"['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",4.3,125
 0x809ac76aebb6c4f3:0x59248b68d50bc129,['Fire protection service'],4.9,8
 0x809add155abbe28f:0xcc89ba53fb97dfcb,"['Hotel', 'Indoor lodging']",4.3,368
+0x809aac9644d3a14d:0xb4b528e19b044751,"['Campground', 'Cottage']",4.1,98
 0x808529abf04d2367:0xec2bab0c88d0f943,['Shopping mall'],3.8,654
 0x808529749d7715cf:0x6a70ea1ff82e8c74,['Mexican restaurant'],4.3,658
 0x809ac7fb5372c6e5:0x706210f0d252b327,"['Fast food restaurant', 'Breakfast restaurant', 'Chicken restaurant', 'Hamburger restaurant']",3.9,107
@@ -16453,6 +16841,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac5d9e19ec62d:0x6584c3d35ddf4478,"['Used car dealer', 'Car dealer', 'Chauffeur service']",4.1,1427
 0x809ace443d788961:0xd7e525a5501faf01,"['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",3.5,1409
 0x809ac59231e7bb07:0x293073b1b1ce0164,"['Chicken restaurant', 'Family restaurant', 'Filipino restaurant', 'Hamburger restaurant', 'Takeout Restaurant']",4.2,783
+0x809aa2da98c93d4f:0x89de52c94ff7cb32,"['Seafood restaurant', 'Burrito restaurant', 'Mexican restaurant', 'Soup restaurant', 'Taco restaurant']",4.3,413
 0x809adb9977dedea9:0xc0e123532b9cdd0,['Seafood restaurant'],4.5,458
 0x809ac5d932390161:0x5afc5a557d986e9d,['Barbecue restaurant'],4.3,322
 0x809ac56f46b88177:0x970adb5c08adb56a,"['Cafe', 'Coffee shop']",4.4,148
@@ -16542,6 +16931,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad11e04298773:0x7e78428305b43a5a,"['Hamburger restaurant', 'American restaurant', 'Fast food restaurant', 'Restaurant']",4.3,1798
 0x809adb4c17adf8b3:0x37f090987dd0f0a6,['Electric vehicle charging station'],4.3,48
 0x809adf387099dccd:0x7fd39e1113f128e2,"['Shipping company', 'Fingerprinting service', 'Mailbox rental service', 'Mailing service', 'Notary public', 'Packaging supply store', 'Passport photo processor', 'Shipping and mailing service', 'Shipping service']",4.9,308
+0x8084df835701f44f:0x8250aff298ae0841,"['Fast food restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Mexican restaurant', 'Restaurant', 'Taco restaurant', 'Tex-Mex restaurant', 'Vegetarian restaurant']",3.8,324
 0x809ade25a63582b3:0x69b42571473c833f,"['Home improvement store', 'Appliance store', 'Building materials supplier', 'Flooring store', 'Furniture store', 'Grill store', 'Hardware store', 'Lawn equipment rental service', 'Outdoor furniture store', 'Rug store']",3.8,1875
 0x809ae41c41255283:0x4e33514b94bcf40f,"['Department store', 'Clothing store', 'Craft store', 'Discount store', 'Electronics store', 'Grocery store', 'Home goods store', 'Sporting goods store', 'Supermarket', 'Toy store']",3.9,2058
 0x809ae4112facd577:0xfc29e0458907608a,"['Home improvement store', 'Appliance store', 'Building materials supplier', 'Flooring store', 'Furniture store', 'Grill store', 'Hardware store', 'Lawn equipment rental service', 'Outdoor furniture store', 'Rug store']",4.1,898
@@ -16587,6 +16977,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac5948f3df823:0xfafd2a15b4f610ba,"['Gas station', 'ATM', 'Car wash']",3.6,48
 0x809ad0d6c950cee1:0xc3af5236e469254f,['Performing arts group'],4.8,158
 0x80852974abd4307b:0x8fd91e017960bff9,"['Tea house', 'Store']",4.4,78
+0x8084df8b5900f14f:0x7707eeae654ec722,"['Cafe', 'Bakery', 'Bar', 'Breakfast restaurant', 'Brunch restaurant', 'Diner', 'Lunch restaurant', 'Pizza restaurant', 'Pizza Takeout', 'Restaurant']",4.5,923
 0x809ad0d70e6a3039:0x7358e69a9cb4ba0,"['Performing arts theater', 'Auditorium', 'Community center', 'Event venue', 'Live music venue']",4.5,647
 0x809ad0d6107ae1bb:0x69fbdeaf7b16804d,['Thai restaurant'],4.5,578
 0x809ac70c48fc6335:0x6ed7d8556fc266ec,['Mexican restaurant'],4.1,538
@@ -16934,6 +17325,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adaaa9dfbc025:0xcadbede00b11cb05,['Plaza'],3.7,764
 0x809ad01445cc42e3:0xe8d72ba033d71f0d,['Grocery store'],4.2,28
 0x809ad72c4ef353b7:0xd1c602dbb68e5dd3,['Charity'],4.3,618
+0x809aa2c407030481:0x33529abf194976e6,['Fast food restaurant'],3.1,435
 0x809ace081714b31f:0x5a9d49d2d1af802d,['Shopping mall'],4.3,574
 0x809ad01bbca63cc1:0x83a52eecd631e24f,['Oil change service'],4.7,304
 0x809adaaa95fe1713:0x733701f3f99a210a,"['Clothing store', ""Children's clothing store"", 'Discount store', 'Fashion accessories store', ""Men's clothing store"", 'Plus size clothing store', 'Shoe store', ""Women's clothing store""]",3.9,218
@@ -17375,6 +17767,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad0db24b5c6ef:0x26d0e6daf6a14b2b,"['Italian restaurant', 'Banquet hall', 'Caterer', 'Delivery service', 'Gluten-free restaurant']",4.3,2076
 0x809ab8cbcb32090b:0xeacc330214ee997d,['Brewery'],4.8,148
 0x809ad4395a301ad3:0x2f06d9638b62221b,"['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",4.1,998
+0x8084df8b61b2524d:0x8d37cf95ea5a95a7,"['Cafe', 'Coffee roasters', 'Coffee shop', 'Coffee store', 'Coffee wholesaler', 'Restaurant']",4.6,238
 0x809b2b6fe00749f1:0x2b8477f8c1bf536e,['Food court'],2.7,78
 0x809ae6ad2130188d:0x8e5f50df1f4f3a27,"['Physical therapy clinic', 'Mfr', 'Pilates studio']",5.0,8
 0x809ad6cd2ca46edb:0x3bcc0620d177f1cc,"['Fine dining restaurant', 'New American restaurant']",4.6,1082
@@ -17406,7 +17799,9 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ac67c0022f91d:0xc736ea0448317df8,"['Home improvement store', 'Appliance store', 'Building materials supplier', 'Flooring store', 'Furniture store', 'Grill store', 'Hardware store', 'Lawn equipment rental service', 'Outdoor furniture store', 'Rug store']",4.0,1772
 0x809adfbef917eb8b:0x3a129453105abb38,"['Tobacco shop', 'Vaporizer store']",4.9,76
 0x809ada85f9196225:0x2054c4e7a6407ad9,"['Catholic church', 'Church']",4.6,46
+0x809aa2dad95e9e65:0xe2ed8050dd99f794,"['Flea market', 'Market']",4.3,1955
 0x809ad133366e9785:0xae7a0d2a09349143,"['Seafood restaurant', 'Family restaurant']",4.1,4987
+0x809aa2c496074ef7:0x8cc5bed7b88e2b54,['Sports complex'],4.4,98
 0x809ad124ddc42fc1:0x1d8b8ba05d1842a8,"['Catholic church', 'Tourist attraction']",4.8,505
 0x809ad4106a4ab8b9:0x263c62d9e362e5d3,"['Pawn shop', 'Coin dealer', 'Electronics store', 'Gold dealer', 'Guitar store', 'Handbags shop', 'Jewelry store', 'Loan agency', 'Music store', 'Tool store']",4.9,1656
 0x809ad1a5bd5ff3b9:0xebaa3ffb94fd9a41,"['Park', 'Tourist attraction']",4.6,4209
@@ -17416,6 +17811,7 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809adbe4a777e3ad:0xdb736e25d61e0c9b,"['Fast food restaurant', 'Hamburger restaurant']",3.5,237
 0x809ad1bb3697158f:0xda72bee8c1556c3,"['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",4.5,93
 0x809ad6ccb87b807b:0x5ea59b9df5c3960e,['Marina'],4.5,166
+0x809aa2d772e92b9f:0x925bc9d09febddb5,['Diner'],4.5,338
 0x809ad7263a8a4f11:0x7619348d7e349613,['Historical landmark'],4.7,1257
 0x809ad1332c260d93:0xb466d265e763b4f2,['Candy store'],4.5,768
 0x809ae699d50a90d3:0xaa4ddd01876f52e1,"['Diner', 'Restaurant']",4.4,988
@@ -17460,12 +17856,19 @@ gmap_id,category,avg_rating,num_of_reviews
 0x809ad1c3d95c34bb:0xc845a0847288fde6,"['New American restaurant', 'Bar & grill', 'Brunch restaurant', 'Fusion restaurant', 'Gastropub', 'Health food restaurant', 'Takeout Restaurant', 'Sports bar', 'Vegetarian restaurant']",4.4,1183
 0x809ac5c1da2eb067:0xb6ddecae0068886d,['Medical Center'],3.4,293
 0x809ada4764976d4b:0x102c7232fe3869eb,"['Fast food restaurant', 'Breakfast restaurant', 'Burrito restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Mexican restaurant', 'Restaurant', 'Taco restaurant', 'Tex-Mex restaurant', 'Vegetarian restaurant']",3.5,1012
+0x809aab887dfb670d:0x7f6966c89b5e618b,['Bar & grill'],4.2,185
 0x8084d15aa1a414e9:0xabbd8576a876f3fa,"['Ram dealer', 'Car wash', 'Truck dealer', 'Truck repair shop', 'Used truck dealer']",4.3,158
 0x809ad604aa6cdb95:0x5420911f181a4d5,"['History museum', 'Botanical garden', 'Tourist attraction']",4.7,4538
 0x809acf88f1bf4689:0x90d3cc30309456ee,"['Vietnamese restaurant', 'Laotian restaurant']",3.9,65
 0x80852bc78524683b:0x370636dc5d4956ed,"['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",3.6,1107
 0x809ad4395bb1a333:0x4894e377d9b971c3,"['Sandwich shop', 'Caterer', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant']",4.1,74
+0x809aad5b62c51f4b:0x92bb6ad4ceb2107b,['Steak house'],4.3,306
+0x80854d819166d9b9:0x377cfac784c89c5f,"[""Farmers' market"", 'Agriculture', 'Grocery store', 'Wine']",4.3,678
+0x809aad5d59595975:0x1a8be3102e4a7138,['Bar'],4.9,148
 0x809ad43c9955d719:0xf64163d6b1b41a95,"['Hamburger restaurant', 'Diner', 'Fast food restaurant', 'Lunch restaurant', 'Restaurant']",4.6,2139
+0x809aacf7dc4c88e1:0x66f04a044a3cbdf1,['Marina'],4.4,178
+0x809aac84c77e2d6b:0xf242bebe5c8145fd,"['Resort hotel', 'Campground', 'Marina', 'Restaurant']",4.1,218
+0x809aab8e8c8be411:0x2f4e5d641305b588,"['American restaurant', 'Bar']",4.2,455
 0x809ad6257a4c920d:0x501566d997f65aef,"['Brunch restaurant', 'Restaurant']",4.4,1168
 0x809ae41b3be5c84d:0xfb9280356ef98d5f,"['Vietnamese restaurant', 'Restaurant']",4.4,734
 0x809ae50606f444f5:0xadb8a17e81ea5455,"['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",4.3,478
