@@ -3,7 +3,7 @@ import spacy
 from spacy import Language
 from spacy.tokens import Doc
 from sense2vec import Sense2Vec
-from transformers import pipeline
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 
 s2v = Sense2Vec().from_disk("s2v_old")
 # Create a pipe that converts lemmas to lower case:
@@ -17,22 +17,12 @@ nlp = spacy.load('en_core_web_sm', disable=['ner'])
 # lower_case_lemmas to pipeline
 nlp.add_pipe(factory_name="lower_case_lemmas", after="tagger")
 
-'''
-## DUMMY REVIEWS
-reviews = [
-    "I stumbled upon this hidden gem last night and had the most amazing dining experience. The atmosphere was cozy, the staff was friendly, and the food was a culinary masterpiece. I highly recommend the chef's special – a true delight for your taste buds!",
-    
-    "This restaurant is a decent option if you're looking for a quick bite. The service was prompt, and the menu had a variety of options. The prices were reasonable, but don't expect anything extraordinary. It's a convenient choice for a casual meal.",
-    
-    "From the moment we walked in, the staff made us feel welcome. The chef's recommendations were spot-on, and each dish was a culinary delight. The attention to detail and unique flavors set this restaurant apart. We left with happy taste buds!",
-    
-    "I can't understand the hype around this place. The prices are exorbitant for the quality of food served. I ordered a dish that was supposed to be a specialty, but it was bland and lacked the promised flavors. Also the bathrooms were very dirty.Definitely not worth the money.",
-    
-    "The restaurant had a nice ambiance, and the service was courteous. The food, however, was average. Nothing stood out, but nothing was terrible either. If you're in the neighborhood and need a meal, it's an okay choice, but I wouldn't go out of my way to dine here.",
-    
-    "I'm thrilled to have discovered this hidden gem! The staff was friendly, the menu had a great selection, and the food was absolutely delicious. The prices were reasonable, making it a fantastic value for the quality of the dining experience. Can't wait to come back!"
-]
-'''
+model_name = "siebert/sentiment-roberta-large-english"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSequenceClassification.from_pretrained(model_name)
+
+sentiment_pipeline = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
+
 def toDocs(reviews : list[str]):
   return list(nlp.pipe(reviews))
 
@@ -53,43 +43,74 @@ def topicDetection(sentence, topic_list : list[str], pos : list[str], thresh, ex
 # docs is a list of spaCy docs, each representing a restaurant review
 def detectRestaurantTopics(docs : list[Doc]):
 
-  sentiment_pipeline = pipeline("sentiment-analysis")
-
   food = ["food|NOUN", "pizza|NOUN", "meal|NOUN", "taco|NOUN", "chinese|ADJ", "mexican|ADJ", "sushi|NOUN", "bone|NOUN", "drink|NOUN", "pho|NOUN", "curry|NOUN", "coffee|NOUN", "teriyaki|NOUN"]
   service = ["waiter|NOUN", "staff|NOUN", "service|NOUN", "employee|NOUN"]
   location = ["crowded|ADJ", "atmosphere|NOUN", "quiet|ADJ", "interior|NOUN", "music|NOUN", "environment|NOUN", "space|NOUN", "vibe|NOUN", "location|NOUN"]
   clean = ["clean|ADJ", "dirty|ADJ", "fly|NOUN", "cockroach|NOUN", "filthy|ADJ", "spotless|ADJ"]
   price = ["cheap|ADJ", "expensive|ADJ", "price|NOUN", "worth|NOUN", "payment|NOUN", "tip|NOUN"]
   
-  food_hits = []
-  service_hits = []
-  location_hits = []
-  clean_hits = []
-  price_hits = []
+  pos_food, pos_service, pos_location, pos_clean, pos_price = 0, 0, 0, 0, 0
 
-  for i, doc in enumerate(docs):
-    for j, sentence in enumerate(doc.sents):
+  neg_food, neg_service, neg_location, neg_clean, neg_price = 0, 0, 0, 0, 0
+
+  for doc in docs:
+    for sentence in doc.sents:
+
+      sentence_topic = []
+
       if topicDetection(sentence, food, ["NOUN", "ADJ"], 0.6):
         # if food detected in sentence, record doc index and sentence index
-        food_hits.append([i,j])
+        sentence_topic.append("food")
       
       if topicDetection(sentence, service, ["NOUN", "ADJ"], 0.7, ["restaurant", "restraunt", "restaraunt"]):
         # if service detected in sentence
-        service_hits.append([i,j])
+        sentence_topic.append("service")
       
       if topicDetection(sentence, location, ["NOUN", "ADJ"], 0.67):
         # if location detected in sentence
-        location_hits.append([i,j])
+        sentence_topic.append("location")
 
       if topicDetection(sentence, clean, ["NOUN", "ADJ"], 0.7):
         # if cleanliness detected in sentence
-        clean_hits.append([i,j])
+        sentence_topic.append("clean")
       
       if topicDetection(sentence, price, ["NOUN", "ADJ"], 0.7):
         # if price detected in sentence
-        price_hits.append([i,j])   
+        sentence_topic.append("price") 
 
-      #result = sentiment_pipeline(sentence)[0]['label']
+      sentiment = sentiment_pipeline(sentence.text)[0]
+
+      if sentiment['label'] == "POSITIVE":
+        if "food" in sentence_topic: pos_food += 1
+        if "service" in sentence_topic: pos_service += 1
+        if "location" in sentence_topic: pos_location += 1
+        if "clean" in sentence_topic: pos_clean += 1
+        if "price" in sentence_topic: pos_price += 1
+      
+      else:
+        if "food" in sentence_topic: neg_food += 1
+        if "service" in sentence_topic: neg_service += 1
+        if "location" in sentence_topic: neg_location += 1
+        if "clean" in sentence_topic: neg_clean += 1
+        if "price" in sentence_topic: neg_price += 1
 
   
-  return [food_hits, service_hits, location_hits, clean_hits, price_hits]
+  return [pos_food, pos_service, pos_location, pos_clean, pos_price, neg_food, neg_service, neg_location, neg_clean, neg_price]
+
+
+## DUMMY REVIEWS
+# reviews = [
+#     "I stumbled upon this hidden gem last night and had the most amazing dining experience. The atmosphere was cozy, the staff was friendly, and the food was a culinary masterpiece. I highly recommend the chef's special – a true delight for your taste buds!",
+    
+#     "This restaurant is a decent option if you're looking for a quick bite. The service was prompt, and the menu had a variety of options. The prices were reasonable, but don't expect anything extraordinary. It's a convenient choice for a casual meal.",
+    
+#     "From the moment we walked in, the staff made us feel welcome. The chef's recommendations were spot-on, and each dish was a culinary delight. The attention to detail and unique flavors set this restaurant apart. We left with happy taste buds!",
+    
+#     "I can't understand the hype around this place. The prices are exorbitant for the quality of food served. I ordered a dish that was supposed to be a specialty, but it was bland and lacked the promised flavors. Also the bathrooms were very dirty.Definitely not worth the money.",
+    
+#     "The restaurant had a nice ambiance, and the service was courteous. The food, however, was average. Nothing stood out, but nothing was terrible either. If you're in the neighborhood and need a meal, it's an okay choice, but I wouldn't go out of my way to dine here.",
+    
+#     "I'm thrilled to have discovered this hidden gem! The staff was friendly, the menu had a great selection, and the food was absolutely delicious. The prices were reasonable, making it a fantastic value for the quality of the dining experience. Can't wait to come back!"
+# ]
+
+# print(detectRestaurantTopics(toDocs(reviews)))
