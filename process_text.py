@@ -1,7 +1,9 @@
 import pandas as pd
 import spacy
 from spacy import Language
+from spacy.tokens import Doc
 from sense2vec import Sense2Vec
+from transformers import pipeline
 
 s2v = Sense2Vec().from_disk("s2v_old")
 # Create a pipe that converts lemmas to lower case:
@@ -49,46 +51,45 @@ def topicDetection(sentence, topic_list : list[str], pos : list[str], thresh, ex
     return False
 
 # docs is a list of spaCy docs, each representing a restaurant review
-def detectRestaurantTopics(docs):
+def detectRestaurantTopics(docs : list[Doc]):
+
+  sentiment_pipeline = pipeline("sentiment-analysis")
+
   food = ["food|NOUN", "pizza|NOUN", "meal|NOUN", "taco|NOUN", "chinese|ADJ", "mexican|ADJ", "sushi|NOUN", "bone|NOUN", "drink|NOUN", "pho|NOUN", "curry|NOUN", "coffee|NOUN", "teriyaki|NOUN"]
+  service = ["waiter|NOUN", "staff|NOUN", "service|NOUN", "employee|NOUN"]
+  location = ["crowded|ADJ", "atmosphere|NOUN", "quiet|ADJ", "interior|NOUN", "music|NOUN", "environment|NOUN", "space|NOUN", "vibe|NOUN", "location|NOUN"]
+  clean = ["clean|ADJ", "dirty|ADJ", "fly|NOUN", "cockroach|NOUN", "filthy|ADJ", "spotless|ADJ"]
+  price = ["cheap|ADJ", "expensive|ADJ", "price|NOUN", "worth|NOUN", "payment|NOUN", "tip|NOUN"]
+  
   food_hits = []
+  service_hits = []
+  location_hits = []
+  clean_hits = []
+  price_hits = []
+
   for i, doc in enumerate(docs):
     for j, sentence in enumerate(doc.sents):
       if topicDetection(sentence, food, ["NOUN", "ADJ"], 0.6):
         # if food detected in sentence, record doc index and sentence index
         food_hits.append([i,j])
-  
-  service = ["waiter|NOUN", "staff|NOUN", "service|NOUN", "employee|NOUN"]
-  service_hits = []
-  for i, doc in enumerate(docs):
-    for j, sentence in enumerate(doc.sents):
+      
       if topicDetection(sentence, service, ["NOUN", "ADJ"], 0.7, ["restaurant", "restraunt", "restaraunt"]):
         # if service detected in sentence
         service_hits.append([i,j])
-
-  location = ["crowded|ADJ", "atmosphere|NOUN", "quiet|ADJ", "interior|NOUN", "music|NOUN", "environment|NOUN", "space|NOUN", "vibe|NOUN", "location|NOUN"]
-  location_hits = []
-  for i, doc in enumerate(docs):
-    for j, sentence in enumerate(doc.sents):
+      
       if topicDetection(sentence, location, ["NOUN", "ADJ"], 0.67):
         # if location detected in sentence
         location_hits.append([i,j])
 
-  clean = ["clean|ADJ", "dirty|ADJ", "fly|NOUN", "cockroach|NOUN", "filthy|ADJ", "spotless|ADJ"]
-  clean_hits = []
-  for i, doc in enumerate(docs):
-    for j, sentence in enumerate(doc.sents):
       if topicDetection(sentence, clean, ["NOUN", "ADJ"], 0.7):
         # if cleanliness detected in sentence
         clean_hits.append([i,j])
-  
-  price = ["cheap|ADJ", "expensive|ADJ", "price|NOUN", "worth|NOUN", "payment|NOUN", "tip|NOUN"]
-  price_hits = []
-  for i, doc in enumerate(docs):
-    for j, sentence in enumerate(doc.sents):
-      # exclude verbs like "pay" or "buy"
+      
       if topicDetection(sentence, price, ["NOUN", "ADJ"], 0.7):
         # if price detected in sentence
-        price_hits.append([i,j])
+        price_hits.append([i,j])   
+
+      #result = sentiment_pipeline(sentence)[0]['label']
+
   
   return [food_hits, service_hits, location_hits, clean_hits, price_hits]
