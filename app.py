@@ -1,4 +1,24 @@
 from flask import Flask, request, render_template_string
+import pandas as pd
+import spacy
+from spacy import Language
+from sense2vec import Sense2Vec
+
+# spaCy setup needed for topic detection
+s2v = Sense2Vec().from_disk("s2v_old")
+# Create a pipe that converts lemmas to lower case:
+@Language.component("lower_case_lemmas")
+def lower_case_lemmas(doc) :
+    for token in doc :
+        token.lemma_ = token.lemma_.lower()
+    return doc
+# Initialize default spaCy pipeline
+nlp = spacy.load('en_core_web_sm', disable=['ner'])
+# lower_case_lemmas to pipeline
+nlp.add_pipe(factory_name="lower_case_lemmas", after="tagger")
+# Sanity check to make sure we have the right pipeline order
+print(nlp.pipe_names)
+
 
 app = Flask(__name__)
 
