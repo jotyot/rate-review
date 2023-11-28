@@ -14,9 +14,8 @@ def lower_case_lemmas(doc) :
 nlp = spacy.load('en_core_web_sm', disable=['ner'])
 # lower_case_lemmas to pipeline
 nlp.add_pipe(factory_name="lower_case_lemmas", after="tagger")
-# Sanity check to make sure we have the right pipeline order
-print(nlp.pipe_names)
 
+'''
 ## DUMMY REVIEWS
 reviews = [
     "I stumbled upon this hidden gem last night and had the most amazing dining experience. The atmosphere was cozy, the staff was friendly, and the food was a culinary masterpiece. I highly recommend the chef's special – a true delight for your taste buds!",
@@ -31,39 +30,23 @@ reviews = [
     
     "I'm thrilled to have discovered this hidden gem! The staff was friendly, the menu had a great selection, and the food was absolutely delicious. The prices were reasonable, making it a fantastic value for the quality of the dining experience. Can't wait to come back!"
 ]
+'''
+def toDocs(reviews : list[str]):
+  return list(nlp.pipe(reviews))
 
-docs = list(nlp.pipe(reviews))
-
-# Detect if a topic defined by topic_list is present in a sentence (span from spaCy doc)
-def topicDetection(sentence, topic_list : list[str], pos : list[str], thresh) -> list[int]:
-    indices = []
-    for i, token in enumerate(sentence):
-      # Construct string to pass to Sense2Vec
-      s = token.lemma_ + "|" + token.pos_
-      # Only consider tokens that Sense2Vec model knows and are from specified part of speech
-      if (s in s2v and token.pos_ in pos) and (s2v.similarity(s, topic_list) > thresh):
-        indices.append(i)
-    # return a list of indices where topic was detected
-    return indices
-
-# Operates like TopicDetection, except looks or matches to each string in topics_list seperately
-# Instead of averaging their vector representations
-def seperateTopicsDetection(sentence, topics_list : list[str], thresh, exclude_pos = []) -> list[int]:
-    indices = []
-    for i, token in enumerate(sentence):
-      # Skip token if explicitly told to ignore part of speech
-      if token.pos_ in exclude_pos:
+# Detect whether or not a topic defined by topic_list is present in a sentence (span from spaCy doc)
+def topicDetection(sentence, topic_list : list[str], pos : list[str], thresh, exclude_tokens = []) -> bool:
+    for token in sentence:
+      if token.pos_ not in pos or token.lemma_ in exclude_tokens:
         continue
       # Construct string to pass to Sense2Vec
       s = token.lemma_ + "|" + token.pos_
-      # Only consider tokens that Sense2Vec model knows
-      if s in s2v:
-        # Add to indices list if token matches at least one topic from topic_list
-        for topic in topics_list:
-          if s2v.similarity(s, topics_list) > thresh:
-            indices.append(i)
-            break
-    return indices
+      # Only consider tokens that Sense2Vec model knows and are from specified part of speech
+      # True if token is similar to topic_list
+      if s in s2v and s2v.similarity(s, topic_list) > thresh:
+        return True
+    # Otherwise, topic not detected in sentence
+    return False
 
 # docs is a list of spaCy docs, each representing a restaurant review
 def detectRestaurantTopics(docs):
@@ -71,36 +54,32 @@ def detectRestaurantTopics(docs):
   food_hits = []
   for i, doc in enumerate(docs):
     for j, sentence in enumerate(doc.sents):
-      for k in topicDetection(sentence, food, ["NOUN", "ADJ"], 0.6):
-        # for each token where the food topic is detected
-        # record lemma, doc index, sentence index, and token index
+      if topicDetection(sentence, food, ["NOUN", "ADJ"], 0.6):
+        # if food detected in sentence, record doc index and sentence index
         food_hits.append([i,j])
   
   service = ["waiter|NOUN", "staff|NOUN", "service|NOUN", "employee|NOUN"]
   service_hits = []
   for i, doc in enumerate(docs):
     for j, sentence in enumerate(doc.sents):
-      for k in topicDetection(sentence, service, ["NOUN", "ADJ"], 0.7):
-        # for each token where the food topic is detected
-        # record lemma, doc index, sentence index, and token index
+      if topicDetection(sentence, service, ["NOUN", "ADJ"], 0.7, ["restaurant", "restraunt", "restaraunt"]):
+        # if service detected in sentence
         service_hits.append([i,j])
 
   location = ["crowded|ADJ", "atmosphere|NOUN", "quiet|ADJ", "interior|NOUN", "music|NOUN", "environment|NOUN", "space|NOUN", "vibe|NOUN", "location|NOUN"]
   location_hits = []
   for i, doc in enumerate(docs):
     for j, sentence in enumerate(doc.sents):
-      for k in seperateTopicsDetection(sentence, location, 0.67):
-        # for each token where the food topic is detected
-        # record lemma, doc index, sentence index, and token index
+      if topicDetection(sentence, location, ["NOUN", "ADJ"], 0.67):
+        # if location detected in sentence
         location_hits.append([i,j])
 
   clean = ["clean|ADJ", "dirty|ADJ", "fly|NOUN", "cockroach|NOUN", "filthy|ADJ", "spotless|ADJ"]
   clean_hits = []
   for i, doc in enumerate(docs):
     for j, sentence in enumerate(doc.sents):
-      for k in seperateTopicsDetection(sentence, clean, 0.7):
-        # for each token where the food topic is detected
-        # record lemma, doc index, sentence index, and token index
+      if topicDetection(sentence, clean, ["NOUN", "ADJ"], 0.7):
+        # if cleanliness detected in sentence
         clean_hits.append([i,j])
   
   price = ["cheap|ADJ", "expensive|ADJ", "price|NOUN", "worth|NOUN", "payment|NOUN", "tip|NOUN"]
@@ -108,15 +87,8 @@ def detectRestaurantTopics(docs):
   for i, doc in enumerate(docs):
     for j, sentence in enumerate(doc.sents):
       # exclude verbs like "pay" or "buy"
-      for k in seperateTopicsDetection(sentence, price, 0.7, ["VERB"]):
-        # for each token where the food topic is detected
-        # record lemma, doc index, sentence index, and token index
+      if topicDetection(sentence, price, ["NOUN", "ADJ"], 0.7):
+        # if price detected in sentence
         price_hits.append([i,j])
   
   return [food_hits, service_hits, location_hits, clean_hits, price_hits]
-
-# List of 5 lists. Each list represents a topic. Each topic list has 2-element lists representing hits.
-# First element is doc index, second is sentence index.
-topics = detectRestaurantTopics(docs)
-for t in topics:
-  print(t)
