@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template_string
+from flask import Flask, request, render_template_string, render_template
 import process_text
 import predict
 import pandas as pd
@@ -51,10 +51,15 @@ def submit():
     else:
         # Assume each review is separated by a newline character
         reviews = request.form['reviews']
+        
         # Process text reviews here
         docs = process_text.toDocs(reviews.split("\n"))
-        sentiments, input = process_text.detectRestaurantTopics(docs)
-        linear = predict.linearModel()
+        sd = process_text.SentimentDetector(docs)
+        input = sd.weighted_input()
+        sentiments = sd.sentiment_count()
+        
+        # Prediction here
+        linear = predict.LinearModel()
         prediction = linear.predict(input)
         weights = linear.parameters()
     

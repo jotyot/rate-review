@@ -9,7 +9,7 @@ class linearRegression(torch.nn.Module):
         out = self.linear(x)
         return out
 
-class linearModel:
+class LinearModel:
     def __init__(self):
         self.model = linearRegression(10, 1)
         self.model.load_state_dict(torch.load('linear_model.pt'))
@@ -21,10 +21,10 @@ class linearModel:
             return self.model(input_tensor).item()
     
     def parameters(self):
+        keys = ["+food", "+service", "+location", "+clean", "+price", "-food", "-service", "-location", "-clean", "-price", "bias"]
         unrounded = torch.cat([x.view(-1) for x in self.model.parameters()]).tolist()
-        return [f'{x:.3e}' for x in unrounded]
+        return {key: f'{w:.3e}' for key, w in zip(keys, unrounded)}
     
-
-# test = [1.5, 0.8333333333333334, 0.3333333333333333, 0.0, 0.16666666666666666, 0.6666666666666666, 0.0, 0.16666666666666666, 0.16666666666666666, 0.5]
-# model = linearModel()
-# print(model.predict(test))
+test = [1.5, 0.8333333333333334, 0.3333333333333333, 0.0, 0.16666666666666666, 0.6666666666666666, 0.0, 0.16666666666666666, 0.16666666666666666, 0.5]
+model = LinearModel()
+print(model.parameters())
