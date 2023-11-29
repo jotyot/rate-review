@@ -4,6 +4,7 @@ from spacy import Language
 from spacy.tokens import Doc
 from sense2vec import Sense2Vec
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
+import os.path
 
 s2v = Sense2Vec().from_disk("s2v_old")
 # Create a pipe that converts lemmas to lower case:
@@ -18,8 +19,16 @@ nlp = spacy.load('en_core_web_sm', disable=['ner'])
 nlp.add_pipe(factory_name="lower_case_lemmas", after="tagger")
 
 model_name = "siebert/sentiment-roberta-large-english"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForSequenceClassification.from_pretrained(model_name)
+if not os.path.isdir('hugging_face/tokenizer'):
+  tokenizer = AutoTokenizer.from_pretrained(model_name)
+  tokenizer.save_pretrained('hugging_face/tokenizer')
+else: tokenizer = AutoTokenizer.from_pretrained('hugging_face/tokenizer')
+
+if not os.path.isdir('hugging_face/model'):
+  model = AutoModelForSequenceClassification.from_pretrained(model_name)
+  model.save_pretrained('hugging_face/model')
+else: model = AutoModelForSequenceClassification.from_pretrained('hugging_face/model')
+
 
 sentiment_pipeline = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
 
@@ -94,11 +103,12 @@ def detectRestaurantTopics(docs : list[Doc]):
         if "clean" in sentence_topic: neg_clean += 1
         if "price" in sentence_topic: neg_price += 1
 
+  raw_count = [pos_food, pos_service, pos_location, pos_clean, pos_price, neg_food, neg_service, neg_location, neg_clean, neg_price]
   
-  return [pos_food, pos_service, pos_location, pos_clean, pos_price, neg_food, neg_service, neg_location, neg_clean, neg_price]
+  return [float(x) / len(docs) for x in raw_count]
 
 
-## DUMMY REVIEWS
+# DUMMY REVIEWS
 # reviews = [
 #     "I stumbled upon this hidden gem last night and had the most amazing dining experience. The atmosphere was cozy, the staff was friendly, and the food was a culinary masterpiece. I highly recommend the chef's special – a true delight for your taste buds!",
     
