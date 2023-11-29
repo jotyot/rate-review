@@ -53,12 +53,18 @@ def submit():
         reviews = request.form['reviews']
         # Process text reviews here
         docs = process_text.toDocs(reviews.split("\n"))
-        input = process_text.detectRestaurantTopics(docs)
-        result = predict.predict(input)
+        sentiments, input = process_text.detectRestaurantTopics(docs)
+        linear = predict.linearModel()
+        prediction = linear.predict(input)
+        weights = linear.parameters()
     
     return f'''
-        <h1>Results</h1>
-        <p>{result}</p>
+        <h1>Predicted Score</h1>
+        <p>{prediction}</p>
+        <h1>Detected Sentiments</h1>
+        <p>{sentiments}</p>
+        <h1>Model Weights</h1>
+        <p>{weights}</p>
         <form action="/">
             <input type="submit" value="Submit Something New">
         </form>

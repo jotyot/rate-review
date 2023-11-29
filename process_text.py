@@ -51,7 +51,6 @@ def topicDetection(sentence, topic_list : list[str], pos : list[str], thresh, ex
 
 # docs is a list of spaCy docs, each representing a restaurant review
 def detectRestaurantTopics(docs : list[Doc]):
-
   food = ["food|NOUN", "pizza|NOUN", "meal|NOUN", "taco|NOUN", "chinese|ADJ", "mexican|ADJ", "sushi|NOUN", "bone|NOUN", "drink|NOUN", "pho|NOUN", "curry|NOUN", "coffee|NOUN", "teriyaki|NOUN"]
   service = ["waiter|NOUN", "staff|NOUN", "service|NOUN", "employee|NOUN"]
   location = ["crowded|ADJ", "atmosphere|NOUN", "quiet|ADJ", "interior|NOUN", "music|NOUN", "environment|NOUN", "space|NOUN", "vibe|NOUN", "location|NOUN"]
@@ -59,44 +58,36 @@ def detectRestaurantTopics(docs : list[Doc]):
   price = ["cheap|ADJ", "expensive|ADJ", "price|NOUN", "worth|NOUN", "payment|NOUN", "tip|NOUN"]
   
   pos_food, pos_service, pos_location, pos_clean, pos_price = 0, 0, 0, 0, 0
-
   neg_food, neg_service, neg_location, neg_clean, neg_price = 0, 0, 0, 0, 0
 
   for doc in docs:
     for sentence in doc.sents:
-
       sentence_topic = []
-
+      # creates a list of topics the sentence is talking about
       if topicDetection(sentence, food, ["NOUN", "ADJ"], 0.6):
-        # if food detected in sentence, record doc index and sentence index
         sentence_topic.append("food")
       
       if topicDetection(sentence, service, ["NOUN", "ADJ"], 0.7, ["restaurant", "restraunt", "restaraunt"]):
-        # if service detected in sentence
         sentence_topic.append("service")
       
       if topicDetection(sentence, location, ["NOUN", "ADJ"], 0.67):
-        # if location detected in sentence
         sentence_topic.append("location")
 
       if topicDetection(sentence, clean, ["NOUN", "ADJ"], 0.7):
-        # if cleanliness detected in sentence
         sentence_topic.append("clean")
-      
+        
       if topicDetection(sentence, price, ["NOUN", "ADJ"], 0.7):
-        # if price detected in sentence
         sentence_topic.append("price") 
 
       sentiment = sentiment_pipeline(sentence.text)[0]
-
+      # if the setence was positive, add to the positive topics (whatever was in the sentence)
       if sentiment['label'] == "POSITIVE":
         if "food" in sentence_topic: pos_food += 1
         if "service" in sentence_topic: pos_service += 1
         if "location" in sentence_topic: pos_location += 1
         if "clean" in sentence_topic: pos_clean += 1
         if "price" in sentence_topic: pos_price += 1
-      
-      else:
+      else: 
         if "food" in sentence_topic: neg_food += 1
         if "service" in sentence_topic: neg_service += 1
         if "location" in sentence_topic: neg_location += 1
@@ -105,7 +96,21 @@ def detectRestaurantTopics(docs : list[Doc]):
 
   raw_count = [pos_food, pos_service, pos_location, pos_clean, pos_price, neg_food, neg_service, neg_location, neg_clean, neg_price]
   
-  return [float(x) / len(docs) for x in raw_count]
+  sentiment_count = {
+    "+food" : pos_food,
+    "+service": pos_service,
+    "+location": pos_location,
+    "+clean": pos_clean,
+    "+price": pos_price,
+    "-food" : neg_food,
+    "-service": neg_service,
+    "-location": neg_location,
+    "-clean": neg_clean,
+    "-price": neg_price,
+  }
+  weighted_input = [float(x) / len(docs) for x in raw_count]
+  
+  return sentiment_count, weighted_input
 
 
 # DUMMY REVIEWS
