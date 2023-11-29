@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template_string
 import process_text
+import predict
 import pandas as pd
 import spacy
 from spacy import Language
@@ -52,7 +53,8 @@ def submit():
         reviews = request.form['reviews']
         # Process text reviews here
         docs = process_text.toDocs(reviews.split("\n"))
-        result = process_text.detectRestaurantTopics(docs)
+        input = process_text.detectRestaurantTopics(docs)
+        result = predict.predict(input)
     
     return f'''
         <h1>Results</h1>
