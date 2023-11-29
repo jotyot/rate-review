@@ -73,6 +73,8 @@ def submit():
         <form action="/">
             <input type="submit" value="Submit Something New">
         </form>
+        <h2>Inputed Text</h2>
+        <p>{reviews}</p>
     '''
 
 if __name__ == '__main__':
