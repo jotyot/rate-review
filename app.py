@@ -1,5 +1,6 @@
-from flask import Flask, request, render_template_string
+from flask import Flask, request, render_template_string, render_template
 import process_text
+import predict
 import pandas as pd
 import spacy
 from spacy import Language
@@ -50,16 +51,30 @@ def submit():
     else:
         # Assume each review is separated by a newline character
         reviews = request.form['reviews']
+        
         # Process text reviews here
         docs = process_text.toDocs(reviews.split("\n"))
-        result = process_text.detectRestaurantTopics(docs)
+        sd = process_text.SentimentDetector(docs)
+        input = sd.weighted_input()
+        sentiments = sd.sentiment_count()
+        
+        # Prediction here
+        linear = predict.LinearModel()
+        prediction = linear.predict(input)
+        weights = linear.parameters()
     
     return f'''
-        <h1>Results</h1>
-        <p>{result}</p>
+        <h1>Predicted Score</h1>
+        <p>{prediction}</p>
+        <h1>Detected Sentiments</h1>
+        <p>{sentiments}</p>
+        <h1>Model Weights</h1>
+        <p>{weights}</p>
         <form action="/">
             <input type="submit" value="Submit Something New">
         </form>
+        <h2>Inputed Text</h2>
+        <p>{reviews}</p>
     '''
 
 if __name__ == '__main__':
