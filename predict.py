@@ -12,7 +12,7 @@ class linearRegression(torch.nn.Module):
 class LinearModel:
     def __init__(self):
         self.model = linearRegression(10, 1)
-        self.model.load_state_dict(torch.load('linear_model.pt'))
+        self.model.load_state_dict(torch.load('linear.pt'))
     
     def predict(self, input) -> float:
         self.model.eval()

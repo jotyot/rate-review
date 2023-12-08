@@ -16,18 +16,6 @@ class CustomDataset(Dataset):
         x = self.data[idx, :-1]
         y = self.data[idx, -1]
         return x, y
-
-class linearRegression(torch.nn.Module):
-    def __init__(self, inputSize, outputSize):
-        super(linearRegression, self).__init__()
-        self.linear = torch.nn.Linear(inputSize, outputSize)
-
-    def forward(self, x):
-        out = self.linear(x)
-        if not self.training:
-            out = torch.clamp(out, min=1, max=5)
-        return out
-
     
 
 def train_model(model: torch.nn.Module, train_loader: DataLoader, learningRate: float, epochs: int, lambda1: float, lambda2: float):
