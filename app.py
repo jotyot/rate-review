@@ -36,7 +36,7 @@ def select_method():
         return '''
             <h1>Business Success Prediction with Sentiment Analysis</h1>
             <form method="post" action="/submit">
-                <textarea name="reviews" placeholder="Enter reviews here"></textarea>
+                <textarea name="reviews" placeholder="Enter reviews here"></textarea><br>
                 <input type="submit" value="Submit">
             </form>
             <form action="/">
@@ -71,10 +71,15 @@ def submit():
     NNt = predict.TotalSentNN()
     n_prediction = NNt.predict(sd.raw_count)   
     
+    # Weighted Sents
+    NNw = predict.WeightedNN()
+    w_prediction = NNw.predict(w_input)
+    
     return f'''
         <h1>Predicted Score</h1>
         <p>Linear: {prediction}</p>
-        <p>Neural Network: {n_prediction}</p>
+        <p>Neural Network (total): {n_prediction}</p>
+        <p>Neural Network (weighted): {w_prediction}</p>
         <h1>Detected Sentiments</h1>
         <p>{sentiments}</p>
         <h3>Weighted</h3>
@@ -84,7 +89,7 @@ def submit():
         <form action="/">
             <input type="submit" value="Submit Something New">
         </form>
-        <h2>Inputed Text</h2>
+        <h2>Inputted Text</h2>
         <p>{reviews}</p>
     '''
 

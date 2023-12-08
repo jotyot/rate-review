@@ -38,24 +38,24 @@ class DynamicNN(torch.nn.Module):
             out = torch.clamp(out, min=1, max=5)
         return out    
 
-# class NeuralNetworkELU(torch.nn.Module):
-#     def __init__(self, inputSize, outputSize):
-#         super(NeuralNetworkELU, self).__init__()
-#         self.layer1 = torch.nn.Linear(inputSize, 50)
-#         self.elu = torch.nn.ELU()  # ELU activation function
-#         self.output_layer = torch.nn.Linear(50, outputSize)
+class NeuralNetworkELU(torch.nn.Module):
+    def __init__(self, inputSize, outputSize):
+        super(NeuralNetworkELU, self).__init__()
+        self.layer1 = torch.nn.Linear(inputSize, 24)
+        self.elu = torch.nn.ELU()  # ELU activation function
+        self.output_layer = torch.nn.Linear(24, outputSize)
 
-#     def forward(self, x):
-#         x = self.relu(self.layer1(x))  # Using ReLU activation function
-#         out = self.output_layer(x)
-#         if not self.training:
-#             out = torch.clamp(out, min=1, max=5)
-#         return out
+    def forward(self, x):
+        x = self.elu(self.layer1(x))  # Using ReLU activation function
+        out = self.output_layer(x)
+        if not self.training:
+            out = torch.clamp(out, min=1, max=5)
+        return out
 
 class LinearModel:
     def __init__(self):
         self.model = linearRegression(10, 1)
-        self.model.load_state_dict(torch.load('linear.pt'))
+        self.model.load_state_dict(torch.load('linear.pt', map_location=torch.device('cpu')))
     
     def predict(self, input: list[float]) -> float:
         self.model.eval()
@@ -71,7 +71,7 @@ class LinearModel:
 class TotalSentNN:
     def __init__(self):
         self.model = DynamicNN(10, 40, 1, 4)
-        self.model.load_state_dict(torch.load('nn4_40.pt'))
+        self.model.load_state_dict(torch.load('nn4_40.pt', map_location=torch.device('cpu')))
     
     def predict(self, input) -> float:
         self.model.eval()
@@ -79,16 +79,16 @@ class TotalSentNN:
         with torch.no_grad():
             return self.model(input_tensor).item()
 
-# class WeightedNN:
-#     def __init__(self):
-#         self.model = NeuralNetworkELU(10, 1)
-#         self.model.load_state_dict(torch.load('nn_model.pt'))
+class WeightedNN:
+    def __init__(self):
+        self.model = NeuralNetworkELU(10, 1)
+        self.model.load_state_dict(torch.load('nn_model.pt', map_location=torch.device('cpu')))
     
-#     def predict(self, input) -> float:
-#         self.model.eval()
-#         input_tensor = torch.tensor(input).float()
-#         with torch.no_grad():
-#             return self.model(input_tensor).item()
+    def predict(self, input) -> float:
+        self.model.eval()
+        input_tensor = torch.tensor(input).float()
+        with torch.no_grad():
+            return self.model(input_tensor).item()
 
     
 # test = [1.5, 0.8333333333333334, 0.3333333333333333, 0.0, 0.16666666666666666, 0.6666666666666666, 0.0, 0.16666666666666666, 0.16666666666666666, 0.5]
