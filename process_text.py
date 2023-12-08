@@ -97,6 +97,7 @@ class SentimentDetector:
           if "price" in sentence_topic: neg_price += 1
 
     self.raw_count = [pos_food, pos_service, pos_location, pos_clean, pos_price, neg_food, neg_service, neg_location, neg_clean, neg_price]
+    if self.num_reviews == 0: self.num_reviews = 1
     
   def sentiment_count(self):
     keys = ["+food", "+service", "+location", "+clean", "+price", "-food", "-service", "-location", "-clean", "-price",]

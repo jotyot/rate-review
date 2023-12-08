@@ -24,6 +24,7 @@ def select_method():
     if method == 'file':
         return '''
             <h1>Business Success Prediction with Sentiment Analysis</h1>
+            <p>Reviews are separated by newlines</p>
             <form method="post" action="/submit" enctype="multipart/form-data">
                 <input type="file" name="review_file" accept=".txt">
                 <input type="submit" value="Submit">
@@ -35,8 +36,9 @@ def select_method():
     elif method == 'text':
         return '''
             <h1>Business Success Prediction with Sentiment Analysis</h1>
+            <p>Reviews are separated by newlines</p>
             <form method="post" action="/submit">
-                <textarea name="reviews" placeholder="Enter reviews here"></textarea><br>
+                <textarea name="reviews" placeholder="Enter reviews here" rows="20" cols="80"></textarea><br>
                 <input type="submit" value="Submit">
             </form>
             <form action="/">
@@ -64,22 +66,22 @@ def submit():
     
     # Prediction here
     linear = predict.LinearModel()
-    prediction = linear.predict(w_input)
+    prediction = round(linear.predict(w_input), 2)
     weights = linear.parameters()
 
     # Total Sents
     NNt = predict.TotalSentNN()
-    n_prediction = NNt.predict(sd.raw_count)   
+    n_prediction = round(NNt.predict(sd.raw_count), 2)   
     
     # Weighted Sents
     NNw = predict.WeightedNN()
-    w_prediction = NNw.predict(w_input)
+    w_prediction = round(NNw.predict(w_input), 2)
     
     return f'''
         <h1>Predicted Score</h1>
-        <p>Linear: {prediction}</p>
-        <p>Neural Network (total): {n_prediction}</p>
-        <p>Neural Network (weighted): {w_prediction}</p>
+        <h3>Linear: {prediction}</h3>
+        <h3>Neural Network (total): {n_prediction}</h3>
+        <h3>Neural Network (weighted): {w_prediction}</h3>
         <h1>Detected Sentiments</h1>
         <p>{sentiments}</p>
         <h3>Weighted</h3>
