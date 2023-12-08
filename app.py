@@ -25,9 +25,11 @@ def select_method():
         return '''
             <h1>Business Success Prediction with Sentiment Analysis</h1>
             <form method="post" action="/submit" enctype="multipart/form-data">
-                <input type="file" name="review_file" accept=".json">
+                <input type="file" name="review_file" accept=".txt">
                 <input type="submit" value="Submit">
-                <button formaction="/">Back to Method Selection</button>
+            </form>
+            <form action="/">
+                <button>Back to Method Selection</button>
             </form>
         '''
     elif method == 'text':
@@ -36,44 +38,48 @@ def select_method():
             <form method="post" action="/submit">
                 <textarea name="reviews" placeholder="Enter reviews here"></textarea>
                 <input type="submit" value="Submit">
-                <button formaction="/">Back to Method Selection</button>
+            </form>
+            <form action="/">
+                <button>Back to Method Selection</button>
             </form>
         '''
 
 @app.route('/submit', methods=['POST'])
 def submit():
-    result = ""
     if 'review_file' in request.files:
         file = request.files['review_file']
         if file.filename != '':
-            # Process file data here
-            result = "File processed. (Replace with actual model output)"
+            reviews = file.read().decode('utf-8')
+        else:
+            reviews = ""
     else:
         # Assume each review is separated by a newline character
         reviews = request.form['reviews']
-        
-        # Process text reviews here
-        docs = process_text.toDocs(reviews.split("\n"))
-        sd = process_text.SentimentDetector(docs)
-        w_input = sd.weighted_input()
-        sentiments = sd.sentiment_count()
-        
-        # Prediction here
-        linear = predict.LinearModel()
-        prediction = linear.predict(w_input)
-        weights = linear.parameters()
 
-        # Total Sents
-        NN = predict.TotalSentNN()
-        n_prediction = NN.predict(sd.raw_count)
+    # Process text reviews here
+    docs = process_text.toDocs(reviews.split("\n"))
+    sd = process_text.SentimentDetector(docs)
+    w_input = sd.weighted_input()
+    sentiments = sd.sentiment_count()
+    
+    # Prediction here
+    linear = predict.LinearModel()
+    prediction = linear.predict(w_input)
+    weights = linear.parameters()
+
+    # Total Sents
+    NNt = predict.TotalSentNN()
+    n_prediction = NNt.predict(sd.raw_count)   
     
     return f'''
         <h1>Predicted Score</h1>
-        <p>{prediction}</p>
-        <p>{n_prediction}</p>
+        <p>Linear: {prediction}</p>
+        <p>Neural Network: {n_prediction}</p>
         <h1>Detected Sentiments</h1>
         <p>{sentiments}</p>
-        <h1>Model Weights</h1>
+        <h3>Weighted</h3>
+        <p>{w_input}</p>
+        <h2>Linear Model Weights</h2>
         <p>{weights}</p>
         <form action="/">
             <input type="submit" value="Submit Something New">
