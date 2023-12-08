@@ -55,17 +55,22 @@ def submit():
         # Process text reviews here
         docs = process_text.toDocs(reviews.split("\n"))
         sd = process_text.SentimentDetector(docs)
-        input = sd.weighted_input()
+        w_input = sd.weighted_input()
         sentiments = sd.sentiment_count()
         
         # Prediction here
         linear = predict.LinearModel()
-        prediction = linear.predict(input)
+        prediction = linear.predict(w_input)
         weights = linear.parameters()
+
+        # Total Sents
+        NN = predict.TotalSentNN()
+        n_prediction = NN.predict(sd.raw_count)
     
     return f'''
         <h1>Predicted Score</h1>
         <p>{prediction}</p>
+        <p>{n_prediction}</p>
         <h1>Detected Sentiments</h1>
         <p>{sentiments}</p>
         <h1>Model Weights</h1>
