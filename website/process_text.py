@@ -6,7 +6,7 @@ from sense2vec import Sense2Vec
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 import os.path
 
-s2v = Sense2Vec().from_disk("s2v_old")
+s2v = Sense2Vec().from_disk("../s2v_old")
 # Create a pipe that converts lemmas to lower case:
 @Language.component("lower_case_lemmas")
 def lower_case_lemmas(doc) :
@@ -20,15 +20,15 @@ nlp.add_pipe(factory_name="lower_case_lemmas", after="tagger")
 
 # saves the pretrained sentiment analysis model if user doesn't have it
 model_name = "siebert/sentiment-roberta-large-english"
-if not os.path.isdir('hugging_face/tokenizer'):
+if not os.path.isdir('../hugging_face/tokenizer'):
   tokenizer = AutoTokenizer.from_pretrained(model_name)
-  tokenizer.save_pretrained('hugging_face/tokenizer')
-else: tokenizer = AutoTokenizer.from_pretrained('hugging_face/tokenizer')
+  tokenizer.save_pretrained('../hugging_face/tokenizer')
+else: tokenizer = AutoTokenizer.from_pretrained('../hugging_face/tokenizer')
 
-if not os.path.isdir('hugging_face/model'):
+if not os.path.isdir('../hugging_face/model'):
   model = AutoModelForSequenceClassification.from_pretrained(model_name)
-  model.save_pretrained('hugging_face/model')
-else: model = AutoModelForSequenceClassification.from_pretrained('hugging_face/model')
+  model.save_pretrained('../hugging_face/model')
+else: model = AutoModelForSequenceClassification.from_pretrained('../hugging_face/model')
 
 sentiment_pipeline = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
 
