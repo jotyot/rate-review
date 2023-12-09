@@ -45,6 +45,8 @@ These files train, evaulate, and save the models to be used on the website. This
 - `total_sent_neural_model.ipynb`
   - based on the total sentiment counts 
   - generates `nn4_40.pt`
+- `neural_test.py`
+  - contains functions to train, test, and evaulate the models
 
 ### models
 The saved pytorch models to be loaded for the website
