@@ -63,9 +63,11 @@ This is the code that ends up generating the files that contain the features use
   - runs a sentiment analysis model on every review and assigns positive or negative food/service/location/clean/price to every sentence in the review.
   - it then appends these reviews to their corresponding restaurants
   - this code takes up to 24 hours so probably don't run this
+  - you can download the files this produces here: https://drive.google.com/drive/u/1/folders/1WY9swnKV1Ky-ZU1z6Gsyd9w3QZr7C9lU
 - `topic-detection.ipynb `
   - uses a model to assign a list of topics to every sentence (food/service/location/clean/price)
 - `topic-sentiment.ipynb`
+  - requires the files produced by sentiment_analysis.ipynb (or just download from link above)
   - generates the final files to be used in the models
   - each row represents a business
   - the columns represent the types/counts of sentiments the business has
