@@ -57,7 +57,7 @@ class NeuralNetworkELU(torch.nn.Module):
 class LinearModel:
     def __init__(self):
         self.model = linearRegression(10, 1)
-        self.model.load_state_dict(torch.load('linear.pt', map_location=torch.device('cpu')))
+        self.model.load_state_dict(torch.load('models/linear.pt', map_location=torch.device('cpu')))
     
     def predict(self, input: list[float]) -> float:
         self.model.eval()
@@ -73,7 +73,7 @@ class LinearModel:
 class TotalSentNN:
     def __init__(self):
         self.model = DynamicNN(10, 40, 1, 4)
-        self.model.load_state_dict(torch.load('nn4_40.pt', map_location=torch.device('cpu')))
+        self.model.load_state_dict(torch.load('models/nn4_40.pt', map_location=torch.device('cpu')))
     
     def predict(self, input) -> float:
         self.model.eval()
@@ -84,7 +84,7 @@ class TotalSentNN:
 class WeightedNN:
     def __init__(self):
         self.model = NeuralNetworkELU(10, 1)
-        self.model.load_state_dict(torch.load('nn_model.pt', map_location=torch.device('cpu')))
+        self.model.load_state_dict(torch.load('models/nn_model.pt', map_location=torch.device('cpu')))
     
     def predict(self, input) -> float:
         self.model.eval()
