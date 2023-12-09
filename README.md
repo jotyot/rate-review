@@ -36,7 +36,7 @@ California -> both reviews and metadata **put in folder named *data***
 These files train, evaulate, and save the models to be used on the website. This is the most related to our ECS 171 course.
 - `linear_model.ipynb`
   - based on weighted sentiments
-  - generates` linear.pt`
+  - generates `linear.pt`
 - `neural_model.ipynb`
   - based on weighted sentiments
   - generates `nn_model.pt`
