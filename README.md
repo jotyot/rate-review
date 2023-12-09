@@ -61,6 +61,7 @@ The json files are the training data. The csv files are for initial data cleanin
 This is the code that ends up generating the files that contain the features used in the models.
 - `eda.ipynb`
   - mostly graphs and tables of the data thats generated
+  - requires `ys-reviews-with-categories.json` and `ys-reviews-restaurants.json`, which may be downloded at the link below
 - `sentiment_analysis.ipynb`
   - runs a sentiment analysis model on every review and assigns positive or negative food/service/location/clean/price to every sentence in the review.
   - it then appends these reviews to their corresponding restaurants
