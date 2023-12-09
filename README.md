@@ -27,7 +27,9 @@ Then run the other 3 lines (after the wget) above.
 
 ## Folders
 ### inital-data-cleaning
-These files converted the large file containing the reviews of every business in california to the reviews of every restaurant in Sacramento and Yolo county. It is not very important to run.
+These files converted the large file containing the reviews of every business in california to the reviews of every restaurant in Sacramento and Yolo county. 
+
+The files here are not very important to run (and also take 4+ hours). The files that they generate are only used in `eda.ipynb`. These files may be obtained at https://drive.google.com/drive/u/1/folders/1WY9swnKV1Ky-ZU1z6Gsyd9w3QZr7C9lU **put these files in a folder named *data***
 
 The files do require a download of the large file because it is too big to upload to github https://datarepo.eng.ucsd.edu/mcauley_group/gdrive/googlelocal/#subsets <br>
 California -> both reviews and metadata **put in folder named *data***
