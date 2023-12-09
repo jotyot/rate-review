@@ -1,5 +1,6 @@
 import torch
 
+# First 3 classes are the actual pytorch implmentations of the model
 class linearRegression(torch.nn.Module):
     def __init__(self, inputSize, outputSize):
         super(linearRegression, self).__init__()
@@ -52,6 +53,7 @@ class NeuralNetworkELU(torch.nn.Module):
             out = torch.clamp(out, min=1, max=5)
         return out
 
+# Next three store information about the model so we can call them on the website
 class LinearModel:
     def __init__(self):
         self.model = linearRegression(10, 1)
