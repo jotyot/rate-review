@@ -1,6 +1,7 @@
 import numpy as np
 import torch
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import random_split, Dataset, DataLoader
+from sklearn.metrics import mean_squared_error, r2_score
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -79,3 +80,26 @@ def test_model(model: torch.nn.Module, test_loader: DataLoader):
     all_inputs = np.array(all_inputs)
     
     return all_predictions, all_labels, all_inputs
+
+def make_and_eval(model, train_data: np.ndarray, test_data: np.ndarray, learningRate, epochs, lambda1, lambda2):
+    train_dataset = CustomDataset(train_data)
+    test_dataset = CustomDataset(test_data)
+
+    train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True)
+    test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
+
+# train the model on train set
+    model, mse_history = train_model(model, train_loader, learningRate, epochs, lambda1, lambda2)
+
+# test the model on test set
+    all_predictions, all_labels, all_inputs = test_model(model, test_loader)
+
+    mse = mean_squared_error(all_labels, all_predictions)
+    rmse = np.sqrt(mse)
+    r2 = r2_score(all_labels, all_predictions)
+
+    print(f'Mean Squared Error: {mse}')
+    print(f'Root Mean Squared Error: {rmse}')
+    print(f'R-squared: {r2}')
+    
+    return model, (mse_history, mse, rmse, r2)
