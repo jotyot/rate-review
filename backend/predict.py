@@ -1,5 +1,6 @@
 import torch
 
+
 # First 3 classes are the actual pytorch implmentations of the model
 class linearRegression(torch.nn.Module):
     def __init__(self, inputSize, outputSize):
@@ -11,7 +12,8 @@ class linearRegression(torch.nn.Module):
         if not self.training:
             out = torch.clamp(out, min=1, max=5)
         return out
-    
+
+
 class DynamicNN(torch.nn.Module):
     def __init__(self, input_size, hidden_size, output_size, num_hidden_layers):
         super(DynamicNN, self).__init__()
@@ -37,7 +39,8 @@ class DynamicNN(torch.nn.Module):
         out = self.model(x)
         if not self.training:
             out = torch.clamp(out, min=1, max=5)
-        return out    
+        return out
+
 
 class NeuralNetworkELU(torch.nn.Module):
     def __init__(self, inputSize, outputSize):
@@ -53,46 +56,67 @@ class NeuralNetworkELU(torch.nn.Module):
             out = torch.clamp(out, min=1, max=5)
         return out
 
+
 # Next three store information about the model so we can call them on the website
 class LinearModel:
     def __init__(self):
         self.model = linearRegression(10, 1)
-        self.model.load_state_dict(torch.load('../models/linear.pt', map_location=torch.device('cpu')))
-    
+        self.model.load_state_dict(
+            torch.load("models/linear.pt", map_location=torch.device("cpu"))
+        )
+
     def predict(self, input: list[float]) -> float:
         self.model.eval()
         input_tensor = torch.tensor(input)
         with torch.no_grad():
             return self.model(input_tensor).item()
-    
+
     def parameters(self):
-        keys = ["+food", "+service", "+location", "+clean", "+price", "-food", "-service", "-location", "-clean", "-price", "bias"]
+        keys = [
+            "+food",
+            "+service",
+            "+location",
+            "+clean",
+            "+price",
+            "-food",
+            "-service",
+            "-location",
+            "-clean",
+            "-price",
+            "bias",
+        ]
         unrounded = torch.cat([x.view(-1) for x in self.model.parameters()]).tolist()
-        return {key: f'{w:.3e}' for key, w in zip(keys, unrounded)}
+        return {key: f"{w:.3e}" for key, w in zip(keys, unrounded)}
+
 
 class TotalSentNN:
     def __init__(self):
         self.model = DynamicNN(10, 40, 1, 4)
-        self.model.load_state_dict(torch.load('../models/nn4_40.pt', map_location=torch.device('cpu')))
-    
+        self.model.load_state_dict(
+            torch.load("models/nn4_40.pt", map_location=torch.device("cpu"))
+        )
+
     def predict(self, input) -> float:
         self.model.eval()
         input_tensor = torch.tensor(input).float()
         with torch.no_grad():
             return self.model(input_tensor).item()
+
 
 class WeightedNN:
     def __init__(self):
         self.model = NeuralNetworkELU(10, 1)
-        self.model.load_state_dict(torch.load('../models/nn_model.pt', map_location=torch.device('cpu')))
-    
+        self.model.load_state_dict(
+            torch.load("models/nn_model.pt", map_location=torch.device("cpu"))
+        )
+
     def predict(self, input) -> float:
         self.model.eval()
         input_tensor = torch.tensor(input).float()
         with torch.no_grad():
             return self.model(input_tensor).item()
 
-    
+
 # test = [1.5, 0.8333333333333334, 0.3333333333333333, 0.0, 0.16666666666666666, 0.6666666666666666, 0.0, 0.16666666666666666, 0.16666666666666666, 0.5]
 # model = WeightedNN()
 # print(model.predict(test))
