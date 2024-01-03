@@ -9,46 +9,43 @@ CORS(app)
 
 @app.route("/submit", methods=["POST"])
 def submit():
-    if "review_file" in request.files:
-        file = request.files["review_file"]
-        if file.filename != "":
-            reviews = file.read().decode("utf-8")
-        else:
-            reviews = ""
-    else:
-        # Assume each review is separated by a newline character
-        reviews = request.form["reviews"]
+    try:
+        data = request.json  # Use request.form if you are sending form data
+        reviews = data["reviews"]
 
-    # Process text reviews here
-    docs = process_text.toDocs(reviews.split("\n"))
-    sd = process_text.SentimentDetector(docs)
-    w_input = sd.weighted_input()
-    sentiments = sd.sentiment_count()
+        # Process text reviews here
+        docs = process_text.toDocs(reviews.split("\n"))
+        sd = process_text.SentimentDetector(docs)
+        w_input = sd.weighted_input()
+        sentiments = sd.sentiment_count()
 
-    # Prediction here
-    linear = predict.LinearModel()
-    prediction = round(linear.predict(w_input), 2)
-    weights = linear.parameters()
+        # Prediction here
+        linear = predict.LinearModel()
+        prediction = round(linear.predict(w_input), 2)
+        weights = linear.parameters()
 
-    # Total Sents
-    NNt = predict.TotalSentNN()
-    n_prediction = round(NNt.predict(sd.raw_count), 2)
+        # Total Sents
+        NNt = predict.TotalSentNN()
+        n_prediction = round(NNt.predict(sd.raw_count), 2)
 
-    # Weighted Sents
-    NNw = predict.WeightedNN()
-    w_prediction = round(NNw.predict(w_input), 2)
+        # Weighted Sents
+        NNw = predict.WeightedNN()
+        w_prediction = round(NNw.predict(w_input), 2)
 
-    response_data = {
-        "linear_prediction": prediction,
-        "nn_total_prediction": n_prediction,
-        "nn_weighted_prediction": w_prediction,
-        "sentiments": sentiments,
-        "weighted_input": w_input,
-        "linear_weights": weights,
-        "inputted_text": reviews,
-    }
+        response_data = {
+            "linear_prediction": prediction,
+            "nn_total_prediction": n_prediction,
+            "nn_weighted_prediction": w_prediction,
+            "sentiments": sentiments,
+            "weighted_input": w_input,
+            "linear_weights": weights,
+            "inputted_text": reviews,
+        }
 
-    return jsonify(response_data)
+        return jsonify(response_data)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
 
 
 if __name__ == "__main__":
