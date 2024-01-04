@@ -40,6 +40,7 @@ def submit():
             "weighted_input": w_input,
             "linear_weights": weights,
             "inputted_text": reviews,
+            "num_reviws": sd.num_reviews,
         }
 
         return jsonify(response_data)
