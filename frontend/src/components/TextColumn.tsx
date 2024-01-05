@@ -1,5 +1,4 @@
-import React from "react";
-import { useState, ChangeEvent } from "react";
+import { useState, ChangeEvent, Fragment } from "react";
 
 interface Props {
   text: string;
@@ -55,10 +54,10 @@ function TextColumn({ text, setText, handleSubmit, isFetching }: Props) {
         ) : (
           <div className="h-full whitespace-pre-line p-4 ">
             {text.split("\n").map((line, index) => (
-              <React.Fragment key={index}>
+              <Fragment key={index}>
                 {line}
                 <br />
-              </React.Fragment>
+              </Fragment>
             ))}
           </div>
         )}

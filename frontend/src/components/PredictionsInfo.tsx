@@ -1,6 +1,7 @@
 import PredictionEntry from "./PredictionEntry";
 import { PredictionData } from "../types/PredictionData";
 import SentimentChart from "./SentimentChart";
+import { LinInfo, NNTInfo, NNWInfo } from "./InfoComponents";
 
 interface Props {
   data: PredictionData;
@@ -25,12 +26,15 @@ function PredictionsInfo({ data, isFetching }: Props) {
           isFetching ? "bg-stone-700" : "bg-stone-800"
         } rounded-br-lg`}
       >
-        <PredictionEntry name="Linear" prediction={linPred} />
-        <PredictionEntry
-          name="Neural Network (Weighted)"
-          prediction={nnwPred}
-        />
-        <PredictionEntry name="Neural Network (Total)" prediction={nntPred} />
+        <PredictionEntry name="Linear" prediction={linPred}>
+          <LinInfo />
+        </PredictionEntry>
+        <PredictionEntry name="Neural Network (Weighted)" prediction={nnwPred}>
+          <NNWInfo />
+        </PredictionEntry>
+        <PredictionEntry name="Neural Network (Total)" prediction={nntPred}>
+          <NNTInfo />
+        </PredictionEntry>
         <div className="border-b p-1 text-center bg-stone-700">{`Number of Reviews: ${numReviews}`}</div>
         <SentimentChart totalSent={totalSent} weightedSent={weightedSent} />
       </div>
