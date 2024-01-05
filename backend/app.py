@@ -39,7 +39,7 @@ def submit():
             "totalSent": sentiments,
             "weightedSent": w_input,
             "numReviews": sd.num_reviews,
-            "inputText": reviews,
+            "sentMatrix": sd.sentiment_matrix,
         }
 
         return jsonify(response_data)

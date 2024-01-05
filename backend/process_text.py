@@ -114,14 +114,18 @@ class SentimentDetector:
         neg_food, neg_service, neg_location, neg_clean, neg_price = 0, 0, 0, 0, 0
 
         self.num_reviews = 0
+        self.sentiment_matrix = []
 
         for doc in docs:
             # currently every newline marks a different review
-            if len(doc) != 0:
-                self.num_reviews += 1
+            if len(doc) == 0:
+                continue
+
+            self.num_reviews += 1
 
             for sentence in doc.sents:
                 sentence_topic = []
+                sentiment_array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
                 # creates a list of topics the sentence is talking about
                 if topicDetection(sentence, food, ["NOUN", "ADJ"], 0.6):
                     sentence_topic.append("food")
@@ -145,25 +149,37 @@ class SentimentDetector:
                 if sentiment["label"] == "POSITIVE":
                     if "food" in sentence_topic:
                         pos_food += 1
+                        sentiment_array[0] = 1
                     if "service" in sentence_topic:
                         pos_service += 1
+                        sentiment_array[1] = 1
                     if "location" in sentence_topic:
                         pos_location += 1
+                        sentiment_array[2] = 1
                     if "clean" in sentence_topic:
                         pos_clean += 1
+                        sentiment_array[3] = 1
                     if "price" in sentence_topic:
                         pos_price += 1
+                        sentiment_array[4] = 1
                 else:
                     if "food" in sentence_topic:
                         neg_food += 1
+                        sentiment_array[5] = 1
                     if "service" in sentence_topic:
                         neg_service += 1
+                        sentiment_array[6] = 1
                     if "location" in sentence_topic:
                         neg_location += 1
+                        sentiment_array[7] = 1
                     if "clean" in sentence_topic:
                         neg_clean += 1
+                        sentiment_array[8] = 1
                     if "price" in sentence_topic:
                         neg_price += 1
+                        sentiment_array[9] = 1
+                        
+                self.sentiment_matrix.append(sentiment_array)
 
         self.raw_count = [
             pos_food,

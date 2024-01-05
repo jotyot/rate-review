@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { PredictionData } from "./types/PredictionData";
+import { PredictionData, sampleSentMatrix } from "./types/PredictionData";
 import TextColumn from "./components/TextColumn";
 import PredictionsInfo from "./components/PredictionsInfo";
 import axios from "axios";
@@ -31,6 +31,7 @@ function App() {
       1.786, 0.214, 0.286, 0, 0.286, 0.286, 0.071, 0.071, 0, 0.071,
     ],
     numReviews: 14,
+    sentMatrix: sampleSentMatrix,
   });
 
   const handleSubmit = async () => {
@@ -39,20 +40,11 @@ function App() {
       const response = await axios.post("http://127.0.0.1:5000/submit", {
         reviews: text,
       });
+
       setIsFetching(false);
+      setData(response.data);
 
       console.log(response.data); // Handle the response as needed
-
-      const { linPred, nnwPred, nntPred, totalSent, weightedSent, numReviews } =
-        response.data;
-      setData({
-        linPred: linPred,
-        nnwPred: nnwPred,
-        nntPred: nntPred,
-        totalSent: totalSent,
-        weightedSent: weightedSent,
-        numReviews: numReviews,
-      });
     } catch (error) {
       console.error("Error submitting form:", error);
       setIsFetching(false);
