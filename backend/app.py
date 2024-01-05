@@ -33,14 +33,13 @@ def submit():
         w_prediction = round(NNw.predict(w_input), 2)
 
         response_data = {
-            "linear_prediction": prediction,
-            "nn_total_prediction": n_prediction,
-            "nn_weighted_prediction": w_prediction,
-            "sentiments": sentiments,
-            "weighted_input": w_input,
-            "linear_weights": weights,
-            "inputted_text": reviews,
-            "num_reviws": sd.num_reviews,
+            "linPred": prediction,
+            "nntPred": n_prediction,
+            "nnwPred": w_prediction,
+            "totalSent": sentiments,
+            "weightedSent": w_input,
+            "numReviews": sd.num_reviews,
+            "inputText": reviews,
         }
 
         return jsonify(response_data)

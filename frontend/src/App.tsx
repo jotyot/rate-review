@@ -21,33 +21,53 @@ const sampleText = `Visiting Davis for the first time over parents weekend and s
 
 function App() {
   const [text, setText] = useState(sampleText);
+  const [isFetching, setIsFetching] = useState(false);
   const [data, setData] = useState<PredictionData>({
     linPred: 4.6,
     nnwPred: 4.45,
     nntPred: 4.38,
+    totalSent: [25, 3, 4, 0, 4, 4, 1, 1, 0, 1],
+    weightedSent: [
+      1.786, 0.214, 0.286, 0, 0.286, 0.286, 0.071, 0.071, 0, 0.071,
+    ],
+    numReviews: 14,
   });
 
   const handleSubmit = async () => {
     try {
+      setIsFetching(true);
       const response = await axios.post("http://127.0.0.1:5000/submit", {
         reviews: text,
       });
+      setIsFetching(false);
 
       console.log(response.data); // Handle the response as needed
+
+      const { linPred, nnwPred, nntPred, totalSent, weightedSent, numReviews } =
+        response.data;
       setData({
-        linPred: response.data.linear_prediction,
-        nnwPred: response.data.nn_weighted_prediction,
-        nntPred: response.data.nn_total_prediction,
+        linPred: linPred,
+        nnwPred: nnwPred,
+        nntPred: nntPred,
+        totalSent: totalSent,
+        weightedSent: weightedSent,
+        numReviews: numReviews,
       });
     } catch (error) {
       console.error("Error submitting form:", error);
+      setIsFetching(false);
     }
   };
 
   return (
     <div className="bg-stone-900 h-screen flex items-center justify-center">
-      <TextColumn text={text} setText={setText} handleSubmit={handleSubmit} />
-      <PredictionsInfo data={data} />
+      <TextColumn
+        text={text}
+        setText={setText}
+        handleSubmit={handleSubmit}
+        isFetching={isFetching}
+      />
+      <PredictionsInfo data={data} isFetching={isFetching} />
     </div>
   );
 }

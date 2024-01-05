@@ -181,22 +181,11 @@ class SentimentDetector:
             self.num_reviews = 1
 
     def sentiment_count(self):
-        keys = [
-            "+food",
-            "+service",
-            "+location",
-            "+clean",
-            "+price",
-            "-food",
-            "-service",
-            "-location",
-            "-clean",
-            "-price",
-        ]
-        return {key: count for key, count in zip(keys, self.raw_count)}
+        return self.raw_count
 
     def weighted_input(self):
-        return [float(x) / self.num_reviews for x in self.raw_count]
+        unrounded = [float(x) / self.num_reviews for x in self.raw_count]
+        return [round(x, 3) for x in unrounded]
 
 
 # DUMMY REVIEWS
