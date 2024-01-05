@@ -1,13 +1,20 @@
-import { useState, ChangeEvent, Fragment } from "react";
+import { useState, ChangeEvent } from "react";
 
 interface Props {
   text: string;
   setText: (text: string) => void;
   handleSubmit: () => void;
   isFetching: boolean;
+  sentMatrix: number[][];
 }
 
-function TextColumn({ text, setText, handleSubmit, isFetching }: Props) {
+function TextColumn({
+  text,
+  setText,
+  handleSubmit,
+  isFetching,
+  sentMatrix,
+}: Props) {
   const [isEditing, setIsEditing] = useState(false);
 
   const handleInputChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
@@ -53,11 +60,13 @@ function TextColumn({ text, setText, handleSubmit, isFetching }: Props) {
           />
         ) : (
           <div className="h-full whitespace-pre-line p-4 ">
-            {text.split("\n").map((line, index) => (
-              <Fragment key={index}>
-                {line}
-                <br />
-              </Fragment>
+            {text.split(".").map((line, index) => (
+              <span
+                onClick={() => console.log(index, sentMatrix[index])}
+                key={index}
+              >
+                {line + "."}
+              </span>
             ))}
           </div>
         )}

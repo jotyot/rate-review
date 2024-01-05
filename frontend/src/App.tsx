@@ -58,6 +58,7 @@ function App() {
         setText={setText}
         handleSubmit={handleSubmit}
         isFetching={isFetching}
+        sentMatrix={data.sentMatrix}
       />
       <PredictionsInfo data={data} isFetching={isFetching} />
     </div>
