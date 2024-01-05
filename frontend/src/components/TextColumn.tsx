@@ -81,7 +81,7 @@ function TextColumn({
                   }}
                   key={index}
                 >
-                  {line + "."}
+                  {line.length > 0 ? line + "." : line}
                 </span>
               ))}
           </div>
