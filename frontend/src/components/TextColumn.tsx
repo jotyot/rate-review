@@ -5,7 +5,8 @@ interface Props {
   setText: (text: string) => void;
   handleSubmit: () => void;
   isFetching: boolean;
-  sentMatrix: number[][];
+  handleMouseOver: (index: number) => void;
+  handleMouseOut: () => void;
 }
 
 function TextColumn({
@@ -13,9 +14,11 @@ function TextColumn({
   setText,
   handleSubmit,
   isFetching,
-  sentMatrix,
+  handleMouseOut,
+  handleMouseOver,
 }: Props) {
   const [isEditing, setIsEditing] = useState(false);
+  const [onSent, setOnSent] = useState(-1);
 
   const handleInputChange = (event: ChangeEvent<HTMLTextAreaElement>) => {
     const { value } = event.target;
@@ -60,14 +63,27 @@ function TextColumn({
           />
         ) : (
           <div className="h-full whitespace-pre-line p-4 ">
-            {text.split(".").map((line, index) => (
-              <span
-                onClick={() => console.log(index, sentMatrix[index])}
-                key={index}
-              >
-                {line + "."}
-              </span>
-            ))}
+            {text
+              .replace(/!/g, ".")
+              .replace("...", ".")
+              .replace(/([^\n.])(\n|$)/g, "$1.$2")
+              .split(".")
+              .map((line, index) => (
+                <span
+                  className={`${index == onSent && "bg-stone-600"}`}
+                  onMouseOut={() => {
+                    handleMouseOut();
+                    setOnSent(-1);
+                  }}
+                  onMouseOver={() => {
+                    handleMouseOver(index);
+                    setOnSent(index);
+                  }}
+                  key={index}
+                >
+                  {line + "."}
+                </span>
+              ))}
           </div>
         )}
       </div>

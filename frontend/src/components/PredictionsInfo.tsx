@@ -6,9 +6,10 @@ import { LinInfo, NNTInfo, NNWInfo } from "./InfoComponents";
 interface Props {
   data: PredictionData;
   isFetching: boolean;
+  sentHighlights: number[];
 }
 
-function PredictionsInfo({ data, isFetching }: Props) {
+function PredictionsInfo({ data, isFetching, sentHighlights }: Props) {
   const { linPred, nnwPred, nntPred, totalSent, weightedSent, numReviews } =
     data;
 
@@ -36,7 +37,11 @@ function PredictionsInfo({ data, isFetching }: Props) {
           <NNTInfo />
         </PredictionEntry>
         <div className="border-b p-1 text-center bg-stone-700">{`Number of Reviews: ${numReviews}`}</div>
-        <SentimentChart totalSent={totalSent} weightedSent={weightedSent} />
+        <SentimentChart
+          totalSent={totalSent}
+          weightedSent={weightedSent}
+          sentHighlights={sentHighlights}
+        />
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 interface Props {
   totalSent: number[];
   weightedSent: number[];
+  sentHighlights: number[];
 }
 
 const sentimentLabel = [
@@ -16,7 +17,7 @@ const sentimentLabel = [
   "-price",
 ];
 
-function SentimentChart({ totalSent, weightedSent }: Props) {
+function SentimentChart({ totalSent, weightedSent, sentHighlights }: Props) {
   return (
     <div className="grid grid-cols-3 grow">
       <div className="grid grid-rows-11 border-r">
@@ -24,7 +25,10 @@ function SentimentChart({ totalSent, weightedSent }: Props) {
           Sentiment
         </div>
         {sentimentLabel.map((label, i) => (
-          <div className="text-center" key={i}>
+          <div
+            className={`text-center ${sentHighlights[i] && "bg-stone-600"}`}
+            key={i}
+          >
             {label}
           </div>
         ))}
