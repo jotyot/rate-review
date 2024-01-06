@@ -2,6 +2,7 @@ import { useState } from "react";
 import {
   PredictionData,
   sampleSentMatrix,
+  sampleSentences,
   sampleText,
 } from "./types/PredictionData";
 import TextColumn from "./components/TextColumn";
@@ -24,6 +25,7 @@ function App() {
     ],
     numReviews: 14,
     sentMatrix: sampleSentMatrix,
+    sentences: sampleSentences,
   });
 
   const handleSubmit = async () => {
@@ -54,6 +56,7 @@ function App() {
         handleMouseOver={(index: number) =>
           setSentHighlights(data.sentMatrix[index])
         }
+        sentences={data.sentences}
       />
       <PredictionsInfo
         data={data}

@@ -1,4 +1,3 @@
-import pandas as pd
 import spacy
 from spacy import Language
 from spacy.tokens import Doc
@@ -17,7 +16,7 @@ def lower_case_lemmas(doc):
     return doc
 
 
-# Initialize default spaCy pipeline
+# python -m spacy download en_core_web_sm
 nlp = spacy.load("en_core_web_sm", disable=["ner"])
 # lower_case_lemmas to pipeline
 nlp.add_pipe(factory_name="lower_case_lemmas", after="tagger")
@@ -115,6 +114,7 @@ class SentimentDetector:
 
         self.num_reviews = 0
         self.sentiment_matrix = []
+        self.sentences = []
 
         for doc in docs:
             # currently every newline marks a different review
@@ -126,6 +126,7 @@ class SentimentDetector:
             for sentence in doc.sents:
                 sentence_topic = []
                 sentiment_array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+                self.sentences.append(str(sentence))
                 # creates a list of topics the sentence is talking about
                 if topicDetection(sentence, food, ["NOUN", "ADJ"], 0.6):
                     sentence_topic.append("food")
@@ -178,7 +179,7 @@ class SentimentDetector:
                     if "price" in sentence_topic:
                         neg_price += 1
                         sentiment_array[9] = 1
-                        
+
                 self.sentiment_matrix.append(sentiment_array)
 
         self.raw_count = [

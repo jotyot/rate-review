@@ -7,6 +7,7 @@ interface Props {
   isFetching: boolean;
   handleMouseOver: (index: number) => void;
   handleMouseOut: () => void;
+  sentences: string[];
 }
 
 function TextColumn({
@@ -16,6 +17,7 @@ function TextColumn({
   isFetching,
   handleMouseOut,
   handleMouseOver,
+  sentences,
 }: Props) {
   const [isEditing, setIsEditing] = useState(false);
   const [onSent, setOnSent] = useState(-1);
@@ -63,27 +65,22 @@ function TextColumn({
           />
         ) : (
           <div className="h-full whitespace-pre-line p-4 ">
-            {text
-              .replace(/!/g, ".")
-              .replace("...", ".")
-              .replace(/([^\n.])(\n|$)/g, "$1.$2")
-              .split(".")
-              .map((line, index) => (
-                <span
-                  className={`${index == onSent && "bg-stone-600"}`}
-                  onMouseOut={() => {
-                    handleMouseOut();
-                    setOnSent(-1);
-                  }}
-                  onMouseOver={() => {
-                    handleMouseOver(index);
-                    setOnSent(index);
-                  }}
-                  key={index}
-                >
-                  {line.length > 0 ? line + "." : line}
-                </span>
-              ))}
+            {sentences.map((line, index) => (
+              <span
+                className={`${index == onSent && "bg-stone-600"}`}
+                onMouseOut={() => {
+                  handleMouseOut();
+                  setOnSent(-1);
+                }}
+                onMouseOver={() => {
+                  handleMouseOver(index);
+                  setOnSent(index);
+                }}
+                key={index}
+              >
+                {line + " "}
+              </span>
+            ))}
           </div>
         )}
       </div>
