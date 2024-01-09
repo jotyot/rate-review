@@ -3,9 +3,6 @@ from spacy import Language
 from spacy.tokens import Doc
 from sense2vec import Sense2Vec
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
-import os.path
-
-s2v = Sense2Vec().from_disk("s2v_old")
 
 
 # Create a pipe that converts lemmas to lower case:
@@ -16,39 +13,25 @@ def lower_case_lemmas(doc):
     return doc
 
 
-# python -m spacy download en_core_web_sm
-nlp = spacy.load("en_core_web_sm", disable=["ner"])
-# lower_case_lemmas to pipeline
-nlp.add_pipe(factory_name="lower_case_lemmas", after="tagger")
-
-# saves the pretrained sentiment analysis model if user doesn't have it
-model_name = "siebert/sentiment-roberta-large-english"
-if not os.path.isdir("hugging_face/tokenizer"):
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-    tokenizer.save_pretrained("hugging_face/tokenizer")
-else:
-    tokenizer = AutoTokenizer.from_pretrained("hugging_face/tokenizer")
-
-if not os.path.isdir("hugging_face/model"):
-    model = AutoModelForSequenceClassification.from_pretrained(model_name)
-    model.save_pretrained("hugging_face/model")
-else:
-    model = AutoModelForSequenceClassification.from_pretrained("hugging_face/model")
-
-# tokenizer = AutoTokenizer.from_pretrained(model_name)
-# model = AutoModelForSequenceClassification.from_pretrained(model_name)
-
-sentiment_pipeline = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
-
-
 def toDocs(reviews: list[str]):
+    # python -m spacy download en_core_web_sm
+    nlp = spacy.load("en_core_web_sm", disable=["ner"])
+    # lower_case_lemmas to pipeline
+    nlp.add_pipe(factory_name="lower_case_lemmas", after="tagger")
     return list(nlp.pipe(reviews))
+
+
+s2v = None
 
 
 # Detect whether or not a topic defined by topic_list is present in a sentence (span from spaCy doc)
 def topicDetection(
     sentence, topic_list: list[str], pos: list[str], thresh, exclude_tokens=[]
 ) -> bool:
+    global s2v
+    if s2v is None:
+        s2v = Sense2Vec().from_disk("s2v_old")
+
     for token in sentence:
         if token.pos_ not in pos or token.lemma_ in exclude_tokens:
             continue
@@ -62,52 +45,70 @@ def topicDetection(
     return False
 
 
+food = [
+    "food|NOUN",
+    "pizza|NOUN",
+    "meal|NOUN",
+    "taco|NOUN",
+    "chinese|ADJ",
+    "mexican|ADJ",
+    "sushi|NOUN",
+    "bone|NOUN",
+    "drink|NOUN",
+    "pho|NOUN",
+    "curry|NOUN",
+    "coffee|NOUN",
+    "teriyaki|NOUN",
+]
+service = ["waiter|NOUN", "staff|NOUN", "service|NOUN", "employee|NOUN"]
+location = [
+    "crowded|ADJ",
+    "atmosphere|NOUN",
+    "quiet|ADJ",
+    "interior|NOUN",
+    "music|NOUN",
+    "environment|NOUN",
+    "space|NOUN",
+    "vibe|NOUN",
+    "location|NOUN",
+]
+clean = [
+    "clean|ADJ",
+    "dirty|ADJ",
+    "fly|NOUN",
+    "cockroach|NOUN",
+    "filthy|ADJ",
+    "spotless|ADJ",
+]
+price = [
+    "cheap|ADJ",
+    "expensive|ADJ",
+    "price|NOUN",
+    "worth|NOUN",
+    "payment|NOUN",
+    "tip|NOUN",
+]
+
+
+sentiment_pipeline = None
+
+
 class SentimentDetector:
     # docs is a list of spaCy docs, each representing a restaurant review
     def __init__(self, docs: list[Doc]):
-        food = [
-            "food|NOUN",
-            "pizza|NOUN",
-            "meal|NOUN",
-            "taco|NOUN",
-            "chinese|ADJ",
-            "mexican|ADJ",
-            "sushi|NOUN",
-            "bone|NOUN",
-            "drink|NOUN",
-            "pho|NOUN",
-            "curry|NOUN",
-            "coffee|NOUN",
-            "teriyaki|NOUN",
-        ]
-        service = ["waiter|NOUN", "staff|NOUN", "service|NOUN", "employee|NOUN"]
-        location = [
-            "crowded|ADJ",
-            "atmosphere|NOUN",
-            "quiet|ADJ",
-            "interior|NOUN",
-            "music|NOUN",
-            "environment|NOUN",
-            "space|NOUN",
-            "vibe|NOUN",
-            "location|NOUN",
-        ]
-        clean = [
-            "clean|ADJ",
-            "dirty|ADJ",
-            "fly|NOUN",
-            "cockroach|NOUN",
-            "filthy|ADJ",
-            "spotless|ADJ",
-        ]
-        price = [
-            "cheap|ADJ",
-            "expensive|ADJ",
-            "price|NOUN",
-            "worth|NOUN",
-            "payment|NOUN",
-            "tip|NOUN",
-        ]
+        # saves the pretrained sentiment analysis model if user doesn't have it
+        # model_name = "siebert/sentiment-roberta-large-english"
+        global sentiment_pipeline
+        if sentiment_pipeline is None:
+            tokenizer = AutoTokenizer.from_pretrained("hugging_face/tokenizer")
+            model = AutoModelForSequenceClassification.from_pretrained(
+                "hugging_face/model"
+            )
+            # tokenizer = AutoTokenizer.from_pretrained(model_name)
+            # model = AutoModelForSequenceClassification.from_pretrained(model_name)
+            sentiment_pipeline = pipeline(
+                "sentiment-analysis", model=model, tokenizer=tokenizer
+            )
 
         pos_food, pos_service, pos_location, pos_clean, pos_price = 0, 0, 0, 0, 0
         neg_food, neg_service, neg_location, neg_clean, neg_price = 0, 0, 0, 0, 0
@@ -122,11 +123,12 @@ class SentimentDetector:
                 continue
 
             self.num_reviews += 1
+            review_sentences = []
 
             for sentence in doc.sents:
                 sentence_topic = []
                 sentiment_array = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-                self.sentences.append(str(sentence))
+                review_sentences.append(str(sentence))
                 # creates a list of topics the sentence is talking about
                 if topicDetection(sentence, food, ["NOUN", "ADJ"], 0.6):
                     sentence_topic.append("food")
@@ -181,6 +183,8 @@ class SentimentDetector:
                         sentiment_array[9] = 1
 
                 self.sentiment_matrix.append(sentiment_array)
+
+            self.sentences.append(review_sentences)
 
         self.raw_count = [
             pos_food,

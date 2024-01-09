@@ -1,4 +1,4 @@
-import { useState, ChangeEvent } from "react";
+import { useState, ChangeEvent, Fragment } from "react";
 
 interface Props {
   text: string;
@@ -7,7 +7,7 @@ interface Props {
   isFetching: boolean;
   handleMouseOver: (index: number) => void;
   handleMouseOut: () => void;
-  sentences: string[];
+  sentences: string[][];
 }
 
 function TextColumn({
@@ -65,21 +65,30 @@ function TextColumn({
           />
         ) : (
           <div className="h-full whitespace-pre-line p-4 ">
-            {sentences.map((line, index) => (
-              <span
-                className={`${index == onSent && "bg-stone-600"}`}
-                onMouseOut={() => {
-                  handleMouseOut();
-                  setOnSent(-1);
-                }}
-                onMouseOver={() => {
-                  handleMouseOver(index);
-                  setOnSent(index);
-                }}
-                key={index}
-              >
-                {line + " "}
-              </span>
+            {sentences.map((review, i) => (
+              <Fragment key={i}>
+                {review.map((line) => {
+                  const id = sentences.flat().indexOf(line);
+                  return (
+                    <span
+                      className={`${id == onSent && "bg-stone-600"}`}
+                      onMouseOut={() => {
+                        handleMouseOut();
+                        setOnSent(-1);
+                      }}
+                      onMouseOver={() => {
+                        handleMouseOver(id);
+                        setOnSent(id);
+                      }}
+                      key={id}
+                    >
+                      {line + " "}
+                    </span>
+                  );
+                })}
+                <br />
+                <br />
+              </Fragment>
             ))}
           </div>
         )}

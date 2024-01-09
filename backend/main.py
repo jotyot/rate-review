@@ -1,14 +1,17 @@
-from flask import Flask, request, jsonify
+from flask import Flask, make_response, request, jsonify
+
 from flask_cors import CORS
 import process_text
 import predict
+from memory_profiler import profile
 
 app = Flask(__name__)
 CORS(app)
 
 
-@app.route("/submit", methods=["POST"])
-def submit():
+@app.route("/", methods=["POST"])
+@profile
+def main():
     try:
         data = request.json  # Use request.form if you are sending form data
         reviews = data["reviews"]
@@ -22,7 +25,6 @@ def submit():
         # Prediction here
         linear = predict.LinearModel()
         prediction = round(linear.predict(w_input), 2)
-        weights = linear.parameters()
 
         # Total Sents
         NNt = predict.TotalSentNN()
@@ -50,4 +52,4 @@ def submit():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="127.0.0.1", port=8080, debug=True)

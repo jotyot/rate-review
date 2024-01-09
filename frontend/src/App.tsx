@@ -31,14 +31,17 @@ function App() {
   const handleSubmit = async () => {
     try {
       setIsFetching(true);
-      const response = await axios.post("http://127.0.0.1:5000/submit", {
-        reviews: text,
-      });
+      const response = await axios.post(
+        "https://ratings-from-reviews.wl.r.appspot.com/",
+        {
+          reviews: text,
+        }
+      );
+
+      console.log(response);
 
       setIsFetching(false);
       setData(response.data);
-
-      console.log(response.data); // Handle the response as needed
     } catch (error) {
       console.error("Error submitting form:", error);
       setIsFetching(false);
