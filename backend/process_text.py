@@ -97,15 +97,16 @@ class SentimentDetector:
     # docs is a list of spaCy docs, each representing a restaurant review
     def __init__(self, docs: list[Doc]):
         # saves the pretrained sentiment analysis model if user doesn't have it
-        # model_name = "siebert/sentiment-roberta-large-english"
+
         global sentiment_pipeline
         if sentiment_pipeline is None:
-            tokenizer = AutoTokenizer.from_pretrained("hugging_face/tokenizer")
-            model = AutoModelForSequenceClassification.from_pretrained(
-                "hugging_face/model"
-            )
-            # tokenizer = AutoTokenizer.from_pretrained(model_name)
-            # model = AutoModelForSequenceClassification.from_pretrained(model_name)
+            # tokenizer = AutoTokenizer.from_pretrained("hugging_face/tokenizer")
+            # model = AutoModelForSequenceClassification.from_pretrained(
+            #     "hugging_face/model"
+            # )
+            model_name = "siebert/sentiment-roberta-large-english"
+            tokenizer = AutoTokenizer.from_pretrained(model_name)
+            model = AutoModelForSequenceClassification.from_pretrained(model_name)
             sentiment_pipeline = pipeline(
                 "sentiment-analysis", model=model, tokenizer=tokenizer
             )

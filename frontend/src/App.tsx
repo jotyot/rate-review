@@ -32,7 +32,8 @@ function App() {
     try {
       setIsFetching(true);
       const response = await axios.post(
-        "https://ratings-from-reviews.wl.r.appspot.com/",
+        "https://reviewrater.wn.r.appspot.com/",
+        //"http://127.0.0.1:8080/",
         {
           reviews: text,
         }
