@@ -16,6 +16,12 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
+# Create the necessary directory
+RUN mkdir -p /app/.cache/huggingface/hub
+
+# Set permissions for the directory (adjust permissions as needed)
+RUN chmod -R 777 /app/.cache
+
 # Create a non-privileged user that the app will run under.
 # See https://docs.docker.com/go/dockerfile-user-best-practices/
 ARG UID=10001
@@ -32,9 +38,9 @@ RUN adduser \
 # Leverage a cache mount to /root/.cache/pip to speed up subsequent builds.
 # Leverage a bind mount to requirements.txt to avoid having to copy them into
 # into this layer.
-RUN --mount=type=cache,target=/root/.cache/pip \
-    --mount=type=bind,source=requirements.txt,target=requirements.txt \
-    python -m pip install -r requirements.txt
+RUN python -m pip install -r requirements.txt
+
+ENV HF_HOME /app/.cache/huggingface/hub
 
 # Switch to the non-privileged user to run the application.
 USER appuser
@@ -46,4 +52,4 @@ COPY . .
 EXPOSE 8080
 
 # Run the application.
-CMD gunicorn 'main:app' --bind=0.0.0.0:8080
+CMD gunicorn 'main:app' --bind=0.0.0.0:8080 --timeout 120 

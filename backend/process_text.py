@@ -100,17 +100,13 @@ class SentimentDetector:
 
         global sentiment_pipeline
         if sentiment_pipeline is None:
-            # tokenizer = AutoTokenizer.from_pretrained("hugging_face/tokenizer")
-            # model = AutoModelForSequenceClassification.from_pretrained(
-            #     "hugging_face/model"
-            # )
-            model_name = "siebert/sentiment-roberta-large-english"
-            tokenizer = AutoTokenizer.from_pretrained(
-                model_name, cache_dir="cache_dir/"
-            )
+            tokenizer = AutoTokenizer.from_pretrained("hugging_face/tokenizer")
             model = AutoModelForSequenceClassification.from_pretrained(
-                model_name, cache_dir="cache_dir/"
+                "hugging_face/model"
             )
+            # model_name = "siebert/sentiment-roberta-large-english"
+            # tokenizer = AutoTokenizer.from_pretrained(model_name)
+            # model = AutoModelForSequenceClassification.from_pretrained(model_name)
 
             sentiment_pipeline = pipeline(
                 "sentiment-analysis", model=model, tokenizer=tokenizer
