@@ -16,6 +16,7 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
+# This directory is so hugging face has a cache folder, even if it doesn't use it.
 # Create the necessary directory
 RUN mkdir -p /app/.cache/huggingface/hub
 

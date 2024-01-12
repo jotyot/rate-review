@@ -8,5 +8,5 @@ runtime_config:
 
 resources:
   cpu: 2
-  memory_gb: 4
-  disk_size_gb: 9
+  memory_gb: 6
+  disk_size_gb: 17
