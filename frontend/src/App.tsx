@@ -32,8 +32,9 @@ function App() {
     try {
       setIsFetching(true);
       const response = await axios.post(
-        "https://reviewrater.wn.r.appspot.com/",
+        //"https://reviewrater.wn.r.appspot.com/",
         //"http://127.0.0.1:8080/",
+        "http://localhost:8080/",
         {
           reviews: text,
         }
