@@ -1,4 +1,12 @@
-runtime: custom
+runtime: python
 env: flex
+entrypoint: gunicorn -b :$PORT main:app
 
-instance_class: F4_1G
+runtime_config:
+    operating_system: "ubuntu22"
+    runtime_version: "3.11"
+
+resources:
+  cpu: 2
+  memory_gb: 4
+  disk_size_gb: 9
