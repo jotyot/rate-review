@@ -7,6 +7,9 @@ runtime_config:
     runtime_version: "3.11"
 
 resources:
-  cpu: 2
-  memory_gb: 6
-  disk_size_gb: 17
+  cpu: 1
+  memory_gb: 6.1
+  disk_size_gb: 18
+
+readiness_check:
+  app_start_timeout_sec: 900 
